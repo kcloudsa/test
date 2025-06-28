@@ -1,0 +1,551 @@
+[
+  {
+    "_id": "hist_001",
+    "table": "rentals",
+    "documentId": "rental_123",
+    "action": "create",
+    "timestamp": "2025-06-01T10:30:00Z",
+    "performedBy": {
+      "userId": "user_001",
+      "name": "John Smith",
+      "role": "admin"
+    },
+    "diff": null,
+    "reason": "New rental agreement created for customer",
+    "canUndo": true
+  },
+  {
+    "_id": "hist_002",
+    "table": "tenants",
+    "documentId": "tenant_101",
+    "action": "create",
+    "timestamp": "2025-06-01T14:22:00Z",
+    "performedBy": {
+      "userId": "user_002",
+      "name": "Sarah Wilson",
+      "role": "manager"
+    },
+    "diff": null,
+    "reason": "New tenant registration for apartment 2A",
+    "canUndo": true
+  },
+  {
+    "_id": "hist_003",
+    "table": "properties",
+    "documentId": "prop_456",
+    "action": "update",
+    "timestamp": "2025-06-02T09:15:00Z",
+    "performedBy": {
+      "userId": "user_003",
+      "name": "Mike Johnson",
+      "role": "property_manager"
+    },
+    "diff": {
+      "status": {
+        "from": "vacant",
+        "to": "occupied"
+      },
+      "lastInspection": {
+        "from": "2025-05-15",
+        "to": "2025-06-02"
+      }
+    },
+    "reason": "Property inspection completed, tenant moved in",
+    "canUndo": true
+  },
+  {
+    "_id": "hist_004",
+    "table": "payments",
+    "documentId": "payment_501",
+    "action": "create",
+    "timestamp": "2025-06-03T11:45:00Z",
+    "performedBy": {
+      "userId": "user_004",
+      "name": "Emma Davis",
+      "role": "accountant"
+    },
+    "diff": null,
+    "reason": "June rent payment received",
+    "canUndo": false
+  },
+  {
+    "_id": "hist_005",
+    "table": "maintenance",
+    "documentId": "maint_201",
+    "action": "create",
+    "timestamp": "2025-06-04T16:30:00Z",
+    "performedBy": {
+      "userId": "user_005",
+      "name": "Tom Brown",
+      "role": "maintenance"
+    },
+    "diff": null,
+    "reason": "HVAC maintenance request submitted",
+    "canUndo": true
+  },
+  {
+    "_id": "hist_006",
+    "table": "rentals",
+    "documentId": "rental_456",
+    "action": "update",
+    "timestamp": "2025-06-05T13:20:00Z",
+    "performedBy": {
+      "userId": "user_002",
+      "name": "Sarah Wilson",
+      "role": "manager"
+    },
+    "diff": {
+      "monthlyRent": {
+        "from": 1500,
+        "to": 1650
+      },
+      "deposit": {
+        "from": 1500,
+        "to": 1650
+      }
+    },
+    "reason": "Annual rent increase as per lease agreement",
+    "canUndo": true
+  },
+  {
+    "_id": "hist_007",
+    "table": "users",
+    "documentId": "user_008",
+    "action": "login",
+    "timestamp": "2025-06-06T08:45:00Z",
+    "performedBy": {
+      "userId": "user_008",
+      "name": "Lisa Garcia",
+      "role": "tenant"
+    },
+    "diff": null,
+    "reason": null,
+    "canUndo": false
+  },
+  {
+    "_id": "hist_008",
+    "table": "properties",
+    "documentId": "prop_789",
+    "action": "create",
+    "timestamp": "2025-06-07T15:10:00Z",
+    "performedBy": {
+      "userId": "user_001",
+      "name": "John Smith",
+      "role": "admin"
+    },
+    "diff": null,
+    "reason": "New property added to portfolio - Downtown Loft",
+    "canUndo": true
+  },
+  {
+    "_id": "hist_009",
+    "table": "maintenance",
+    "documentId": "maint_201",
+    "action": "update",
+    "timestamp": "2025-06-08T12:00:00Z",
+    "performedBy": {
+      "userId": "user_005",
+      "name": "Tom Brown",
+      "role": "maintenance"
+    },
+    "diff": {
+      "status": {
+        "from": "pending",
+        "to": "in_progress"
+      },
+      "assignedTechnician": {
+        "from": null,
+        "to": "Tech-007"
+      }
+    },
+    "reason": "HVAC technician assigned to job",
+    "canUndo": true
+  },
+  {
+    "_id": "hist_010",
+    "table": "tenants",
+    "documentId": "tenant_102",
+    "action": "update",
+    "timestamp": "2025-06-09T17:25:00Z",
+    "performedBy": {
+      "userId": "user_003",
+      "name": "Mike Johnson",
+      "role": "property_manager"
+    },
+    "diff": {
+      "phone": {
+        "from": "+1-555-0123",
+        "to": "+1-555-0789"
+      },
+      "email": {
+        "from": "old.email@example.com",
+        "to": "new.email@example.com"
+      }
+    },
+    "reason": "Tenant contact information update",
+    "canUndo": true
+  },
+  {
+    "_id": "hist_011",
+    "table": "payments",
+    "documentId": "payment_502",
+    "action": "create",
+    "timestamp": "2025-06-10T10:15:00Z",
+    "performedBy": {
+      "userId": "user_004",
+      "name": "Emma Davis",
+      "role": "accountant"
+    },
+    "diff": null,
+    "reason": "Security deposit payment received",
+    "canUndo": false
+  },
+  {
+    "_id": "hist_012",
+    "table": "rentals",
+    "documentId": "rental_789",
+    "action": "delete",
+    "timestamp": "2025-06-11T14:40:00Z",
+    "performedBy": {
+      "userId": "user_002",
+      "name": "Sarah Wilson",
+      "role": "manager"
+    },
+    "diff": null,
+    "reason": "Lease terminated - tenant moved out",
+    "canUndo": false
+  },
+  {
+    "_id": "hist_013",
+    "table": "maintenance",
+    "documentId": "maint_202",
+    "action": "create",
+    "timestamp": "2025-06-12T09:30:00Z",
+    "performedBy": {
+      "userId": "user_008",
+      "name": "Lisa Garcia",
+      "role": "tenant"
+    },
+    "diff": null,
+    "reason": "Kitchen faucet leak reported",
+    "canUndo": true
+  },
+  {
+    "_id": "hist_014",
+    "table": "properties",
+    "documentId": "prop_321",
+    "action": "update",
+    "timestamp": "2025-06-13T16:20:00Z",
+    "performedBy": {
+      "userId": "user_003",
+      "name": "Mike Johnson",
+      "role": "property_manager"
+    },
+    "diff": {
+      "marketValue": {
+        "from": 280000,
+        "to": 295000
+      },
+      "lastAppraisal": {
+        "from": "2024-12-01",
+        "to": "2025-06-13"
+      }
+    },
+    "reason": "Property valuation update after market assessment",
+    "canUndo": true
+  },
+  {
+    "_id": "hist_015",
+    "table": "users",
+    "documentId": "user_009",
+    "action": "create",
+    "timestamp": "2025-06-14T11:55:00Z",
+    "performedBy": {
+      "userId": "user_001",
+      "name": "John Smith",
+      "role": "admin"
+    },
+    "diff": null,
+    "reason": "New property owner account created",
+    "canUndo": true
+  },
+  {
+    "_id": "hist_016",
+    "table": "maintenance",
+    "documentId": "maint_201",
+    "action": "update",
+    "timestamp": "2025-06-15T13:30:00Z",
+    "performedBy": {
+      "userId": "user_005",
+      "name": "Tom Brown",
+      "role": "maintenance"
+    },
+    "diff": {
+      "status": {
+        "from": "in_progress",
+        "to": "completed"
+      },
+      "completedDate": {
+        "from": null,
+        "to": "2025-06-15"
+      },
+      "cost": {
+        "from": 0,
+        "to": 450
+      }
+    },
+    "reason": "HVAC repair completed successfully",
+    "canUndo": true
+  },
+  {
+    "_id": "hist_017",
+    "table": "tenants",
+    "documentId": "tenant_103",
+    "action": "create",
+    "timestamp": "2025-06-16T10:00:00Z",
+    "performedBy": {
+      "userId": "user_002",
+      "name": "Sarah Wilson",
+      "role": "manager"
+    },
+    "diff": null,
+    "reason": "New tenant application approved",
+    "canUndo": true
+  },
+  {
+    "_id": "hist_018",
+    "table": "payments",
+    "documentId": "payment_503",
+    "action": "update",
+    "timestamp": "2025-06-17T15:45:00Z",
+    "performedBy": {
+      "userId": "user_004",
+      "name": "Emma Davis",
+      "role": "accountant"
+    },
+    "diff": {
+      "status": {
+        "from": "pending",
+        "to": "processed"
+      },
+      "paymentMethod": {
+        "from": "check",
+        "to": "ach_transfer"
+      }
+    },
+    "reason": "Payment processing method updated",
+    "canUndo": true
+  },
+  {
+    "_id": "hist_019",
+    "table": "properties",
+    "documentId": "prop_890",
+    "action": "create",
+    "timestamp": "2025-06-18T12:20:00Z",
+    "performedBy": {
+      "userId": "user_001",
+      "name": "John Smith",
+      "role": "admin"
+    },
+    "diff": null,
+    "reason": "Garden View Apartments added to portfolio",
+    "canUndo": true
+  },
+  {
+    "_id": "hist_020",
+    "table": "rentals",
+    "documentId": "rental_890",
+    "action": "create",
+    "timestamp": "2025-06-19T09:15:00Z",
+    "performedBy": {
+      "userId": "user_002",
+      "name": "Sarah Wilson",
+      "role": "manager"
+    },
+    "diff": null,
+    "reason": "New lease agreement for Garden View unit 3B",
+    "canUndo": true
+  },
+  {
+    "_id": "hist_021",
+    "table": "maintenance",
+    "documentId": "maint_202",
+    "action": "update",
+    "timestamp": "2025-06-19T14:30:00Z",
+    "performedBy": {
+      "userId": "user_005",
+      "name": "Tom Brown",
+      "role": "maintenance"
+    },
+    "diff": {
+      "status": {
+        "from": "pending",
+        "to": "completed"
+      },
+      "cost": {
+        "from": 0,
+        "to": 85
+      }
+    },
+    "reason": "Kitchen faucet replacement completed",
+    "canUndo": true
+  },
+  {
+    "_id": "hist_022",
+    "table": "users",
+    "documentId": "user_010",
+    "action": "login",
+    "timestamp": "2025-06-20T08:00:00Z",
+    "performedBy": {
+      "userId": "user_010",
+      "name": "Robert Chen",
+      "role": "tenant"
+    },
+    "diff": null,
+    "reason": null,
+    "canUndo": false
+  },
+  {
+    "_id": "hist_023",
+    "table": "tenants",
+    "documentId": "tenant_104",
+    "action": "update",
+    "timestamp": "2025-06-20T16:45:00Z",
+    "performedBy": {
+      "userId": "user_003",
+      "name": "Mike Johnson",
+      "role": "property_manager"
+    },
+    "diff": {
+      "leaseEndDate": {
+        "from": "2025-12-31",
+        "to": "2026-06-30"
+      },
+      "monthlyRent": {
+        "from": 1800,
+        "to": 1900
+      }
+    },
+    "reason": "Lease renewal with updated terms",
+    "canUndo": true
+  },
+  {
+    "_id": "hist_024",
+    "table": "payments",
+    "documentId": "payment_504",
+    "action": "create",
+    "timestamp": "2025-06-21T11:30:00Z",
+    "performedBy": {
+      "userId": "user_004",
+      "name": "Emma Davis",
+      "role": "accountant"
+    },
+    "diff": null,
+    "reason": "Late fee payment received",
+    "canUndo": false
+  },
+  {
+    "_id": "hist_025",
+    "table": "maintenance",
+    "documentId": "maint_203",
+    "action": "create",
+    "timestamp": "2025-06-21T14:15:00Z",
+    "performedBy": {
+      "userId": "user_010",
+      "name": "Robert Chen",
+      "role": "tenant"
+    },
+    "diff": null,
+    "reason": "Electrical outlet not working in bedroom",
+    "canUndo": true
+  },
+  {
+    "_id": "hist_026",
+    "table": "properties",
+    "documentId": "prop_456",
+    "action": "update",
+    "timestamp": "2025-06-21T17:00:00Z",
+    "performedBy": {
+      "userId": "user_003",
+      "name": "Mike Johnson",
+      "role": "property_manager"
+    },
+    "diff": {
+      "amenities": {
+        "from": ["parking", "laundry"],
+        "to": ["parking", "laundry", "gym_access"]
+      }
+    },
+    "reason": "Added gym access to building amenities",
+    "canUndo": true
+  },
+  {
+    "_id": "hist_027",
+    "table": "rentals",
+    "documentId": "rental_123",
+    "action": "update",
+    "timestamp": "2025-06-22T09:00:00Z",
+    "performedBy": {
+      "userId": "user_002",
+      "name": "Sarah Wilson",
+      "role": "manager"
+    },
+    "diff": {
+      "petPolicy": {
+        "from": "no_pets",
+        "to": "cats_allowed"
+      },
+      "petDeposit": {
+        "from": 0,
+        "to": 300
+      }
+    },
+    "reason": "Updated pet policy per tenant request",
+    "canUndo": true
+  },
+  {
+    "_id": "hist_028",
+    "table": "users",
+    "documentId": "user_011",
+    "action": "create",
+    "timestamp": "2025-06-22T12:30:00Z",
+    "performedBy": {
+      "userId": "user_001",
+      "name": "John Smith",
+      "role": "admin"
+    },
+    "diff": null,
+    "reason": "New maintenance staff account created",
+    "canUndo": true
+  },
+  {
+    "_id": "hist_029",
+    "table": "tenants",
+    "documentId": "tenant_105",
+    "action": "create",
+    "timestamp": "2025-06-22T15:45:00Z",
+    "performedBy": {
+      "userId": "user_002",
+      "name": "Sarah Wilson",
+      "role": "manager"
+    },
+    "diff": null,
+    "reason": "Emergency contact tenant registration",
+    "canUndo": true
+  },
+  {
+    "_id": "hist_030",
+    "table": "payments",
+    "documentId": "payment_505",
+    "action": "create",
+    "timestamp": "2025-06-22T18:20:00Z",
+    "performedBy": {
+      "userId": "user_004",
+      "name": "Emma Davis",
+      "role": "accountant"
+    },
+    "diff": null,
+    "reason": "Maintenance reimbursement processed",
+    "canUndo": false
+  }
+]

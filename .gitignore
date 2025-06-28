@@ -22,3 +22,15 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# LOCK FILE
+package-lock.json
+bun.lock
+yarn.lock
+
+# ENV files
+*.env 
+.env.*
+
+# Ignore Obsidian vault files
+obsidian/.obsidian

@@ -1,0 +1,26 @@
+{
+  "add": "Add",
+  "at": "at",
+  "completed": "completed",
+  "continues": "continues",
+  "createTask": "Create Task",
+  "day": "Day",
+  "ends": "ends",
+  "item": "item",
+  "items": "items",
+  "more": "more",
+  "moreItems": "more items",
+  "normal": "normal",
+  "priority": "Priority",
+  "showMore": "Show",
+  "starts": "starts",
+  "task": "Task",
+  "title": "Calendar",
+  "today": "Today",
+  "views": {
+    "day": "Day",
+    "month": "Month",
+    "week": "Week",
+    "year": "Year"
+  }
+}

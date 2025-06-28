@@ -1,0 +1,546 @@
+{
+    "tabs": {
+        "general": "General",
+        "appearance": "Appearance", 
+        "notifications": "Notifications",
+        "members": "Members",
+        "data": "Data",
+        "branding": "Branding",
+        "history": "History",
+        "danger": "Danger Zone"
+    },
+    "exportOptions": {
+        "properties": {
+            "name": "Properties",
+            "description": "Property listings, details, and specifications"
+        },
+        "contacts": {
+            "name": "Contacts", 
+            "description": "Tenants, landlords, and business contacts"
+        },
+        "rentals": {
+            "name": "Rental Agreements",
+            "description": "Active and past rental contracts"
+        },
+        "payments": {
+            "name": "Payment Records",
+            "description": "Transaction history and payment tracking"
+        },
+        "maintenance": {
+            "name": "Maintenance Requests",
+            "description": "Service requests and maintenance logs"
+        },
+        "documents": {
+            "name": "Documents & Files",
+            "description": "Contracts, images, and attachments"
+        },
+        "reports": {
+            "name": "Financial Reports",
+            "description": "Income, expenses, and financial summaries"
+        },
+        "tasks": {
+            "name": "Tasks & Reminders",
+            "description": "To-do items and scheduled activities"
+        }
+    },
+    "actions": {
+        "creating": "Creating member:",
+        "updating": "Updating member:",
+        "deleting": "Deleting member:",
+        "settingsSaved": "Settings saved successfully to server",
+        "settingsSaveFailed": "Failed to save settings to server:",
+        "exportSuccess": "Export {{dataType}} as {{format}} initiated successfully",
+        "exportFailed": "Failed to export {{dataType}} as {{format}}:",
+        "createMemberFailed": "Failed to create member:",
+        "updateMemberFailed": "Failed to update member:",
+        "deleteMemberFailed": "Failed to delete member:"
+    },
+    "errors": {
+        "loadingSettings": "Error loading settings from localStorage:",
+        "savingSettings": "Error saving settings to localStorage:",
+        "timezoneTime": "Error getting current time in timezone:",
+        "timezoneOffset": "Error getting timezone offset:",
+        "invalidTime": "Invalid"
+    },
+    "General": {
+        "title": "General Settings",
+        "language": {
+            "label": "Language",
+            "description": "Select your preferred language"
+        },
+        "timezone": {
+            "label": "Timezone",
+            "description": "Set your local timezone",
+            "auto": "Auto-detect",
+            "current": "Current timezone: {{timezone}}"
+        },
+        "dateFormat": {
+            "label": "Date Format",
+            "description": "Choose how dates are displayed"
+        },
+        "timeFormat": {
+            "label": "Time Format",
+            "description": "Choose 12-hour or 24-hour time format",
+            "12hour": "12-hour (AM/PM)",
+            "24hour": "24-hour"
+        },
+        "currency": {
+            "label": "Default Currency",
+            "description": "Set the default currency for financial data"
+        },
+        "units": {
+            "label": "Measurement Units",
+            "description": "Choose between metric and imperial units",
+            "metric": "Metric",
+            "imperial": "Imperial"
+        },
+        "autoSave": {
+            "label": "Auto-save",
+            "description": "Automatically save changes as you work",
+            "enabled": "Enabled",
+            "disabled": "Disabled"
+        },
+        "startupPage": {
+            "label": "Startup Page",
+            "description": "Page to show when the application starts",
+            "dashboard": "Dashboard",
+            "properties": "Properties",
+            "lastVisited": "Last visited page"
+        }
+    },
+    "Appearance": {
+        "themeColor": {
+            "title": "Theme & Color",
+            "description": "Customize the visual theme and accent color."
+        },
+        "themeMode": {
+            "label": "Theme Mode",
+            "system": "Sync with system",
+            "light": "Light",
+            "dark": "Dark",
+            "systemDescription": "Theme will match your system active settings"
+        },
+        "preview": {
+            "label": "Preview",
+            "lightTheme": "Light theme",
+            "darkTheme": "Dark theme",
+            "active": "Active",
+            "lightDescription": "Light {{color}}",
+            "darkDescription": "Dark {{color}}"
+        },
+        "accentColor": {
+            "label": "Accent Color",
+            "description": "Choose your preferred accent color theme",
+            "colors": {
+                "default": "Default",
+                "red": "Red",
+                "rose": "Rose",
+                "orange": "Orange",
+                "green": "Green",
+                "blue": "Blue",
+                "yellow": "Yellow",
+                "violet": "Violet"
+            }
+        },
+        "languageTypography": {
+            "title": "Language & Typography",
+            "description": "Configure language and text display preferences."
+        },
+        "language": {
+            "label": "Language"
+        },
+        "fontSize": {
+            "label": "Font Size",
+            "sizes": {
+                "small": "Small",
+                "medium": "Medium", 
+                "large": "Large",
+                "extraLarge": "Extra Large"
+            }
+        },
+        "fontPreview": {
+            "label": "Preview",
+            "sampleTitle": "Sample Text",
+            "sampleText": "This is how your text will appear with the selected font size.",
+            "sampleSmall": "Small text example for comparison."
+        },
+        "accessibility": {
+            "title": "Accessibility",
+            "description": "Options to improve accessibility and user experience.",
+            "highContrast": {
+                "label": "High Contrast",
+                "description": "Increase contrast for better visibility"
+            },
+            "reducedMotion": {
+                "label": "Reduced Motion",
+                "description": "Minimize animations and transitions"
+            },
+            "focusIndicators": {
+                "label": "Focus Indicators",
+                "description": "Enhanced focus outlines for keyboard navigation"
+            }
+        }
+    },
+    "Notifications": {
+        "title": "Notifications",
+        "description": "Configure how you receive notifications.",
+        "methods": {
+            "email": {
+                "label": "Email Notifications",
+                "description": "Receive notifications via email"
+            },
+            "inApp": {
+                "label": "In-App Notifications", 
+                "description": "Show notifications within the application"
+            },
+            "sms": {
+                "label": "SMS Notifications",
+                "description": "Receive notifications via SMS (Premium only)"
+            }
+        },
+        "types": {
+            "label": "Notification Types",
+            "taskUpdates": "Task Updates",
+            "rentalReminders": "Rental Reminders",
+            "overdueAlerts": "Overdue Alerts",
+            "systemUpdates": "System Updates",
+            "paymentReminders": "Payment Reminders",
+            "maintenanceRequests": "Maintenance Requests",
+            "documentUpdates": "Document Updates",
+            "memberActivity": "Member Activity"
+        },
+        "frequency": {
+            "label": "Notification Frequency",
+            "description": "How often to send digest notifications",
+            "immediate": "Immediate",
+            "hourly": "Hourly",
+            "daily": "Daily",
+            "weekly": "Weekly"
+        },
+        "quietHours": {
+            "label": "Quiet Hours",
+            "description": "Disable notifications during these hours",
+            "enabled": "Enable quiet hours",
+            "startTime": "Start time",
+            "endTime": "End time"
+        }
+    },
+    "Members": {
+        "addNew": {
+            "title": "Add New Member",
+            "description": "Create sub-admin accounts with specific permissions.",
+            "usage": "{{current}} / {{max}} users",
+            "remaining": "{{count}} slots remaining"
+        },
+        "form": {
+            "name": {
+                "label": "Full Name",
+                "placeholder": "Enter full name",
+                "required": "Full Name *"
+            },
+            "email": {
+                "label": "Email Address", 
+                "placeholder": "Enter email address",
+                "required": "Email Address *"
+            },
+            "password": {
+                "label": "Password",
+                "placeholder": "Enter password",
+                "required": "Password *",
+                "note": "Password will be sent to the user via email"
+            }
+        },
+        "templates": {
+            "label": "Permission Templates",
+            "placeholder": "Choose a template or customize permissions below",
+            "custom": "Custom Permissions",
+            "viewer": "Viewer Only",
+            "basicAgent": "Basic Agent",
+            "seniorAgent": "Senior Agent",
+            "manager": "Manager",
+            "permissionCount": "{{count}} permissions"
+        },
+        "permissions": {
+            "label": "Permissions",
+            "categories": {
+                "dashboard": "Dashboard & General",
+                "contacts": "Contacts Management",
+                "rentals": "Rentals Management", 
+                "properties": "Properties Management",
+                "tasks": "Tasks & Calendar",
+                "financial": "Financial Management",
+                "users": "User Management",
+                "documents": "Documents & Files"
+            },
+            "items": {
+                "ViewDashboard": "View Dashboard",
+                "ViewReports": "View Reports",
+                "ExportData": "Export Data",
+                "ManageSettings": "Manage Settings",
+                "ViewContacts": "View Contacts",
+                "AddContacts": "Add Contacts",
+                "EditContacts": "Edit Contacts",
+                "DeleteContacts": "Delete Contacts",
+                "CallContacts": "Call Contacts",
+                "SendEmailToContacts": "Send Email to Contacts",
+                "ImportContacts": "Import Contacts",
+                "ExportContacts": "Export Contacts",
+                "ViewRentals": "View Rentals",
+                "CreateRentals": "Create Rentals",
+                "EditRentals": "Edit Rentals",
+                "DeleteRentals": "Delete Rentals",
+                "ApproveRentals": "Approve Rentals",
+                "GenerateRentalContracts": "Generate Rental Contracts",
+                "ManageRentalPayments": "Manage Rental Payments",
+                "ViewRentalHistory": "View Rental History",
+                "ViewProperties": "View Properties",
+                "AddProperties": "Add Properties",
+                "EditProperties": "Edit Properties",
+                "DeleteProperties": "Delete Properties",
+                "ManagePropertyMedia": "Manage Property Media",
+                "SetPropertyPricing": "Set Property Pricing",
+                "PublishProperties": "Publish Properties",
+                "ArchiveProperties": "Archive Properties",
+                "ViewTasks": "View Tasks",
+                "CreateTasks": "Create Tasks",
+                "EditTasks": "Edit Tasks",
+                "DeleteTasks": "Delete Tasks",
+                "AssignTasks": "Assign Tasks",
+                "ViewCalendar": "View Calendar",
+                "ManageCalendarEvents": "Manage Calendar Events",
+                "SetReminders": "Set Reminders",
+                "ViewFinancialReports": "View Financial Reports",
+                "ManagePayments": "Manage Payments",
+                "CreateInvoices": "Create Invoices",
+                "ProcessRefunds": "Process Refunds",
+                "ViewTransactionHistory": "View Transaction History",
+                "ManagePaymentMethods": "Manage Payment Methods",
+                "AccessFinancialAnalytics": "Access Financial Analytics",
+                "ViewMembers": "View Members",
+                "AddMembers": "Add Members",
+                "EditMembers": "Edit Members",
+                "DeleteMembers": "Delete Members",
+                "ManageMemberPermissions": "Manage Member Permissions",
+                "ResetMemberPasswords": "Reset Member Passwords",
+                "ViewDocuments": "View Documents",
+                "UploadDocuments": "Upload Documents",
+                "EditDocuments": "Edit Documents",
+                "DeleteDocuments": "Delete Documents",
+                "ShareDocuments": "Share Documents",
+                "GenerateReports": "Generate Reports",
+                "AccessDocumentHistory": "Access Document History"
+            }
+        },
+        "actions": {
+            "showMore": "Show More",
+            "showLess": "Show Less",
+            "create": "Create Member",
+            "edit": "Edit",
+            "remove": "Remove",
+            "cancel": "Cancel",
+            "update": "Update Member",
+            "delete": "Delete Member",
+            "deleting": "Deleting..."
+        },
+        "current": {
+            "title": "Current Members",
+            "description": "Manage existing sub-admin accounts and their permissions.",
+            "joined": "Joined {{date}}",
+            "lastActive": "Last active {{date}}",
+            "permissionsLabel": "Permissions:",
+            "morePermissions": "+{{count}} more",
+            "noMembers": "No members found. Create your first member above."
+        },
+        "edit": {
+            "title": "Edit Member",
+            "description": "Update member information and permissions."
+        },
+        "delete": {
+            "title": "Delete Member",
+            "confirmation": "Are you sure you want to delete {{name}}?",
+            "warning": "This action cannot be undone. The member will lose access to the system immediately and all their session data will be cleared."
+        },
+        "limit": {
+            "reached": "You have reached the maximum limit of {{max}} users. Please upgrade your plan to add more members."
+        },
+        "messages": {
+            "createSuccess": "Member created successfully",
+            "createSuccessDesc": "{{name}} has been added to your team.",
+            "createError": "Failed to create member",
+            "createErrorDesc": "Please check your information and try again.",
+            "updateSuccess": "Member updated successfully", 
+            "updateSuccessDesc": "{{name}}'s information has been updated.",
+            "updateError": "Failed to update member",
+            "updateErrorDesc": "Please try again later.",
+            "deleteSuccess": "Member deleted successfully",
+            "deleteSuccessDesc": "{{name}} has been removed from your team.",
+            "deleteError": "Failed to delete member",
+            "deleteErrorDesc": "Please try again later."
+        }
+    },
+    "History": {
+        "title": "Activity History",
+        "description": "View and manage system activity logs.",
+        "items": "{{count}} items • {{limit}} day limit",
+        "plan": "{{plan}} plan",
+        "undo": "Undo",
+        "view": "View",
+        "reason": "Reason:",
+        "changes": "Changes:",
+        "noHistory": "No activity history found.",
+        "totalItems": "Total items: {{total}} | After filtering: {{filtered}} | Limit: {{limit}} days",
+        "limitedHistory": "History is limited to {{limit}} days for your {{plan}} plan."
+    },
+    "Data": {
+        "title": "Export Data",
+        "description": "Download your rental system data in CSV or Excel formats. Documents and files require special handling.",
+        "size": "Size: {{size}}",
+        "lastExported": "Last exported: {{date}}",
+        "csv": "CSV",
+        "excel": "Excel",
+        "zip": "ZIP",
+        "csvNotSupported": "CSV export not supported for this data type",
+        "excelNotSupported": "Excel export not supported for this data type",
+        "exportInfoTitle": "Export Information",
+        "exportInfo": {
+            "csv": "• CSV files are ideal for simple data analysis and compatibility with various applications.",
+            "excel": "• Excel files preserve formatting and support complex data structures with multiple sheets.",
+            "documents": "• Documents and files are packaged into ZIP archives to maintain file integrity.",
+            "large": "• Large exports may take several minutes to process and will be sent to your email when ready."
+        },
+        "bulkExport": {
+            "title": "Bulk Export",
+            "description": "Export multiple data types at once for comprehensive backups.",
+            "allCsv": "Export All as CSV",
+            "allExcel": "Export All as Excel",
+            "allCompatible": "All compatible data types",
+            "systemBackup": "Complete System Backup"
+        }
+    },
+    "Branding": {
+        "org": {
+            "title": "Organization Branding",
+            "description": "Advanced branding features are available for Organization plans. Customize your entire platform with your company's identity.",
+            "contactSales": "Contact Sales",
+            "learnMore": "Learn More",
+            "premium": "Premium"
+        },
+        "title": "Organization Branding",
+        "description": "Customize your rental platform with your organization's complete branding identity.",
+        "preview": {
+            "button": "Preview",
+            "title": "Brand Preview",
+            "description": "See how your branding will look across different devices",
+            "desktop": "Desktop",
+            "tablet": "Tablet",
+            "mobile": "Mobile",
+            "welcome": "Welcome to Your Rental Platform",
+            "customerView": "This is how your branded platform will appear to your customers."
+        },
+        "customDomain": {
+            "title": "Custom Domain & URL",
+            "description": "Set up your custom domain and subdomain for professional branding.",
+            "subdomain": "Custom Subdomain",
+            "subdomainPlaceholder": "yourcompany",
+            "domain": "Custom Domain (Optional)",
+            "domainPlaceholder": "rentals.yourcompany.com",
+            "urlHelp": "This will be your platform's URL that customers will visit.",
+            "domainHelp": "Use your own domain. Requires DNS configuration.",
+            "platformUrl": "Your Platform URL: ",
+            "copySuccess": "Custom URL copied to clipboard"
+        },
+        "logo": {
+            "title": "Logo & Visual Identity",
+            "description": "Upload your company logo and favicon for consistent branding.",
+            "companyLogo": "Company Logo",
+            "changeLogo": "Change Logo",
+            "uploadLogo": "Upload Logo",
+            "logoHelp": "PNG, JPG, SVG up to 2MB. Recommended: 200x60px",
+            "favicon": "Favicon",
+            "changeFavicon": "Change Favicon",
+            "uploadFavicon": "Upload Favicon",
+            "faviconHelp": "ICO, PNG up to 1MB. Recommended: 32x32px",
+            "logoUploaded": "Logo uploaded successfully",
+            "faviconUploaded": "Favicon uploaded successfully"
+        },
+        "colorTheme": {
+            "title": "Color Theme",
+            "description": "Customize the color scheme to match your brand identity.",
+            "primary": "Primary Color",
+            "secondary": "Secondary Color",
+            "accent": "Accent Color",
+            "background": "Background",
+            "text": "Text Color",
+            "presets": "Color Presets",
+            "presetNames": {
+                "professionalBlue": "Professional Blue",
+                "corporateGreen": "Corporate Green",
+                "elegantPurple": "Elegant Purple",
+                "modernOrange": "Modern Orange"
+            }
+        },
+        "email": {
+            "title": "Email Branding",
+            "description": "Customize email templates and signatures for all system emails.",
+            "header": "Email Header",
+            "footer": "Email Footer",
+            "headerPlaceholder": "Welcome to [Company Name] - Your trusted rental partner...",
+            "footerPlaceholder": "© [Year] [Company Name]. All rights reserved...",
+            "customization": "Email Template Customization",
+            "customLogo": "Custom Email Logo",
+            "customLogoDesc": "Include logo in email headers",
+            "brandColors": "Brand Colors in Emails",
+            "brandColorsDesc": "Apply color theme to emails"
+        },
+        "document": {
+            "title": "Document Branding",
+            "description": "Customize contracts, invoices, and reports with your branding.",
+            "address": "Company Address",
+            "addressPlaceholder": "123 Business St.\nCity, State 12345\nCountry",
+            "legal": "Legal Information",
+            "legalPlaceholder": "Business Registration #12345\nTax ID: XX-XXXXXXX",
+            "settings": "Document Settings",
+            "watermark": "Watermark Documents",
+            "watermarkDesc": "Add company watermark to PDFs",
+            "customTerms": "Custom Terms & Conditions",
+            "customTermsDesc": "Use custom T&C in contracts"
+        },
+        "advanced": {
+            "title": "Advanced Branding Settings",
+            "description": "Additional customization options for enterprise organizations.",
+            "customCss": "Custom CSS (Optional)",
+            "customCssPlaceholder": "/* Add custom CSS to further customize your platform */",
+            "customCssHelp": "Advanced users can add custom CSS for additional styling.",
+            "platformSettings": "Platform Settings",
+            "hidePoweredBy": "Hide \"Powered by K-Cloud\"",
+            "hidePoweredByDesc": "Remove branding footer",
+            "customLoading": "Custom Loading Screen",
+            "customLoadingDesc": "Show your logo while loading",
+            "whiteLabel": "White Label Mode",
+            "whiteLabelDesc": "Complete K-Cloud branding removal"
+        },
+        "save": {
+            "info": "Changes will be applied to your platform within 5 minutes.",
+            "export": "Export Settings",
+            "save": "Save Changes",
+            "saveSuccess": "Branding settings saved successfully!"
+        }
+    },
+    "Danger": {
+        "title": "Danger Zone",
+        "description": "These actions cannot be undone. Please proceed with caution.",
+        "alert": {
+            "description": "The following actions are irreversible and may result in data loss."
+        },
+        "changePlan": {
+            "title": "Change Subscription",
+            "description": "Upgrade or downgrade your plan",
+            "button": "Change Plan"
+        },
+        "cancel": {
+            "title": "Cancel Subscription",
+            "description": "Permanently cancel and delete all data",
+            "button": "Cancel"
+        }
+    }
+}

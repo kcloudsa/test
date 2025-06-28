@@ -1,0 +1,628 @@
+{
+    "tabs": {
+        "general": "عام",
+        "appearance": "المظهر",
+        "notifications": "الإشعارات",
+        "members": "الأعضاء",
+        "data": "البيانات",
+        "branding": "العلامة التجارية",
+        "history": "السجل",
+        "danger": "منطقة الخطر"
+    },
+    "exportOptions": {
+        "properties": {
+            "name": "العقارات",
+            "description": "قوائم العقارات، التفاصيل والمواصفات"
+        },
+        "contacts": {
+            "name": "جهات الاتصال",
+            "description": "المستأجرون، الملاك وجهات الاتصال التجارية"
+        },
+        "rentals": {
+            "name": "اتفاقيات الإيجار",
+            "description": "العقود النشطة والسابقة"
+        },
+        "payments": {
+            "name": "سجلات الدفع",
+            "description": "سجل المعاملات وتتبع المدفوعات"
+        },
+        "maintenance": {
+            "name": "طلبات الصيانة",
+            "description": "طلبات الخدمة وسجلات الصيانة"
+        },
+        "documents": {
+            "name": "المستندات والملفات",
+            "description": "العقود، الصور والمرفقات"
+        },
+        "reports": {
+            "name": "التقارير المالية",
+            "description": "الدخل، المصروفات والملخصات المالية"
+        },
+        "tasks": {
+            "name": "المهام والتذكيرات",
+            "description": "قائمة المهام والأنشطة المجدولة"
+        }
+    },
+    "actions": {
+        "creating": "جاري إنشاء العضو:",
+        "updating": "جاري تحديث العضو:",
+        "deleting": "جاري حذف العضو:",
+        "settingsSaved": "تم حفظ الإعدادات بنجاح على الخادم",
+        "settingsSaveFailed": "فشل في حفظ الإعدادات على الخادم:",
+        "exportSuccess": "تم بدء تصدير {{dataType}} كـ {{format}} بنجاح",
+        "exportFailed": "فشل في تصدير {{dataType}} كـ {{format}}:",
+        "createMemberFailed": "فشل في إنشاء العضو:",
+        "updateMemberFailed": "فشل في تحديث العضو:",
+        "deleteMemberFailed": "فشل في حذف العضو:"
+    },
+    "errors": {
+        "loadingSettings": "خطأ في تحميل الإعدادات من التخزين المحلي:",
+        "savingSettings": "خطأ في حفظ الإعدادات إلى التخزين المحلي:",
+        "timezoneTime": "خطأ في الحصول على الوقت الحالي في المنطقة الزمنية:",
+        "timezoneOffset": "خطأ في الحصول على إزاحة المنطقة الزمنية:",
+        "invalidTime": "غير صالح"
+    },
+    "General": {
+        "title": "الإعدادات العامة",
+        "language": {
+            "label": "اللغة",
+            "description": "اختر لغتك المفضلة"
+        },
+        "timezone": {
+            "label": "المنطقة الزمنية",
+            "description": "حدد منطقتك الزمنية المحلية",
+            "auto": "كشف تلقائي",
+            "current": "المنطقة الزمنية الحالية: {{timezone}}"
+        },
+        "dateFormat": {
+            "label": "تنسيق التاريخ",
+            "description": "اختر كيفية عرض التواريخ"
+        },
+        "timeFormat": {
+            "label": "تنسيق الوقت",
+            "description": "اختر تنسيق الوقت 12 ساعة أو 24 ساعة",
+            "12hour": "12 ساعة (ص/م)",
+            "24hour": "24 ساعة"
+        },
+        "currency": {
+            "label": "العملة الافتراضية",
+            "description": "حدد العملة الافتراضية للبيانات المالية"
+        },
+        "units": {
+            "label": "وحدات القياس",
+            "description": "اختر بين النظام المتري أو الإمبراطوري",
+            "metric": "متري",
+            "imperial": "إمبراطوري"
+        },
+        "autoSave": {
+            "label": "الحفظ التلقائي",
+            "description": "حفظ التغييرات تلقائياً أثناء العمل",
+            "enabled": "مفعل",
+            "disabled": "معطل"
+        },
+        "startupPage": {
+            "label": "صفحة البدء",
+            "description": "الصفحة التي تظهر عند بدء التطبيق",
+            "dashboard": "لوحة التحكم",
+            "properties": "العقارات",
+            "lastVisited": "آخر صفحة تمت زيارتها"
+        }
+    },
+    "Appearance": {
+        "themeColor": {
+            "title": "الثيم والألوان",
+            "description": "تخصيص الثيم البصري ولون التمييز."
+        },
+        "themeMode": {
+            "label": "وضع الثيم",
+            "system": "مطابقة النظام",
+            "light": "فاتح",
+            "dark": "داكن",
+            "systemDescription": "سيتم مطابقة الثيم مع إعدادات النظام النشطة"
+        },
+        "preview": {
+            "label": "معاينة",
+            "lightTheme": "ثيم فاتح",
+            "darkTheme": "ثيم داكن",
+            "active": "نشط",
+            "lightDescription": "فاتح {{color}}",
+            "darkDescription": "داكن {{color}}"
+        },
+        "accentColor": {
+            "label": "لون التمييز",
+            "description": "اختر لون التمييز المفضل",
+            "colors": {
+                "default": "افتراضي",
+                "red": "أحمر",
+                "rose": "وردي",
+                "orange": "برتقالي",
+                "green": "أخضر",
+                "blue": "أزرق",
+                "yellow": "أصفر",
+                "violet": "بنفسجي"
+            }
+        },
+        "languageTypography": {
+            "title": "اللغة والطباعة",
+            "description": "تكوين اللغة وتفضيلات عرض النص."
+        },
+        "language": {
+            "label": "اللغة"
+        },
+        "fontSize": {
+            "label": "حجم الخط",
+            "sizes": {
+                "small": "صغير",
+                "medium": "متوسط",
+                "large": "كبير",
+                "extraLarge": "كبير جداً"
+            }
+        },
+        "fontPreview": {
+            "label": "معاينة",
+            "sampleTitle": "نص تجريبي",
+            "sampleText": "هكذا سيظهر النص مع حجم الخط المحدد.",
+            "sampleSmall": "مثال نص صغير للمقارنة."
+        },
+        "accessibility": {
+            "title": "إمكانية الوصول",
+            "description": "خيارات لتحسين إمكانية الوصول وتجربة المستخدم.",
+            "highContrast": {
+                "label": "تباين عالي",
+                "description": "زيادة التباين لتحسين الرؤية"
+            },
+            "reducedMotion": {
+                "label": "تقليل الحركة",
+                "description": "تقليل الحركات والانتقالات"
+            },
+            "focusIndicators": {
+                "label": "مؤشرات التركيز",
+                "description": "إبراز التركيز للتنقل عبر لوحة المفاتيح"
+            }
+        }
+    },
+    "Notifications": {
+        "title": "الإشعارات",
+        "description": "تكوين كيفية تلقي الإشعارات.",
+        "methods": {
+            "email": {
+                "label": "إشعارات البريد الإلكتروني",
+                "description": "تلقي الإشعارات عبر البريد الإلكتروني"
+            },
+            "inApp": {
+                "label": "إشعارات داخل التطبيق",
+                "description": "عرض الإشعارات داخل التطبيق"
+            },
+            "sms": {
+                "label": "إشعارات الرسائل القصيرة",
+                "description": "تلقي الإشعارات عبر الرسائل القصيرة (للمميزين فقط)"
+            }
+        },
+        "types": {
+            "label": "أنواع الإشعارات",
+            "taskUpdates": "تحديثات المهام",
+            "rentalReminders": "تذكيرات الإيجار",
+            "overdueAlerts": "تنبيهات التأخير",
+            "systemUpdates": "تحديثات النظام",
+            "paymentReminders": "تذكيرات الدفع",
+            "maintenanceRequests": "طلبات الصيانة",
+            "documentUpdates": "تحديثات المستندات",
+            "memberActivity": "نشاط الأعضاء"
+        },
+        "frequency": {
+            "label": "تكرار الإشعارات",
+            "description": "عدد مرات إرسال ملخص الإشعارات",
+            "immediate": "فوري",
+            "hourly": "كل ساعة",
+            "daily": "يومي",
+            "weekly": "أسبوعي"
+        },
+        "quietHours": {
+            "label": "ساعات الصمت",
+            "description": "تعطيل الإشعارات خلال هذه الساعات",
+            "enabled": "تفعيل ساعات الصمت",
+            "startTime": "وقت البدء",
+            "endTime": "وقت الانتهاء"
+        }
+    },
+    "Members": {
+        "addNew": {
+            "title": "إضافة عضو جديد",
+            "description": "إنشاء حسابات فرعية بصلاحيات محددة.",
+            "usage": "{{current}} / {{max}} مستخدم",
+            "remaining": "متبقي {{count}} مقعد"
+        },
+        "form": {
+            "name": {
+                "label": "الاسم الكامل",
+                "placeholder": "أدخل الاسم الكامل",
+                "required": "الاسم الكامل *"
+            },
+            "email": {
+                "label": "البريد الإلكتروني",
+                "placeholder": "أدخل البريد الإلكتروني",
+                "required": "البريد الإلكتروني *"
+            },
+            "password": {
+                "label": "كلمة المرور",
+                "placeholder": "أدخل كلمة المرور",
+                "required": "كلمة المرور *",
+                "note": "سيتم إرسال كلمة المرور إلى المستخدم عبر البريد الإلكتروني"
+            }
+        },
+        "templates": {
+            "label": "قوالب الصلاحيات",
+            "placeholder": "اختر قالباً أو خصص الصلاحيات أدناه",
+            "custom": "صلاحيات مخصصة",
+            "viewer": "مشاهدة فقط",
+            "basicAgent": "وكيل أساسي",
+            "seniorAgent": "وكيل أول",
+            "manager": "مدير",
+            "permissionCount": "{{count}} صلاحية"
+        },
+        "permissions": {
+            "label": "الصلاحيات",
+            "categories": {
+                "dashboard": "لوحة التحكم والعام",
+                "contacts": "إدارة جهات الاتصال",
+                "rentals": "إدارة الإيجارات",
+                "properties": "إدارة العقارات",
+                "tasks": "المهام والتقويم",
+                "financial": "الإدارة المالية",
+                "users": "إدارة المستخدمين",
+                "documents": "المستندات والملفات"
+            },
+            "items": {
+                "ViewDashboard": "عرض لوحة التحكم",
+                "ViewReports": "عرض التقارير",
+                "ExportData": "تصدير البيانات",
+                "ManageSettings": "إدارة الإعدادات",
+                "ViewContacts": "عرض جهات الاتصال",
+                "AddContacts": "إضافة جهات اتصال",
+                "EditContacts": "تعديل جهات الاتصال",
+                "DeleteContacts": "حذف جهات الاتصال",
+                "CallContacts": "الاتصال بجهات الاتصال",
+                "SendEmailToContacts": "إرسال بريد لجهات الاتصال",
+                "ImportContacts": "استيراد جهات الاتصال",
+                "ExportContacts": "تصدير جهات الاتصال",
+                "ViewRentals": "عرض الإيجارات",
+                "CreateRentals": "إنشاء إيجارات",
+                "EditRentals": "تعديل الإيجارات",
+                "DeleteRentals": "حذف الإيجارات",
+                "ApproveRentals": "الموافقة على الإيجارات",
+                "GenerateRentalContracts": "إنشاء عقود إيجار",
+                "ManageRentalPayments": "إدارة مدفوعات الإيجار",
+                "ViewRentalHistory": "عرض سجل الإيجارات",
+                "ViewProperties": "عرض العقارات",
+                "AddProperties": "إضافة عقارات",
+                "EditProperties": "تعديل العقارات",
+                "DeleteProperties": "حذف العقارات",
+                "ManagePropertyMedia": "إدارة وسائط العقارات",
+                "SetPropertyPricing": "تحديد أسعار العقارات",
+                "PublishProperties": "نشر العقارات",
+                "ArchiveProperties": "أرشفة العقارات",
+                "ViewTasks": "عرض المهام",
+                "CreateTasks": "إنشاء مهام",
+                "EditTasks": "تعديل المهام",
+                "DeleteTasks": "حذف المهام",
+                "AssignTasks": "تعيين المهام",
+                "ViewCalendar": "عرض التقويم",
+                "ManageCalendarEvents": "إدارة أحداث التقويم",
+                "SetReminders": "تعيين التذكيرات",
+                "ViewFinancialReports": "عرض التقارير المالية",
+                "ManagePayments": "إدارة المدفوعات",
+                "CreateInvoices": "إنشاء فواتير",
+                "ProcessRefunds": "معالجة المبالغ المستردة",
+                "ViewTransactionHistory": "عرض سجل المعاملات",
+                "ManagePaymentMethods": "إدارة طرق الدفع",
+                "AccessFinancialAnalytics": "الوصول إلى تحليلات المالية",
+                "ViewMembers": "عرض الأعضاء",
+                "AddMembers": "إضافة أعضاء",
+                "EditMembers": "تعديل الأعضاء",
+                "DeleteMembers": "حذف الأعضاء",
+                "ManageMemberPermissions": "إدارة صلاحيات الأعضاء",
+                "ResetMemberPasswords": "إعادة تعيين كلمات مرور الأعضاء",
+                "ViewDocuments": "عرض المستندات",
+                "UploadDocuments": "رفع المستندات",
+                "EditDocuments": "تعديل المستندات",
+                "DeleteDocuments": "حذف المستندات",
+                "ShareDocuments": "مشاركة المستندات",
+                "GenerateReports": "إنشاء تقارير",
+                "AccessDocumentHistory": "الوصول إلى سجل المستندات"
+            }
+        },
+        "actions": {
+            "showMore": "عرض المزيد",
+            "showLess": "عرض أقل",
+            "create": "إنشاء عضو",
+            "edit": "تعديل",
+            "remove": "إزالة",
+            "cancel": "إلغاء",
+            "update": "تحديث العضو",
+            "delete": "حذف العضو",
+            "deleting": "جاري الحذف..."
+        },
+        "current": {
+            "title": "الأعضاء الحاليون",
+            "description": "إدارة الحسابات الفرعية الحالية وصلاحياتها.",
+            "joined": "انضم في {{date}}",
+            "lastActive": "آخر نشاط {{date}}",
+            "permissionsLabel": "الصلاحيات:",
+            "morePermissions": "+{{count}} المزيد",
+            "noMembers": "لم يتم العثور على أعضاء. أنشئ أول عضو أعلاه."
+        },
+        "edit": {
+            "title": "تعديل العضو",
+            "description": "تحديث معلومات العضو وصلاحياته."
+        },
+        "delete": {
+            "title": "حذف العضو",
+            "confirmation": "هل أنت متأكد أنك تريد حذف {{name}}؟",
+            "warning": "هذا الإجراء لا يمكن التراجع عنه. سيفقد العضو الوصول فوراً وسيتم مسح جميع بيانات الجلسة."
+        },
+        "limit": {
+            "reached": "لقد وصلت إلى الحد الأقصى {{max}} مستخدم. يرجى ترقية خطتك لإضافة المزيد من الأعضاء."
+        },
+        "messages": {
+            "createSuccess": "تم إنشاء العضو بنجاح",
+            "createSuccessDesc": "تمت إضافة {{name}} إلى فريقك.",
+            "createError": "فشل في إنشاء العضو",
+            "createErrorDesc": "يرجى التحقق من المعلومات والمحاولة مرة أخرى.",
+            "updateSuccess": "تم تحديث العضو بنجاح",
+            "updateSuccessDesc": "تم تحديث معلومات {{name}}.",
+            "updateError": "فشل في تحديث العضو",
+            "updateErrorDesc": "يرجى المحاولة لاحقاً.",
+            "deleteSuccess": "تم حذف العضو بنجاح",
+            "deleteSuccessDesc": "تمت إزالة {{name}} من فريقك.",
+            "deleteError": "فشل في حذف العضو",
+            "deleteErrorDesc": "يرجى المحاولة لاحقاً."
+        }
+    },
+    "History": {
+        "title": "سجل النشاط",
+        "description": "عرض وإدارة سجل نشاط حسابك.",
+        "filters": {
+            "timeRange": {
+                "label": "النطاق الزمني",
+                "all": "كل الوقت",
+                "today": "اليوم",
+                "week": "هذا الأسبوع",
+                "month": "هذا الشهر",
+                "quarter": "هذا الربع",
+                "year": "هذا العام",
+                "custom": "نطاق مخصص"
+            },
+            "activityType": {
+                "label": "نوع النشاط",
+                "all": "كل الأنشطة",
+                "login": "أحداث تسجيل الدخول",
+                "settings": "تغييرات الإعدادات",
+                "data": "عمليات البيانات",
+                "members": "إدارة الأعضاء",
+                "properties": "تغييرات العقارات",
+                "contacts": "تغييرات جهات الاتصال",
+                "rentals": "أنشطة الإيجار",
+                "payments": "أنشطة الدفع"
+            },
+            "member": {
+                "label": "العضو",
+                "all": "كل الأعضاء",
+                "you": "أنت"
+            }
+        },
+        "actions": {
+            "refresh": "تحديث",
+            "export": "تصدير السجل",
+            "clear": "مسح السجل",
+            "search": "ابحث في الأنشطة..."
+        },
+        "entries": {
+            "noResults": "لا يوجد نشاط",
+            "noResultsDesc": "حاول تعديل الفلاتر أو النطاق الزمني.",
+            "loadMore": "تحميل المزيد",
+            "timestamp": "منذ {{time}}",
+            "by": "بواسطة {{member}}",
+            "categories": {
+                "login": "تسجيل الدخول",
+                "logout": "تسجيل الخروج",
+                "settings": "الإعدادات",
+                "create": "إنشاء",
+                "update": "تحديث",
+                "delete": "حذف",
+                "export": "تصدير",
+                "import": "استيراد"
+            }
+        },
+        "stats": {
+            "totalActivities": "إجمالي الأنشطة",
+            "todayActivities": "أنشطة اليوم",
+            "activeMembers": "الأعضاء النشطون",
+            "lastActivity": "آخر نشاط"
+        },
+        "retention": {
+            "title": "الاحتفاظ بالسجل",
+            "description": "تكوين مدة الاحتفاظ بسجل النشاط.",
+            "current": "الاحتفاظ الحالي: {{days}} يوم",
+            "options": {
+                "30days": "30 يوم",
+                "90days": "90 يوم",
+                "180days": "180 يوم",
+                "1year": "سنة واحدة",
+                "forever": "دائماً"
+            },
+            "warning": "تغيير إعدادات الاحتفاظ سيؤثر فقط على السجلات المستقبلية."
+        },
+        "privacy": {
+            "title": "إعدادات الخصوصية",
+            "description": "التحكم في الأنشطة التي يتم تسجيلها.",
+            "logLogins": {
+                "label": "تسجيل أنشطة الدخول",
+                "description": "تتبع أحداث الدخول والخروج"
+            },
+            "logDataChanges": {
+                "label": "تسجيل تغييرات البيانات",
+                "description": "تتبع عمليات الإنشاء والتحديث والحذف"
+            },
+            "logSettingsChanges": {
+                "label": "تسجيل تغييرات الإعدادات",
+                "description": "تتبع تغييرات إعدادات التطبيق"
+            },
+            "logExports": {
+                "label": "تسجيل أنشطة التصدير",
+                "description": "تتبع عمليات تصدير البيانات"
+            }
+        }
+    },
+    "Data": {
+        "title": "تصدير البيانات",
+        "description": "تحميل بيانات نظام الإيجار بصيغ CSV أو Excel. تتطلب المستندات والملفات معالجة خاصة.",
+        "size": "الحجم: {{size}}",
+        "lastExported": "آخر تصدير: {{date}}",
+        "csv": "CSV",
+        "excel": "Excel",
+        "zip": "ZIP",
+        "csvNotSupported": "تصدير CSV غير مدعوم لهذا النوع من البيانات",
+        "excelNotSupported": "تصدير Excel غير مدعوم لهذا النوع من البيانات",
+        "exportInfoTitle": "معلومات التصدير",
+        "exportInfo": {
+            "csv": "• ملفات CSV مثالية للتحليل البسيط والتوافق مع التطبيقات المختلفة.",
+            "excel": "• ملفات Excel تحافظ على التنسيق وتدعم هياكل البيانات المعقدة مع أوراق متعددة.",
+            "documents": "• يتم تجميع المستندات والملفات في أرشيفات ZIP للحفاظ على سلامة الملفات.",
+            "large": "• قد تستغرق عمليات التصدير الكبيرة عدة دقائق وسيتم إرسالها إلى بريدك الإلكتروني عند الانتهاء."
+        },
+        "bulkExport": {
+            "title": "تصدير جماعي",
+            "description": "تصدير أنواع بيانات متعددة دفعة واحدة للنسخ الاحتياطي الشامل.",
+            "allCsv": "تصدير الكل كـ CSV",
+            "allExcel": "تصدير الكل كـ Excel",
+            "allCompatible": "كل أنواع البيانات المتوافقة",
+            "systemBackup": "نسخة احتياطية كاملة للنظام"
+        }
+    },
+    "Branding": {
+        "org": {
+            "title": "علامة المنظمة التجارية",
+            "description": "ميزات العلامة التجارية المتقدمة متاحة لخطط المؤسسات. خصص منصتك بالكامل بهوية شركتك.",
+            "contactSales": "تواصل مع المبيعات",
+            "learnMore": "اعرف المزيد",
+            "premium": "مميز"
+        },
+        "title": "علامة المنظمة التجارية",
+        "description": "خصص منصة الإيجار بهوية علامتك التجارية الكاملة.",
+        "preview": {
+            "button": "معاينة",
+            "title": "معاينة العلامة التجارية",
+            "description": "شاهد كيف ستظهر علامتك التجارية عبر الأجهزة المختلفة",
+            "desktop": "سطح المكتب",
+            "tablet": "جهاز لوحي",
+            "mobile": "جوال",
+            "welcome": "مرحباً بك في منصة الإيجار الخاصة بك",
+            "customerView": "هكذا ستظهر منصتك ذات العلامة التجارية لعملائك."
+        },
+        "customDomain": {
+            "title": "النطاق والرابط المخصص",
+            "description": "إعداد نطاقك الفرعي والمخصص لعلامة تجارية احترافية.",
+            "subdomain": "النطاق الفرعي المخصص",
+            "subdomainPlaceholder": "yourcompany",
+            "domain": "النطاق المخصص (اختياري)",
+            "domainPlaceholder": "rentals.yourcompany.com",
+            "urlHelp": "سيكون هذا هو رابط منصتك الذي سيزوره العملاء.",
+            "domainHelp": "استخدم نطاقك الخاص. يتطلب إعداد DNS.",
+            "platformUrl": "رابط منصتك: ",
+            "copySuccess": "تم نسخ الرابط المخصص إلى الحافظة"
+        },
+        "logo": {
+            "title": "الشعار والهوية البصرية",
+            "description": "رفع شعار الشركة والأيقونة المفضلة للعلامة التجارية.",
+            "companyLogo": "شعار الشركة",
+            "changeLogo": "تغيير الشعار",
+            "uploadLogo": "رفع الشعار",
+            "logoHelp": "PNG, JPG, SVG حتى 2MB. الموصى به: 200x60px",
+            "favicon": "الأيقونة المفضلة",
+            "changeFavicon": "تغيير الأيقونة",
+            "uploadFavicon": "رفع الأيقونة",
+            "faviconHelp": "ICO, PNG حتى 1MB. الموصى به: 32x32px",
+            "logoUploaded": "تم رفع الشعار بنجاح",
+            "faviconUploaded": "تم رفع الأيقونة بنجاح"
+        },
+        "colorTheme": {
+            "title": "نظام الألوان",
+            "description": "تخصيص نظام الألوان ليتناسب مع هوية علامتك التجارية.",
+            "primary": "اللون الأساسي",
+            "secondary": "اللون الثانوي",
+            "accent": "لون التمييز",
+            "background": "الخلفية",
+            "text": "لون النص",
+            "presets": "أنظمة ألوان جاهزة",
+            "presetNames": {
+                "professionalBlue": "أزرق احترافي",
+                "corporateGreen": "أخضر مؤسسي",
+                "elegantPurple": "بنفسجي أنيق",
+                "modernOrange": "برتقالي عصري"
+            }
+        },
+        "email": {
+            "title": "علامة البريد الإلكتروني",
+            "description": "تخصيص قوالب البريد الإلكتروني والتواقيع لجميع رسائل النظام.",
+            "header": "رأس البريد الإلكتروني",
+            "footer": "تذييل البريد الإلكتروني",
+            "headerPlaceholder": "مرحباً بك في [اسم الشركة] - شريكك الموثوق للإيجار...",
+            "footerPlaceholder": "© [السنة] [اسم الشركة]. جميع الحقوق محفوظة...",
+            "customization": "تخصيص قالب البريد الإلكتروني",
+            "customLogo": "شعار مخصص للبريد الإلكتروني",
+            "customLogoDesc": "إدراج الشعار في رؤوس البريد الإلكتروني",
+            "brandColors": "ألوان العلامة التجارية في البريد",
+            "brandColorsDesc": "تطبيق نظام الألوان على البريد الإلكتروني"
+        },
+        "document": {
+            "title": "علامة المستندات التجارية",
+            "description": "تخصيص العقود والفواتير والتقارير بعلامتك التجارية.",
+            "address": "عنوان الشركة",
+            "addressPlaceholder": "123 شارع الأعمال\nالمدينة، الدولة 12345\nالدولة",
+            "legal": "المعلومات القانونية",
+            "legalPlaceholder": "سجل تجاري #12345\nالرقم الضريبي: XX-XXXXXXX",
+            "settings": "إعدادات المستندات",
+            "watermark": "علامة مائية للمستندات",
+            "watermarkDesc": "إضافة علامة الشركة المائية إلى ملفات PDF",
+            "customTerms": "شروط وأحكام مخصصة",
+            "customTermsDesc": "استخدام شروط وأحكام مخصصة في العقود"
+        },
+        "advanced": {
+            "title": "إعدادات العلامة التجارية المتقدمة",
+            "description": "خيارات تخصيص إضافية للمؤسسات.",
+            "customCss": "CSS مخصص (اختياري)",
+            "customCssPlaceholder": "/* أضف CSS مخصص لمزيد من التخصيص */",
+            "customCssHelp": "يمكن للمستخدمين المتقدمين إضافة CSS مخصص لمزيد من التخصيص.",
+            "platformSettings": "إعدادات المنصة",
+            "hidePoweredBy": "إخفاء \"مشغل بواسطة K-Cloud\"",
+            "hidePoweredByDesc": "إزالة تذييل العلامة التجارية",
+            "customLoading": "شاشة تحميل مخصصة",
+            "customLoadingDesc": "عرض شعارك أثناء التحميل",
+            "whiteLabel": "وضع العلامة البيضاء",
+            "whiteLabelDesc": "إزالة علامة K-Cloud بالكامل"
+        },
+        "save": {
+            "info": "سيتم تطبيق التغييرات على منصتك خلال 5 دقائق.",
+            "export": "تصدير الإعدادات",
+            "save": "حفظ التغييرات",
+            "saveSuccess": "تم حفظ إعدادات العلامة التجارية بنجاح!"
+        }
+    },
+    "Danger": {
+        "title": "منطقة الخطر",
+        "description": "هذه الإجراءات لا يمكن التراجع عنها. يرجى المتابعة بحذر.",
+        "alert": {
+            "description": "الإجراءات التالية لا رجعة فيها وقد تؤدي إلى فقدان البيانات."
+        },
+        "changePlan": {
+            "title": "تغيير الاشتراك",
+            "description": "ترقية أو تخفيض خطتك",
+            "button": "تغيير الخطة"
+        },
+        "cancel": {
+            "title": "إلغاء الاشتراك",
+            "description": "إلغاء وحذف جميع البيانات نهائياً",
+            "button": "إلغاء"
+        }
+    }
+}

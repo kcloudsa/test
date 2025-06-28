@@ -1,0 +1,32 @@
+[
+  {
+    "id": "1",
+    "address": "123 Main St, Apt 1A",
+    "type": "Apartment"
+  },
+  {
+    "id": "2",
+    "address": "456 Oak Ave, House",
+    "type": "House"
+  },
+  {
+    "id": "3",
+    "address": "789 Pine Rd, Unit 2B",
+    "type": "Condo"
+  },
+  {
+    "id": "4",
+    "address": "321 Elm St, Suite 3C",
+    "type": "Office"
+  },
+  {
+    "id": "5",
+    "address": "654 Maple Dr, Apt 4D",
+    "type": "Apartment"
+  },
+  {
+    "id": "6",
+    "address": "987 Cedar Ln, House",
+    "type": "House"
+  }
+]

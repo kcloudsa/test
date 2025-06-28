@@ -1,0 +1,26 @@
+{
+  "add": "أضف",
+  "at": "في",
+  "completed": "مكتمل",
+  "continues": "يستمر",
+  "createTask": "إنشاء مهمة",
+  "day": "يوم",
+  "ends": "ينتهي",
+  "item": "عنصر",
+  "items": "عناصر",
+  "more": "المزيد",
+  "moreItems": "المزيد من العناصر",
+  "normal": "عادي",
+  "priority": "الأولوية",
+  "showMore": "عرض",
+  "starts": "يبدأ",
+  "task": "مهمة",
+  "title": "التقويم",
+  "today": "اليوم",
+  "views": {
+    "day": "يوم",
+    "month": "شهر",
+    "week": "أسبوع",
+    "year": "سنة"
+  }
+}

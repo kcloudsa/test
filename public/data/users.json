@@ -1,0 +1,32 @@
+[
+    {
+        "id": "1",
+        "name": "John Doe",
+        "email": "john@example.com",
+        "avatar": "/avatars/john.jpg"
+    },
+    {
+        "id": "2",
+        "name": "Jane Smith",
+        "email": "jane@example.com",
+        "avatar": "/avatars/jane.jpg"
+    },
+    {
+        "id": "3",
+        "name": "Mike Johnson",
+        "email": "mike@example.com",
+        "avatar": "/avatars/mike.jpg"
+    },
+    {
+        "id": "4",
+        "name": "Sarah Wilson",
+        "email": "sarah@example.com",
+        "avatar": "/avatars/sarah.jpg"
+    },
+    {
+        "id": "5",
+        "name": "David Brown",
+        "email": "david@example.com",
+        "avatar": "/avatars/david.jpg"
+    }
+]
