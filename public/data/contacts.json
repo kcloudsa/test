@@ -1,0 +1,400 @@
+[
+  {
+    "_id": "contact_001",
+    "name": {
+      "firstName": "John",
+      "lastName": "Smith",
+      "displayName": "John Smith",
+      "slug": "john-smith"
+    },
+    "description": "Property tenant for luxury apartment A101",
+    "phone": {
+      "number": "555-0123",
+      "countryCode": "+1"
+    },
+    "tagID": "tag_001",
+    "userID": "tenant_001",
+    "createdAt": "2025-01-15T10:30:00.000Z",
+    "updatedAt": "2025-01-15T10:30:00.000Z",
+    "tag": {
+      "_id": "tag_001",
+      "name": "Tenant",
+      "color": "blue"
+    },
+    "user": {
+      "_id": "tenant_001",
+      "userName": {
+        "firstName": "John",
+        "lastName": "Smith",
+        "displayName": "John Smith"
+      },
+      "contactInfo": {
+        "email": {
+          "email": "john.smith@email.com"
+        }
+      },
+      "userInfo": {
+        "profilePicture": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=150&h=150&fit=crop&crop=face"
+      },
+      "role": "tenant"
+    }
+  },
+  {
+    "_id": "contact_002",
+    "name": {
+      "firstName": "Sarah",
+      "lastName": "Johnson",
+      "displayName": "Sarah Johnson",
+      "slug": "sarah-johnson"
+    },
+    "description": "Villa tenant with pool maintenance requirements",
+    "phone": {
+      "number": "555-0234",
+      "countryCode": "+1"
+    },
+    "tagID": "tag_001",
+    "userID": "tenant_002",
+    "createdAt": "2025-01-16T14:20:00.000Z",
+    "updatedAt": "2025-01-16T14:20:00.000Z",
+    "tag": {
+      "_id": "tag_001",
+      "name": "Tenant",
+      "color": "blue"
+    },
+    "user": {
+      "_id": "tenant_002",
+      "userName": {
+        "firstName": "Sarah",
+        "lastName": "Johnson",
+        "displayName": "Sarah Johnson"
+      },
+      "contactInfo": {
+        "email": {
+          "email": "sarah.johnson@email.com"
+        }
+      },
+      "userInfo": {
+        "profilePicture": "https://images.unsplash.com/photo-1494790108755-2616b612b47c?w=150&h=150&fit=crop&crop=face"
+      },
+      "role": "tenant"
+    }
+  },
+  {
+    "_id": "contact_003",
+    "name": {
+      "firstName": "Mike",
+      "lastName": "Rodriguez",
+      "displayName": "Mike Rodriguez",
+      "slug": "mike-rodriguez"
+    },
+    "description": "Property maintenance contractor specializing in HVAC",
+    "phone": {
+      "number": "555-0345",
+      "countryCode": "+1"
+    },
+    "tagID": "tag_002",
+    "userID": "contractor_001",
+    "createdAt": "2025-01-17T16:45:00.000Z",
+    "updatedAt": "2025-01-17T16:45:00.000Z",
+    "tag": {
+      "_id": "tag_002",
+      "name": "Contractor",
+      "color": "orange"
+    },
+    "user": {
+      "_id": "contractor_001",
+      "userName": {
+        "firstName": "Mike",
+        "lastName": "Rodriguez",
+        "displayName": "Mike Rodriguez"
+      },
+      "contactInfo": {
+        "email": {
+          "email": "mike.rodriguez@hvacpro.com"
+        }
+      },
+      "userInfo": {
+        "profilePicture": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&h=150&fit=crop&crop=face"
+      },
+      "role": "user"
+    }
+  },
+  {
+    "_id": "contact_004",
+    "name": {
+      "firstName": "Emily",
+      "lastName": "Davis",
+      "displayName": "Emily Davis",
+      "slug": "emily-davis"
+    },
+    "description": "Real estate agent for premium property listings",
+    "phone": {
+      "number": "555-0456",
+      "countryCode": "+1"
+    },
+    "tagID": "tag_003",
+    "userID": "agent_001",
+    "createdAt": "2025-01-18T11:00:00.000Z",
+    "updatedAt": "2025-01-18T11:00:00.000Z",
+    "tag": {
+      "_id": "tag_003",
+      "name": "Agent",
+      "color": "green"
+    },
+    "user": {
+      "_id": "agent_001",
+      "userName": {
+        "firstName": "Emily",
+        "lastName": "Davis",
+        "displayName": "Emily Davis"
+      },
+      "contactInfo": {
+        "email": {
+          "email": "emily.davis@premiumrealty.com"
+        }
+      },
+      "userInfo": {
+        "profilePicture": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=150&h=150&fit=crop&crop=face"
+      },
+      "role": "user"
+    }
+  },
+  {
+    "_id": "contact_005",
+    "name": {
+      "firstName": "Robert",
+      "lastName": "Chen",
+      "displayName": "Robert Chen",
+      "slug": "robert-chen"
+    },
+    "description": "Penthouse tenant, business executive",
+    "phone": {
+      "number": "555-0567",
+      "countryCode": "+1"
+    },
+    "tagID": "tag_004",
+    "userID": "tenant_010",
+    "createdAt": "2025-01-19T08:15:00.000Z",
+    "updatedAt": "2025-01-19T08:15:00.000Z",
+    "tag": {
+      "_id": "tag_004",
+      "name": "VIP Tenant",
+      "color": "purple"
+    },
+    "user": {
+      "_id": "tenant_010",
+      "userName": {
+        "firstName": "Robert",
+        "lastName": "Chen",
+        "displayName": "Robert Chen"
+      },
+      "contactInfo": {
+        "email": {
+          "email": "robert.chen@email.com"
+        }
+      },
+      "userInfo": {
+        "profilePicture": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=150&h=150&fit=crop&crop=face"
+      },
+      "role": "tenant"
+    }
+  },
+  {
+    "_id": "contact_006",
+    "name": {
+      "firstName": "Lisa",
+      "lastName": "Martinez",
+      "displayName": "Lisa Martinez",
+      "slug": "lisa-martinez"
+    },
+    "description": "Apartment tenant, works in tech industry",
+    "phone": {
+      "number": "555-0678",
+      "countryCode": "+1"
+    },
+    "tagID": "tag_001",
+    "userID": "tenant_006",
+    "createdAt": "2025-01-20T12:30:00.000Z",
+    "updatedAt": "2025-01-20T12:30:00.000Z",
+    "tag": {
+      "_id": "tag_001",
+      "name": "Tenant",
+      "color": "blue"
+    },
+    "user": {
+      "_id": "tenant_006",
+      "userName": {
+        "firstName": "Lisa",
+        "lastName": "Martinez",
+        "displayName": "Lisa Martinez"
+      },
+      "contactInfo": {
+        "email": {
+          "email": "lisa.martinez@email.com"
+        }
+      },
+      "userInfo": {
+        "profilePicture": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&h=150&fit=crop&crop=face"
+      },
+      "role": "tenant"
+    }
+  },
+  {
+    "_id": "contact_007",
+    "name": {
+      "firstName": "David",
+      "lastName": "Wilson",
+      "displayName": "David Wilson",
+      "slug": "david-wilson"
+    },
+    "description": "Property inspector and safety consultant",
+    "phone": {
+      "number": "555-0789",
+      "countryCode": "+1"
+    },
+    "tagID": "tag_005",
+    "userID": "inspector_001",
+    "createdAt": "2025-01-21T09:45:00.000Z",
+    "updatedAt": "2025-01-21T09:45:00.000Z",
+    "tag": {
+      "_id": "tag_005",
+      "name": "Inspector",
+      "color": "red"
+    },
+    "user": {
+      "_id": "inspector_001",
+      "userName": {
+        "firstName": "David",
+        "lastName": "Wilson",
+        "displayName": "David Wilson"
+      },
+      "contactInfo": {
+        "email": {
+          "email": "david.wilson@safeinspect.com"
+        }
+      },
+      "userInfo": {
+        "profilePicture": "https://images.unsplash.com/photo-1560250097-0b93528c311a?w=150&h=150&fit=crop&crop=face"
+      },
+      "role": "user"
+    }
+  },
+  {
+    "_id": "contact_008",
+    "name": {
+      "firstName": "Alex",
+      "lastName": "Thompson",
+      "displayName": "Alex Thompson",
+      "slug": "alex-thompson"
+    },
+    "description": "Studio tenant, creative artist",
+    "phone": {
+      "number": "555-0890",
+      "countryCode": "+1"
+    },
+    "tagID": "tag_001",
+    "userID": "tenant_008",
+    "createdAt": "2025-01-22T15:10:00.000Z",
+    "updatedAt": "2025-01-22T15:10:00.000Z",
+    "tag": {
+      "_id": "tag_001",
+      "name": "Tenant",
+      "color": "blue"
+    },
+    "user": {
+      "_id": "tenant_008",
+      "userName": {
+        "firstName": "Alex",
+        "lastName": "Thompson",
+        "displayName": "Alex Thompson"
+      },
+      "contactInfo": {
+        "email": {
+          "email": "alex.rodriguez@email.com"
+        }
+      },
+      "userInfo": {
+        "profilePicture": "https://images.unsplash.com/photo-1507591064344-4c6ce005b128?w=150&h=150&fit=crop&crop=face"
+      },
+      "role": "tenant"
+    }
+  },
+  {
+    "_id": "contact_009",
+    "name": {
+      "firstName": "Jennifer",
+      "lastName": "Brown",
+      "displayName": "Jennifer Brown",
+      "slug": "jennifer-brown"
+    },
+    "description": "Property management assistant",
+    "phone": {
+      "number": "555-0901",
+      "countryCode": "+1"
+    },
+    "tagID": "tag_006",
+    "userID": "admin_001",
+    "createdAt": "2025-01-23T11:25:00.000Z",
+    "updatedAt": "2025-01-23T11:25:00.000Z",
+    "tag": {
+      "_id": "tag_006",
+      "name": "Staff",
+      "color": "gray"
+    },
+    "user": {
+      "_id": "admin_001",
+      "userName": {
+        "firstName": "Jennifer",
+        "lastName": "Brown",
+        "displayName": "Jennifer Brown"
+      },
+      "contactInfo": {
+        "email": {
+          "email": "jennifer.brown@property.com"
+        }
+      },
+      "userInfo": {
+        "profilePicture": "https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?w=150&h=150&fit=crop&crop=face"
+      },
+      "role": "admin"
+    }
+  },
+  {
+    "_id": "contact_010",
+    "name": {
+      "firstName": "Tech",
+      "lastName": "Innovations",
+      "displayName": "Tech Innovations LLC",
+      "slug": "tech-innovations-llc"
+    },
+    "description": "Commercial office tenant, technology company",
+    "phone": {
+      "number": "555-1012",
+      "countryCode": "+1"
+    },
+    "tagID": "tag_007",
+    "userID": "tenant_019",
+    "createdAt": "2025-01-24T13:40:00.000Z",
+    "updatedAt": "2025-01-24T13:40:00.000Z",
+    "tag": {
+      "_id": "tag_007",
+      "name": "Commercial",
+      "color": "indigo"
+    },
+    "user": {
+      "_id": "tenant_019",
+      "userName": {
+        "firstName": "Tech",
+        "lastName": "Innovations",
+        "displayName": "Tech Innovations LLC"
+      },
+      "contactInfo": {
+        "email": {
+          "email": "admin@techinnovations.com"
+        }
+      },
+      "userInfo": {},
+      "role": "tenant"
+    }
+  }
+]

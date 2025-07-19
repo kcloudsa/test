@@ -27,8 +27,13 @@ export const LanguageSwitcher = ({ className }: {className?: string}) => {
   
   const currentLang = languages.find(lang => lang.code === currentLanguage);
 
+  // Language change now only updates cookies, no URL navigation needed
+  const handleLanguageChange = (newLang: string) => {
+    changeLanguage(newLang);
+  };
+
   return (
-    <Select value={currentLanguage} onValueChange={changeLanguage}>
+    <Select value={currentLanguage} onValueChange={handleLanguageChange}>
       <SelectTrigger className={`w-[280px] ${className}`}>
         <SelectValue>
           <div className="flex items-center gap-2">

@@ -1,0 +1,88 @@
+{
+  "title": "Account Settings",
+  "subtitle": "Manage your account settings and preferences",
+  "actions": {
+    "edit": "Edit Profile",
+    "cancel": "Cancel",
+    "save": "Save Changes",
+    "changePassword": "Change Password",
+    "uploadPhoto": "Upload Photo"
+  },
+  "status": {
+    "active": "Active",
+    "inactive": "Inactive",
+    "verified": "Verified",
+    "unverified": "Unverified"
+  },
+  "tabs": {
+    "personal": "Personal Info",
+    "contact": "Contact Info",
+    "security": "Security"
+  },
+  "sections": {
+    "personalInfo": {
+      "title": "Personal Information",
+      "description": "Update your personal details and profile information",
+      "addressTitle": "Address Information"
+    },
+    "contactInfo": {
+      "title": "Contact Information",
+      "description": "Manage your email and phone number settings",
+      "emailTitle": "Email Address",
+      "phoneTitle": "Phone Number"
+    },
+    "security": {
+      "title": "Security Settings",
+      "description": "Manage your account security and preferences",
+      "accountStatusTitle": "Account Status",
+      "accountStatusDescription": "Enable or disable your account",
+      "passwordTitle": "Password Management",
+      "accountInfoTitle": "Account Information"
+    }
+  },
+  "fields": {
+    "firstName": "First Name",
+    "lastName": "Last Name",
+    "displayName": "Display Name",
+    "displayNameDescription": "This is how your name will be displayed across the platform",
+    "gender": "Gender",
+    "nationality": "Nationality",
+    "city": "City",
+    "country": "Country",
+    "email": "Email",
+    "countryCode": "Country Code",
+    "phoneNumber": "Phone Number",
+    "notes": "Notes",
+    "notesPlaceholder": "Additional notes about your account...",
+    "userID": "User ID",
+    "role": "Role"
+  },
+  "genderOptions": {
+    "male": "Male",
+    "female": "Female",
+    "other": "Other",
+    "placeholder": "Select gender"
+  },
+  "validation": {
+    "firstNameMin": "First name must be at least 2 characters",
+    "lastNameMin": "Last name must be at least 2 characters",
+    "displayNameMin": "Display name must be at least 2 characters",
+    "genderRequired": "Please select a gender",
+    "nationalityRequired": "Please select a nationality",
+    "cityRequired": "City is required",
+    "countryRequired": "Country is required",
+    "emailInvalid": "Invalid email address",
+    "countryCodeRequired": "Country code is required",
+    "phoneNumberMin": "Phone number must be at least 10 digits"
+  },
+  "loading": {
+    "title": "Loading account information...",
+    "saving": "Saving changes..."
+  },
+  "errors": {
+    "loadFailed": "Failed to load account information",
+    "saveFailed": "Failed to save changes",
+    "retry": "Try Again",
+    "networkError": "Network error. Please check your connection."
+  }
+}

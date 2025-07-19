@@ -3,11 +3,8 @@ import {
   RouterProvider,
   Outlet,
   ScrollRestoration,
-  Navigate,
-  useParams,
 } from "react-router";
 import { LanguageProvider } from "@/providers/LanguageProvider";
-import Cookies from 'js-cookie';
 
 // Main Pages
 import Home from "@/app/Home";
@@ -19,55 +16,36 @@ import NF from "@/app/NF";
 // Dashboard Pages
 import DashLayout from "@/app/Dashboard/layout";
 import Dashboard from "@/app/Dashboard";
-// import RealStates from "@/app/Dashboard/RealStates";
-import Tasks from "@/app/Dashboard/Tasks";
-import Calendar from "@/app/Dashboard/Calendar";
+import RealStates from "@/app/Dashboard/RealEstates";
+import Unit from "@/app/Dashboard/RealEstates/Unit";
+// import Tasks from "@/app/Dashboard/Tasks";
+// import Calendar from "@/app/Dashboard/Calendar";
 // import Contacts from "@/app/Dashboard/Contacts";
 // import Documents from "@/app/Dashboard/Documents";
-// import Reports from "@/app/Dashboard/reports";
-// import Rentals from "@/app/Dashboard/Rentals";
+import Reports from "@/app/Dashboard/reports";
+import Rentals from "@/app/Dashboard/Rentals";
+import Rental from "@/app/Dashboard/Rentals/Rental";
 // import Settings from "@/app/Dashboard/Settings";
+// import Notifications from "@/app/Dashboard/Notifications";
+import Account from "@/app/Dashboard/Account";
 
-// Language wrapper component
-function LanguageWrapper() {
-  const { lang } = useParams();
-  
-  // Validate language parameter
-  if (!lang || !['en-US', 'ar-SA'].includes(lang)) {
-    return <Navigate to="/ar-SA" replace />;
-  }
+// Admin Dashboard Pages
+import AdminDashLayout from "@/app/Admin/layout";
+import AdminDashboard from "@/app/Admin";
+import Users from "@/app/Admin/Users";
 
-  return (
-    <LanguageProvider>
-      <Layout />
-    </LanguageProvider>
-  );
-}
 
-// Root redirect component that checks cookies
-function RootRedirect() {
-  const cookieLang = Cookies.get('k-cloud-language');
-  const targetLang = (cookieLang && ['en-US', 'ar-SA'].includes(cookieLang)) ? cookieLang : 'ar-SA';
-  
-  return <Navigate to={`/${targetLang}`} replace />;
-}
-
-// Layout component
+// Layout component with language provider
 function Layout() {
   return (
-    <>
+    <LanguageProvider>
       <ScrollRestoration />
-      {/* <Navbar /> */}
       <main>
         <div>
-          <div>
-            <Outlet />
-          </div>
+          <Outlet />
         </div>
-        {/* <Footer /> */}
       </main>
-      {/* <Dock /> */}
-    </>
+    </LanguageProvider>
   );
 }
 
@@ -75,11 +53,7 @@ function Layout() {
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <RootRedirect />,
-  },
-  {
-    path: "/:lang",
-    element: <LanguageWrapper />,
+    element: <Layout />,
     children: [
       {
         index: true,
@@ -93,18 +67,27 @@ const router = createBrowserRouter([
             index: true,
             element: <Dashboard />,
           },
+          {
+            path: "real-estates",
+            children: [
+              {
+                index: true,
+                element: <RealStates />,
+              },
+              {
+                path: ":unitID",
+                element: <Unit />,
+              },
+            ],
+          },
           // {
-          //   path: "real-states",
-          //   element: <RealStates />,
+          //   path: "tasks",
+          //   element: <Tasks />,
           // },
-          {
-            path: "tasks",
-            element: <Tasks />,
-          },
-          {
-            path: "calender",
-            element: <Calendar />,
-          },
+          // {
+          //   path: "calender",
+          //   element: <Calendar />,
+          // },
           // {
           //   path: "contacts",
           //   element: <Contacts />,
@@ -113,28 +96,55 @@ const router = createBrowserRouter([
           //   path: "documents",
           //   element: <Documents />,
           // },
-          // {
-          //   path: "reports",
-          //   element: <Reports />,
-          // },
-          // {
-          //   path: "rentals",
-          //   element: <Rentals />,
-          // },
+          {
+            path: "reports",
+            element: <Reports />,
+          },
+          {
+            path: "rentals",
+            children: [
+              {
+                index: true,
+                element: <Rentals />,
+              },
+              {
+                path: ":rentalID",
+                element: <Rental />,
+              },
+            ],
+          },
           // {
           //   path: "settings",
           //   element: <Settings />,
           // },
+          // {
+          //   path: "notifications",
+          //   element: <Notifications />,
+          // },
+          {
+            path: "account",
+            element: <Account />,
+          },
         ],
       },
       {
         path: "login",
         element: <LoginPage />,
       },
-      // {
-      //   path: "admin",
-      //   element: <div>Admin Page</div>,
-      // },
+      {
+        path: "admin",
+        element: <AdminDashLayout />,
+        children: [
+          {
+            index: true,
+            element: <AdminDashboard />,
+          },
+          {
+            path: "users",
+            element: <Users />,
+          }
+        ],
+      },
       // {
       //   path: "about",
       //   element: <div>About Page</div>,
@@ -153,11 +163,11 @@ const router = createBrowserRouter([
       // },
       // {
       //   path: "terms",
-      //   element: <div>Terms Page</div>,
+      //   element: <div>just some perms we didn't decide yet</div>,
       // },
       // {
       //   path: "privacy",
-      //   element: <div>Privacy Page</div>,
+      //   element: <div>you don't have privacy</div>,
       // },
       {
         path: "*",

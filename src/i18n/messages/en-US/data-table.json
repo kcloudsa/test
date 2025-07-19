@@ -1,0 +1,27 @@
+{
+  "view": "View",
+  "selectView": "Select a view",
+  "customizeColumns": "Customize Columns",
+  "columns": "Columns",
+  "addSection": "Add Section",
+  "noResults": "No results.",
+  "selectedRows": "{{selected}} of {{total}} row(s) selected.",
+  "showingRows": "Showing {{shown}} of {{total}} row(s).",
+  "rowsPerPage": "Rows per page",
+  "pageOf": "Page {{page}} of {{pageCount}}",
+  "goToFirstPage": "Go to first page",
+  "goToPreviousPage": "Go to previous page",
+  "goToNextPage": "Go to next page",
+  "goToLastPage": "Go to last page",
+  "saveChanges": "Save Changes",
+  "close": "Close",
+  "dataSaved": "Data saved successfully!",
+  "trendingUp": "Trending up by 5.2% this month",
+  "analyticsDescription": "Detailed analytics and performance metrics for this item.",
+  "tabs": {
+    "outline": "Outline",
+    "past-performance": "Past Performance",
+    "key-personnel": "Key Personnel",
+    "focus-documents": "Focus Documents"
+  }
+}

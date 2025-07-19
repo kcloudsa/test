@@ -4,13 +4,13 @@ import {
   IconDashboard,
   // IconFolder,
   IconHelp,
-  IconInnerShadowTop,
+  IconClover2,
   IconBuildings,
   IconReport,
-  IconSettings,
+  // IconSettings,
   // IconUsers,
-  IconUser,
-  IconCalendar,
+  IconReceiptDollar,
+  // IconCalendar,
 } from "@tabler/icons-react";
 
 import { NavMain } from "@/components/nav-main";
@@ -28,13 +28,13 @@ import {
 import { useLanguage } from "@/providers/LanguageProvider";
 import { cn } from "@/lib/utils";
 import { LocalizedLink } from "@/i18n/components/LocalizedLink";
-import { useTranslation } from "react-i18next";
+import { useTranslation } from 'react-i18next';
 
 export function AppSidebar({ ...props }: React.ComponentProps<typeof Sidebar>) {
   const { currentLanguage } = useLanguage();
-  const isRTL = currentLanguage === "ar-SA";
+  const isRTL = currentLanguage === 'ar-SA';
   const { t } = useTranslation("app-sidebar");
-
+  
   const data = {
     user: {
       name: "Ahmed bin Ali",
@@ -49,7 +49,7 @@ export function AppSidebar({ ...props }: React.ComponentProps<typeof Sidebar>) {
       },
       {
         title: t("realEstates"),
-        url: "/dash/real-states",
+        url: "/dash/real-estates",
         icon: IconBuildings,
       },
       // {
@@ -57,11 +57,11 @@ export function AppSidebar({ ...props }: React.ComponentProps<typeof Sidebar>) {
       //   url: "/dash/tasks",
       //   icon: IconChartBar,
       // },
-      {
-        title: t("calendar"),
-        url: "/dash/calender",
-        icon: IconCalendar,
-      },
+      // {
+      //   title: t("calendar"),
+      //   url: "/dash/calender",
+      //   icon: IconCalendar,
+      // },
       // {
       //   title: t("contacts"),
       //   url: "/dash/contacts",
@@ -80,27 +80,29 @@ export function AppSidebar({ ...props }: React.ComponentProps<typeof Sidebar>) {
       {
         title: t("rentals"),
         url: "/dash/rentals",
-        icon: IconUser,
+        icon: IconReceiptDollar,
       },
     ],
     navSecondary: [
-      {
-        title: t("settings"),
-        url: "/dash/settings",
-        icon: IconSettings,
-      },
+      // {
+      //   title: t("settings"),
+      //   url: "/dash/settings",
+      //   icon: IconSettings,
+      // },
       {
         title: t("getHelp"),
         url: "#",
         icon: IconHelp,
       },
-    ],
+    ]
   };
   return (
-    <Sidebar
-      collapsible="offcanvas"
+    <Sidebar 
+      collapsible="offcanvas" 
       side={isRTL ? "right" : "left"}
-      className={cn(props.className)}
+      className={cn(
+        props.className
+      )}
       {...props}
     >
       <SidebarHeader>
@@ -110,11 +112,11 @@ export function AppSidebar({ ...props }: React.ComponentProps<typeof Sidebar>) {
               asChild
               className={cn(
                 "data-[slot=sidebar-menu-button]:!p-1.5",
-                isRTL && "flex-row-reverse",
+                isRTL && "flex-row-reverse"
               )}
             >
               <LocalizedLink to="/">
-                <IconInnerShadowTop className="!size-5" />
+                <IconClover2 className="!size-5" />
                 <span className="text-base font-semibold">K Cloud</span>
               </LocalizedLink>
             </SidebarMenuButton>

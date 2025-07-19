@@ -1,6 +1,4 @@
-import { IconCirclePlusFilled, IconMail, type Icon } from "@tabler/icons-react";
-
-import { Button } from "@/components/ui/button";
+import { type Icon } from "@tabler/icons-react";
 import {
   SidebarGroup,
   SidebarGroupContent,
@@ -11,7 +9,9 @@ import {
 import { useLocation } from "react-router";
 import { LocalizedLink } from "@/i18n/components/LocalizedLink";
 import { cn } from "@/lib/utils";
-import { useTranslation } from "react-i18next";
+
+import CreateNewRental from "./navmenu/createNewRental";
+import CreateNewUnit from "./navmenu/createNewUnit";
 
 export function NavMain({
   items,
@@ -23,44 +23,28 @@ export function NavMain({
   }[];
 }) {
   const location = useLocation();
-  const { t } = useTranslation("app-sidebar");
 
-  // Extract the path without the language prefix
   const getPathWithoutLang = (pathname: string) => {
-    const segments = pathname.split('/');
-    // Remove empty first segment and language segment (e.g., 'en', 'ar-SA')
+    const segments = pathname.split("/");
     if (segments.length > 2 && segments[1].match(/^[a-z]{2}(-[A-Z]{2})?$/)) {
-      return '/' + segments.slice(2).join('/');
+      return "/" + segments.slice(2).join("/");
     }
     return pathname;
   };
 
   const currentPath = getPathWithoutLang(location.pathname);
+  console.log(currentPath);
 
   return (
     <SidebarGroup>
       <SidebarGroupContent className="flex flex-col gap-2">
         <SidebarMenu>
-          <SidebarMenuItem className={cn(
-            "flex items-center gap-2",
-          )}>
-            <SidebarMenuButton
-              tooltip={t("CreateNewRental")}
-              className={cn(
-              "bg-primary text-primary-foreground hover:bg-primary/90 hover:text-primary-foreground active:bg-primary/90 active:text-primary-foreground min-w-8 duration-200 ease-linear",
-              )}
-            >
-              <IconCirclePlusFilled />
-              <span>{t("CreateNewRental")}</span>
-            </SidebarMenuButton>
-            <Button
-              size="icon"
-              className="size-8 group-data-[collapsible=icon]:opacity-0"
-              variant="outline"
-            >
-              <IconMail />
-              <span className="sr-only">{t("inbox")}</span>
-            </Button>
+          <SidebarMenuItem className="flex items-center gap-2">
+            {currentPath === "/dash/real-estates" ? (
+              <CreateNewUnit />
+            ) : (
+              <CreateNewRental />
+            )}
           </SidebarMenuItem>
         </SidebarMenu>
         <SidebarMenu>
@@ -70,11 +54,15 @@ export function NavMain({
                 <SidebarMenuButton
                   tooltip={item.title}
                   className={cn(
-                    currentPath === item.url
+                    currentPath.startsWith(item.url)
                       ? "cursor-default"
                       : "cursor-pointer",
                   )}
-                  isActive={currentPath === item.url}
+                  isActive={
+                    item.url === "/dash"
+                      ? currentPath === "/dash"
+                      : currentPath.startsWith(item.url)
+                  }
                 >
                   {item.icon && <item.icon />}
                   <span>{item.title}</span>

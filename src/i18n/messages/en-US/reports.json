@@ -1,0 +1,115 @@
+{
+  "title": "Reports",
+  "description": "Generate comprehensive reports for your property management data",
+  "stats": {
+    "totalUnits": "Total Units",
+    "activeRentals": "Active Rentals", 
+    "totalRevenue": "Total Revenue",
+    "totalExpenses": "Total Expenses",
+    "netIncome": "Net Income",
+    "openRequests": "Open Requests"
+  },
+  "categories": {
+    "property": "Property",
+    "financial": "Financial", 
+    "operations": "Operations",
+    "general": "General"
+  },
+  "reportTypes": {
+    "units": {
+      "title": "Units Report",
+      "description": "Overview of all your units with status and details"
+    },
+    "rentals": {
+      "title": "Rentals Report",
+      "description": "Active and completed rental agreements"
+    },
+    "financial": {
+      "title": "Financial Report", 
+      "description": "Income, expenses and financial movements"
+    },
+    "maintenance": {
+      "title": "Maintenance Report",
+      "description": "Maintenance requests and their status"
+    },
+    "contacts": {
+      "title": "Contacts Report",
+      "description": "All your contacts and communication data"
+    }
+  },
+  "configuration": {
+    "title": "Report Configuration",
+    "description": "Configure your report settings",
+    "dateRange": "Date Range",
+    "pickDateRange": "Pick a date range",
+    "exportFormat": "Export Format",
+    "pdfDocument": "PDF Document",
+    "excelSpreadsheet": "Excel Spreadsheet",
+    "selectedReports": "Selected Reports",
+    "noReportsSelected": "No reports selected"
+  },
+  "actions": {
+    "generateReport": "Generate Report",
+    "generating": "Generating...",
+    "loadingData": "Loading Data...",
+    "selected": "Selected",
+    "retry": "Retry",
+    "retryLoading": "Retry Loading",
+    "continueAnyway": "Continue Anyway"
+  },
+  "messages": {
+    "errorLoadingData": "Error Loading Data",
+    "connectionError": "Failed to load report data. Please check your connection and try again.",
+    "readyToGenerate": "Ready to generate reports for: {{reports}}",
+    "selectAtLeastOne": "Please select at least one report type",
+    "missingDataTitle": "Missing Data",
+    "missingDataDescription": "The following data types are required for your selected reports but are not available:",
+    "missingDataSuffix": "data",
+    "unknownError": "Unknown error occurred"
+  },
+  "errors": {
+    "unitsData": "Failed to load units data. Please try again.",
+    "rentalsData": "Failed to load rentals data. Please try again.", 
+    "financialData": "Failed to load financial data. Please try again.",
+    "maintenanceData": "Failed to load maintenance data. Please try again.",
+    "reportGeneration": "Failed to generate report: {{error}}",
+    "pdfGeneration": "Failed to generate PDF report",
+    "excelGeneration": "Failed to generate Excel report"
+  },
+  "reportSections": {
+    "summaryStatistics": "Summary Statistics",
+    "unitsReport": "Units Report", 
+    "rentalsReport": "Rentals Report",
+    "financialMovements": "Financial Movements",
+    "maintenanceRequests": "Maintenance Requests"
+  },
+  "tableHeaders": {
+    "metric": "Metric",
+    "value": "Value",
+    "unitNumber": "Unit Number",
+    "description": "Description", 
+    "status": "Status",
+    "processingCost": "Processing Cost",
+    "contractNumber": "Contract Number",
+    "unitId": "Unit ID",
+    "startDate": "Start Date",
+    "endDate": "End Date", 
+    "rentalAmount": "Rental Amount",
+    "securityDeposit": "Security Deposit",
+    "date": "Date",
+    "debit": "Debit",
+    "credit": "Credit",
+    "moveType": "Move Type",
+    "title": "Title",
+    "priority": "Priority",
+    "createdDate": "Created Date",
+    "resolvedDate": "Resolved Date",
+    "location": "Location",
+    "unitType": "Unit Type"
+  },
+  "reportTitle": "Property Management Report - {{date}}",
+  "summarySheetTitle": "Property Management Report Summary",
+  "generatedDate": "Generated Date",
+  "notAvailable": "N/A",
+  "invalidDate": "Invalid Date"
+}

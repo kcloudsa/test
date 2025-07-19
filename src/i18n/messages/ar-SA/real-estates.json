@@ -1,0 +1,317 @@
+{
+  "imageCarousel": {
+    "altText": "الوحدة {{unitNumber}} - الصورة {{imageNumber}}",
+    "previousImage": "الصورة السابقة",
+    "nextImage": "الصورة التالية",
+    "goToImage": "الانتقال إلى الصورة {{imageNumber}}",
+    "counter": "{{current}} / {{total}}",
+    "thumbnailAlt": "الصورة المصغرة {{number}}"
+  },
+  "pagination": {
+    "previous": "السابق",
+    "next": "التالي"
+  },
+  "stats": {
+    "totalUnits": "إجمالي الوحدات",
+    "available": "متاحة",
+    "activeRentals": "الإيجارات النشطة",
+    "monthlyRevenue": "الإيرادات الشهرية"
+  },
+  "filters": {
+    "title": "البحث والفلاتر",
+    "searchPlaceholder": "البحث في الوحدات بالرقم أو الوصف...",
+    "allStatuses": "جميع الحالات",
+    "statuses": {
+      "available": "متاحة",
+      "reserved": "محجوزة",
+      "under_maintenance": "قيد الصيانة"
+    },
+    "minPrice": "الحد الأدنى للسعر ($)",
+    "maxPrice": "الحد الأقصى للسعر ($)",
+    "propertyTypes": "أنواع العقارات",
+    "tags": {
+      "apartment": "شقة",
+      "villa": "فيلا",
+      "studio": "استوديو",
+      "office": "مكتب",
+      "commercial": "تجاري"
+    },
+    "applyFilters": "تطبيق الفلاتر",
+    "clearAll": "مسح الكل",
+    "activeFilters": "الفلاتر النشطة",
+    "activeSearch": "البحث: \"{{search}}\"",
+    "activeStatus": "الحالة: {{status}}",
+    "activeMinPrice": "الحد الأدنى: ${{price}}",
+    "activeMaxPrice": "الحد الأقصى: ${{price}}"
+  },
+  "units": {
+    "button": "يمكنك إنشاء وحدات جديدة من الزر في الشريط الجانبي",
+    "title": "وحدات العقار",
+    "count": "{{filtered}} من {{total}} وحدة",
+    "pageInfo": "الصفحة {{current}} من {{total}}",
+    "noUnitsFound": "لم يتم العثور على وحدات",
+    "adjustFilters": "جرب تعديل معايير البحث أو الفيلتر.",
+    "unknownStatus": "غير معروف",
+    "unitNumber": "الوحدة {{number}}",
+    "noDescription": "لا يوجد وصف متاح",
+    "unknown": "غير معروف",
+    "viewDetails": "عرض التفاصيل"
+  },
+  "unit": {
+    "back": "رجوع",
+    "export": "تصدير",
+    "edit": "تعديل",
+    "title": "الوحدة {{number}}",
+    "unknown": "غير معروف",
+    "noDescription": "لا يوجد وصف متاح",
+    "viewFullscreen": "عرض بملء الشاشة",
+    "stats": {
+      "totalRentals": "إجمالي الإيجارات",
+      "activeCount": "{{count}} نشط",
+      "totalRevenue": "إجمالي الإيرادات",
+      "avgRent": "المتوسط: {{amount}}",
+      "occupancyRate": "معدل الإشغال",
+      "currentPeriod": "الفترة الحالية",
+      "maintenance": "الصيانة",
+      "openRequests": "الطلبات المفتوحة"
+    },
+    "tabs": {
+      "overview": "نظرة عامة",
+      "rentals": "الإيجارات",
+      "calendar": "التقويم",
+      "financials": "الماليات",
+      "maintenance": "الصيانة",
+      "documents": "المستندات"
+    },
+    "editDialog": {
+      "title": "تعديل الوحدة",
+      "unitNumber": "رقم الوحدة",
+      "unitNumberPlaceholder": "أدخل رقم الوحدة",
+      "description": "الوصف",
+      "descriptionPlaceholder": "أدخل وصف الوحدة",
+      "processingCost": "تكلفة المعالجة",
+      "processingCostPlaceholder": "أدخل تكلفة المعالجة",
+      "baseUnit": "الوحدة الأساسية",
+      "baseUnitPlaceholder": "أدخل الوحدة الأساسية",
+      "address": "العنوان",
+      "addressPlaceholder": "أدخل العنوان",
+      "city": "المدينة",
+      "cityPlaceholder": "أدخل المدينة",
+      "country": "البلد",
+      "countryPlaceholder": "أدخل البلد",
+      "cancel": "إلغاء",
+      "save": "حفظ التغييرات"
+    },
+    "errorLoadingUnitData": "خطأ في تحميل بيانات الوحدة",
+    "failedToLoadUnitData": "فشل في تحميل بيانات الوحدة. يرجى المحاولة مرة أخرى.",
+    "unitNotFound": "الوحدة غير موجودة أو غير متاحة.",
+    "backToUnits": "رجوع إلى الوحدات",
+    "editCustomPrice": "تعديل السعر المخصص",
+    "setCustomPriceForReservedDate": "تحديد سعر مخصص للتاريخ المحجوز",
+    "setCustomPrice": "تحديد سعر مخصص",
+    "customPriceInfo": "هذا التاريخ محجوز، ولكن يمكنك تحديد سعر مخصص سيطبق عند انتهاء الإيجار أو للحجوزات المستقبلية.",
+    "date": "التاريخ",
+    "pricePerNight": "السعر لكل ليلة",
+    "enterPricePerNight": "أدخل السعر لكل ليلة",
+    "applyToSameWeekday": "تطبيق على نفس يوم الأسبوع للـ {{count}} أسابيع القادمة (متكرر)",
+    "cannotChangeForExistingPrices": "لا يمكن التغيير للأسعار الموجودة",
+    "weeklyPriceInfo": "سيتم تحديد السعر لكل {{date}} للأسابيع الأربعة القادمة.",
+    "editingExistingPriceOverride": "أنت تقوم بتعديل سعر مخصص موجود.",
+    "deletePrice": "حذف السعر",
+    "cancel": "إلغاء",
+    "updatePrice": "تحديث السعر",
+    "setPrice": "تحديد السعر"
+  },
+  "calendar": {
+    "title": "توفر الوحدة والأسعار",
+    "today": "اليوم",
+    "views": {
+      "week": "أسبوع",
+      "month": "شهر",
+      "year": "سنة"
+    },
+    "legend": {
+      "reserved": "محجوز",
+      "customPrice": "سعر مخصص",
+      "maintenance": "صيانة",
+      "financial": "نشاط مالي"
+    },
+    "instructions": "انقر على أي يوم لتحديد الأسعار • انقر على علامات الأسعار الصفراء للتعديل",
+    "stats": "{{activeRentals}} إيجارات نشطة • {{customPrices}} أسعار مخصصة",
+    "available": "متاحة",
+    "reserved": "محجوز",
+    "clickToEdit": "انقر للتعديل",
+    "maintenance": "صيانة",
+    "transaction": "معاملة",
+    "more": "المزيد",
+    "clickToSetPrice": "انقر لتحديد السعر",
+    "yearView": {
+      "reservedDays": "{{count}} أيام محجوزة",
+      "customPrices": "{{count}} أسعار مخصصة",
+      "maintenanceDays": "{{count}} أيام صيانة",
+      "transactionDays": "{{count}} أيام معاملات",
+      "occupied": "{{rate}}% مشغول",
+      "withCustomPrice": "بسعر مخصص",
+      "revenue": "${{amount}} إيرادات"
+    },
+    "event": "حدث",
+    "task": "مهمة",
+    "at": "في",
+    "priority": "الأولوية",
+    "normal": "عادي",
+    "completed": "مكتمل",
+    "items": "عناصر",
+    "day": "يوم",
+    "showMore": "عرض المزيد"
+  },
+  "documents": {
+    "title": "المستندات",
+    "uploadDocument": "رفع مستند",
+    "noDocuments": "لا يوجد مستندات مرفوعة"
+  },
+  "financials": {
+    "title": "التاريخ المالي",
+    "addTransaction": "إضافة معاملة",
+    "selectAll": "تحديد الكل",
+    "selectRow": "تحديد الصف",
+    "defaultTransaction": "معاملة",
+    "income": "دخل",
+    "expense": "مصروف",
+    "openMenu": "فتح القائمة",
+    "stats": {
+      "totalIncome": "إجمالي الدخل",
+      "totalExpenses": "إجمالي المصروفات",
+      "netIncome": "صافي الدخل"
+    },
+    "columns": {
+      "description": "الوصف",
+      "date": "التاريخ",
+      "type": "النوع",
+      "amount": "المبلغ",
+      "debit": "مدين",
+      "credit": "دائن"
+    },
+    "actions": {
+      "view": "عرض",
+      "edit": "تعديل",
+      "delete": "حذف"
+    },
+    "tabs": {
+      "all": "جميع المعاملات",
+      "income": "الدخل",
+      "expenses": "المصروفات"
+    },
+    "searchPlaceholder": "البحث في المعاملات...",
+    "emptyMessage": "لم يتم العثور على معاملات مالية"
+  },
+  "maintenance": {
+    "title": "طلبات الصيانة",
+    "newRequest": "طلب جديد",
+    "selectAll": "تحديد الكل",
+    "selectRow": "تحديد الصف",
+    "unknown": "غير معروف",
+    "openMenu": "فتح القائمة",
+    "statuses": {
+      "open": "مفتوح",
+      "in_progress": "قيد التنفيذ",
+      "closed": "مغلق"
+    },
+    "priorities": {
+      "low": "منخفض",
+      "medium": "متوسط",
+      "high": "مرتفع"
+    },
+    "columns": {
+      "title": "العنوان",
+      "status": "الحالة",
+      "priority": "الأولوية",
+      "createdDate": "تاريخ الإنشاء",
+      "reportedBy": "أبلغ بواسطة"
+    },
+    "actions": {
+      "view": "عرض",
+      "edit": "تعديل",
+      "delete": "حذف"
+    },
+    "tabs": {
+      "all": "جميع الطلبات",
+      "open": "مفتوح",
+      "inProgress": "قيد التنفيذ",
+      "closed": "مغلق"
+    },
+    "searchPlaceholder": "البحث في طلبات الصيانة...",
+    "emptyMessage": "لم يتم العثور على طلبات صيانة"
+  },
+  "overview": {
+    "propertyImages": "صور العقار",
+    "unitInformation": "معلومات الوحدة",
+    "unitNumber": "رقم الوحدة",
+    "processingCost": "تكلفة المعالجة",
+    "baseUnit": "الوحدة الأساسية",
+    "status": "الحالة",
+    "description": "الوصف",
+    "notes": "الملاحظات",
+    "recentActivity": "النشاط الأخير",
+    "location": "الموقع",
+    "currentRental": "الإيجار الحالي",
+    "maintenanceAlert": "تنبيه الصيانة",
+    "unknown": "غير معروف",
+    "notAvailable": "غير متاح",
+    "financialTransaction": "معاملة مالية",
+    "noRecentActivity": "لا يوجد نشاط حديث",
+    "coordinates": {
+      "lat": "خط العرض",
+      "lng": "خط الطول"
+    },
+    "viewOnMap": "عرض على الخريطة",
+    "contract": "العقد",
+    "amount": "المبلغ",
+    "monthsLeft": "الأشهر المتبقية",
+    "viewContract": "عرض العقد",
+    "maintenanceMessage": "لديك {{count}} طلبات صيانة مفتوحة.",
+    "viewRequests": "عرض الطلبات"
+  },
+  "rentals": {
+    "title": "تاريخ الإيجارات",
+    "newRental": "إيجار جديد",
+    "selectAll": "تحديد الكل",
+    "selectRow": "تحديد الصف",
+    "openMenu": "فتح القائمة",
+    "errorLoading": "خطأ في تحميل بيانات الإيجار",
+    "statuses": {
+      "active": "نشط",
+      "completed": "مكتمل",
+      "pending": "معلق"
+    },
+    "stats": {
+      "totalIncome": "إجمالي دخل الإيجار",
+      "activeRentals": "الإيجارات النشطة",
+      "averageRent": "متوسط الإيجار"
+    },
+    "columns": {
+      "contractNumber": "رقم العقد",
+      "status": "الحالة",
+      "propertyType": "نوع العقار",
+      "rentalAmount": "مبلغ الإيجار",
+      "startDate": "تاريخ البداية",
+      "endDate": "تاريخ النهاية",
+      "monthsLeft": "الأشهر المتبقية",
+      "roommates": "الزملاء في السكن",
+      "source": "المصدر"
+    },
+    "actions": {
+      "view": "عرض",
+      "edit": "تعديل",
+      "delete": "حذف"
+    },
+    "tabs": {
+      "all": "جميع الإيجارات",
+      "active": "نشط",
+      "completed": "مكتمل",
+      "pending": "معلق"
+    },
+    "searchPlaceholder": "البحث في الإيجارات...",
+    "emptyMessage": "لم يتم العثور على تاريخ إيجارات",
+    "button": "لإنشاء إيجار جديد، استخدم زر الشريط الجانبي"
+  }
+}

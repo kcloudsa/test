@@ -1,0 +1,27 @@
+{
+  "view": "عرض",
+  "selectView": "اختر عرضًا",
+  "customizeColumns": "تخصيص الأعمدة",
+  "columns": "الأعمدة",
+  "addSection": "إضافة قسم",
+  "noResults": "لا توجد نتائج.",
+  "selectedRows": "{{selected}} من أصل {{total}} صف(وف) محدد.",
+  "showingRows": "عرض {{shown}} من أصل {{total}} صف(وف).",
+  "rowsPerPage": "عدد الصفوف لكل صفحة",
+  "pageOf": "الصفحة {{page}} من {{pageCount}}",
+  "goToFirstPage": "انتقل إلى الصفحة الأولى",
+  "goToPreviousPage": "انتقل إلى الصفحة السابقة",
+  "goToNextPage": "انتقل إلى الصفحة التالية",
+  "goToLastPage": "انتقل إلى الصفحة الأخيرة",
+  "saveChanges": "حفظ التغييرات",
+  "close": "إغلاق",
+  "dataSaved": "تم حفظ البيانات بنجاح!",
+  "trendingUp": "ارتفاع بنسبة 5.2٪ هذا الشهر",
+  "analyticsDescription": "تحليلات مفصلة ومقاييس الأداء لهذا العنصر.",
+  "tabs": {
+    "outline": "مخطط",
+    "past-performance": "الأداء السابق",
+    "key-personnel": "الأشخاص الرئيسيون",
+    "focus-documents": "المستندات الهامة"
+  }
+}

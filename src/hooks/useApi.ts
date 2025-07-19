@@ -91,22 +91,32 @@ export function useApiMutation<TData, TVariables, TError = Error>({
     mutationFn: async (data: TVariables): Promise<TData> => {
       const config = { ...axiosConfig }
 
+      let response
       switch (method) {
         case 'post':
-          return (await axiosInstance.post(endpoint, data, config)).data
+          response = await axiosInstance.post(endpoint, data, config)
+          break
         case 'put':
-          return (await axiosInstance.put(endpoint, data, config)).data
+          response = await axiosInstance.put(endpoint, data, config)
+          break
         case 'delete':
-          return (await axiosInstance.delete(endpoint, { data, ...config })).data
+          response = await axiosInstance.delete(endpoint, { data, ...config })
+          break
         case 'get':
-          return (await axiosInstance.get(endpoint, { params: data, ...config })).data
+          response = await axiosInstance.get(endpoint, { params: data, ...config })
+          break
         default:
           throw new Error(`Unsupported HTTP method: ${method}`)
       }
+
+      return response.data
     },
     onSuccess: (data, variables, context) => {
       queryClient.invalidateQueries()
       options?.onSuccess?.(data, variables, context)
+    },
+    onError: (error, variables, context) => {
+      options?.onError?.(error, variables, context)
     },
     ...options,
   })

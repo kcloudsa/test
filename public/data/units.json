@@ -1,0 +1,522 @@
+[
+    {
+        "_id": "unit_001",
+        "number": "A101",
+        "description": "Spacious 2-bedroom apartment with city view",
+        "processingCost": 2500,
+        "location": {
+            "address": "123 Main Street",
+            "city": "New York",
+            "country": "USA"
+        },
+        "unitMedia": [
+            "https://images.pexels.com/photos/259950/pexels-photo-259950.jpeg",
+            "https://images.pexels.com/photos/271624/pexels-photo-271624.jpeg"
+        ],
+        "unitStatus": "available",
+        "unitType": {
+            "name": "Apartment",
+            "tags": [
+                "Apartment",
+                "2BR",
+                "City View"
+            ]
+        },
+        "createdAt": "2025-01-15T10:30:00.000Z",
+        "updatedAt": "2025-01-15T10:30:00.000Z"
+    },
+    {
+        "_id": "unit_002",
+        "number": "V205",
+        "description": "Luxury villa with pool and garden",
+        "processingCost": 4500,
+        "location": {
+            "address": "456 Ocean Drive",
+            "city": "Miami",
+            "country": "USA"
+        },
+        "unitMedia": [
+            "https://images.pexels.com/photos/259950/pexels-photo-259950.jpeg",
+            "https://images.pexels.com/photos/271624/pexels-photo-271624.jpeg"
+        ],
+        "unitStatus": "reserved",
+        "unitType": {
+            "name": "Villa",
+            "tags": [
+                "Villa",
+                "Pool",
+                "Garden"
+            ]
+        },
+        "createdAt": "2025-01-16T14:20:00.000Z",
+        "updatedAt": "2025-01-20T09:15:00.000Z"
+    },
+    {
+        "_id": "unit_003",
+        "number": "S301",
+        "description": "Cozy studio perfect for young professionals",
+        "processingCost": 1200,
+        "location": {
+            "address": "789 Broadway",
+            "city": "San Francisco",
+            "country": "USA"
+        },
+        "unitMedia": [
+            "https://images.pexels.com/photos/259950/pexels-photo-259950.jpeg",
+            "https://images.pexels.com/photos/271624/pexels-photo-271624.jpeg"
+        ],
+        "unitStatus": "available",
+        "unitType": {
+            "name": "Studio",
+            "tags": [
+                "Studio",
+                "Modern",
+                "Downtown"
+            ]
+        },
+        "createdAt": "2025-01-17T16:45:00.000Z",
+        "updatedAt": "2025-01-17T16:45:00.000Z"
+    },
+    {
+        "_id": "unit_004",
+        "number": "A102",
+        "description": "Family-friendly 3-bedroom apartment",
+        "processingCost": 3200,
+        "location": {
+            "address": "321 Park Avenue",
+            "city": "Chicago",
+            "country": "USA"
+        },
+        "unitMedia": [
+            "https://images.pexels.com/photos/1643383/pexels-photo-1643383.jpeg",
+            "https://images.pexels.com/photos/271624/pexels-photo-271624.jpeg"
+        ],
+        "unitStatus": "under_maintenance",
+        "unitType": {
+            "name": "Apartment",
+            "tags": [
+                "Apartment",
+                "3BR",
+                "Family"
+            ]
+        },
+        "createdAt": "2025-01-18T11:00:00.000Z",
+        "updatedAt": "2025-01-25T13:30:00.000Z"
+    },
+    {
+        "_id": "unit_005",
+        "number": "O401",
+        "description": "Modern office space in business district",
+        "processingCost": 5000,
+        "location": {
+            "address": "555 Business Blvd",
+            "city": "Los Angeles",
+            "country": "USA"
+        },
+        "unitMedia": [
+            "https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg",
+            "https://images.pexels.com/photos/3184292/pexels-photo-3184292.jpeg"
+        ],
+        "unitStatus": "available",
+        "unitType": {
+            "name": "Office",
+            "tags": [
+                "Office",
+                "Business",
+                "Modern"
+            ]
+        },
+        "createdAt": "2025-01-19T08:15:00.000Z",
+        "updatedAt": "2025-01-19T08:15:00.000Z"
+    },
+    {
+        "_id": "unit_006",
+        "number": "A203",
+        "description": "Elegant 1-bedroom apartment with balcony",
+        "processingCost": 1800,
+        "location": {
+            "address": "890 Sunset Boulevard",
+            "city": "Los Angeles",
+            "country": "USA"
+        },
+        "unitMedia": [
+            "https://images.pexels.com/photos/271624/pexels-photo-271624.jpeg",
+            "https://images.pexels.com/photos/259950/pexels-photo-259950.jpeg"
+        ],
+        "unitStatus": "available",
+        "unitType": {
+            "name": "Apartment",
+            "tags": [
+                "Apartment",
+                "1BR",
+                "Balcony"
+            ]
+        },
+        "createdAt": "2025-01-20T12:30:00.000Z",
+        "updatedAt": "2025-01-20T12:30:00.000Z"
+    },
+    {
+        "_id": "unit_007",
+        "number": "V101",
+        "description": "Beachfront villa with ocean views",
+        "processingCost": 6000,
+        "location": {
+            "address": "100 Coastal Highway",
+            "city": "San Diego",
+            "country": "USA"
+        },
+        "unitMedia": [
+            "https://images.pexels.com/photos/259950/pexels-photo-259950.jpeg",
+            "https://images.pexels.com/photos/271624/pexels-photo-271624.jpeg"
+        ],
+        "unitStatus": "reserved",
+        "unitType": {
+            "name": "Villa",
+            "tags": [
+                "Villa",
+                "Beachfront",
+                "Ocean View"
+            ]
+        },
+        "createdAt": "2025-01-21T09:45:00.000Z",
+        "updatedAt": "2025-01-26T14:20:00.000Z"
+    },
+    {
+        "_id": "unit_008",
+        "number": "S102",
+        "description": "Minimalist studio in arts district",
+        "processingCost": 1400,
+        "location": {
+            "address": "250 Arts Avenue",
+            "city": "Portland",
+            "country": "USA"
+        },
+        "unitMedia": [
+            "https://images.pexels.com/photos/259950/pexels-photo-259950.jpeg",
+            "https://images.pexels.com/photos/271624/pexels-photo-271624.jpeg"
+        ],
+        "unitStatus": "available",
+        "unitType": {
+            "name": "Studio",
+            "tags": [
+                "Studio",
+                "Minimalist",
+                "Arts District"
+            ]
+        },
+        "createdAt": "2025-01-22T15:10:00.000Z",
+        "updatedAt": "2025-01-22T15:10:00.000Z"
+    },
+    {
+        "_id": "unit_009",
+        "number": "C501",
+        "description": "Prime retail space in shopping center",
+        "processingCost": 7500,
+        "location": {
+            "address": "777 Mall Drive",
+            "city": "Dallas",
+            "country": "USA"
+        },
+        "unitMedia": [
+            "https://images.pexels.com/photos/264636/pexels-photo-264636.jpeg",
+            "https://images.pexels.com/photos/264636/pexels-photo-264636.jpeg"
+        ],
+        "unitStatus": "available",
+        "unitType": {
+            "name": "Commercial",
+            "tags": [
+                "Commercial",
+                "Retail",
+                "Shopping Center"
+            ]
+        },
+        "createdAt": "2025-01-23T11:25:00.000Z",
+        "updatedAt": "2025-01-23T11:25:00.000Z"
+    },
+    {
+        "_id": "unit_010",
+        "number": "A305",
+        "description": "Penthouse apartment with panoramic views",
+        "processingCost": 8000,
+        "location": {
+            "address": "999 Skyline Drive",
+            "city": "Seattle",
+            "country": "USA"
+        },
+        "unitMedia": [
+            "https://images.pexels.com/photos/271624/pexels-photo-271624.jpeg",
+            "https://images.pexels.com/photos/259950/pexels-photo-259950.jpeg"
+        ],
+        "unitStatus": "reserved",
+        "unitType": {
+            "name": "Apartment",
+            "tags": [
+                "Apartment",
+                "Penthouse",
+                "Panoramic View"
+            ]
+        },
+        "createdAt": "2025-01-24T13:40:00.000Z",
+        "updatedAt": "2025-01-28T10:15:00.000Z"
+    },
+    {
+        "_id": "unit_011",
+        "number": "S203",
+        "description": "Industrial loft studio with exposed brick",
+        "processingCost": 1600,
+        "location": {
+            "address": "333 Factory Street",
+            "city": "Detroit",
+            "country": "USA"
+        },
+        "unitMedia": [
+            "https://images.pexels.com/photos/29599223/pexels-photo-29599223.jpeg",
+            "https://cdn.pixabay.com/photo/2020/02/21/14/00/exposed-brick-loft-light-space-4863691_1280.jpg"
+        ],
+        "unitStatus": "under_maintenance",
+        "unitType": {
+            "name": "Studio",
+            "tags": [
+                "Studio",
+                "Loft",
+                "Industrial"
+            ]
+        },
+        "createdAt": "2025-01-25T16:55:00.000Z",
+        "updatedAt": "2025-01-30T12:00:00.000Z"
+    },
+    {
+        "_id": "unit_012",
+        "number": "V302",
+        "description": "Mountain retreat villa with fireplace",
+        "processingCost": 5200,
+        "location": {
+            "address": "444 Mountain View Road",
+            "city": "Denver",
+            "country": "USA"
+        },
+        "unitMedia": [
+            "https://images.pexels.com/photos/29599223/pexels-photo-29599223.jpeg",
+            "https://cdn.pixabay.com/photo/2016/11/29/09/32/villa-1867187_1280.jpg"
+        ],
+        "unitStatus": "available",
+        "unitType": {
+            "name": "Villa",
+            "tags": [
+                "Villa",
+                "Mountain View",
+                "Fireplace"
+            ]
+        },
+        "createdAt": "2025-01-26T14:20:00.000Z",
+        "updatedAt": "2025-01-26T14:20:00.000Z"
+    },
+    {
+        "_id": "unit_013",
+        "number": "O201",
+        "description": "Executive office suite with conference room",
+        "processingCost": 6500,
+        "location": {
+            "address": "666 Corporate Plaza",
+            "city": "Houston",
+            "country": "USA"
+        },
+        "unitMedia": [
+            "https://images.pexels.com/photos/3184292/pexels-photo-3184292.jpeg",
+            "https://cdn.pixabay.com/photo/2016/11/18/16/16/studio-1836970_1280.jpg"
+        ],
+        "unitStatus": "available",
+        "unitType": {
+            "name": "Office",
+            "tags": [
+                "Office",
+                "Executive",
+                "Conference Room"
+            ]
+        },
+        "createdAt": "2025-01-27T10:30:00.000Z",
+        "updatedAt": "2025-01-27T10:30:00.000Z"
+    },
+    {
+        "_id": "unit_014",
+        "number": "A404",
+        "description": "Furnished 2-bedroom apartment near university",
+        "processingCost": 2200,
+        "location": {
+            "address": "111 University Avenue",
+            "city": "Boston",
+            "country": "USA"
+        },
+        "unitMedia": [
+            "https://images.pexels.com/photos/259950/pexels-photo-259950.jpeg",
+            "https://cdn.pixabay.com/photo/2016/11/18/16/16/studio-1836970_1280.jpg"
+        ],
+        "unitStatus": "reserved",
+        "unitType": {
+            "name": "Apartment",
+            "tags": [
+                "Apartment",
+                "2BR",
+                "Furnished"
+            ]
+        },
+        "createdAt": "2025-01-28T09:15:00.000Z",
+        "updatedAt": "2025-02-01T16:45:00.000Z"
+    },
+    {
+        "_id": "unit_015",
+        "number": "C101",
+        "description": "Restaurant space with full kitchen equipment",
+        "processingCost": 9000,
+        "location": {
+            "address": "222 Food Court Lane",
+            "city": "Las Vegas",
+            "country": "USA"
+        },
+        "unitMedia": [
+            "https://images.pexels.com/photos/262047/pexels-photo-262047.jpeg",
+            "https://cdn.pixabay.com/photo/2016/11/18/16/16/studio-1836970_1280.jpg"
+        ],
+        "unitStatus": "available",
+        "unitType": {
+            "name": "Commercial",
+            "tags": [
+                "Commercial",
+                "Restaurant",
+                "Kitchen"
+            ]
+        },
+        "createdAt": "2025-01-29T12:00:00.000Z",
+        "updatedAt": "2025-01-29T12:00:00.000Z"
+    },
+    {
+        "_id": "unit_016",
+        "number": "S401",
+        "description": "Artist studio with natural lighting",
+        "processingCost": 1300,
+        "location": {
+            "address": "888 Creative Circle",
+            "city": "Austin",
+            "country": "USA"
+        },
+        "unitMedia": [
+            "https://images.pexels.com/photos/29599223/pexels-photo-29599223.jpeg",
+            "https://cdn.pixabay.com/photo/2016/11/18/16/16/studio-1836970_1280.jpg"
+        ],
+        "unitStatus": "available",
+        "unitType": {
+            "name": "Studio",
+            "tags": [
+                "Studio",
+                "Artist",
+                "Natural Light"
+            ]
+        },
+        "createdAt": "2025-01-30T14:35:00.000Z",
+        "updatedAt": "2025-01-30T14:35:00.000Z"
+    },
+    {
+        "_id": "unit_017",
+        "number": "A505",
+        "description": "Luxury 4-bedroom apartment with gym access",
+        "processingCost": 4200,
+        "location": {
+            "address": "555 Luxury Lane",
+            "city": "Phoenix",
+            "country": "USA"
+        },
+        "unitMedia": [
+            "https://images.pexels.com/photos/271624/pexels-photo-271624.jpeg",
+            "https://cdn.pixabay.com/photo/2016/11/18/16/16/studio-1836970_1280.jpg"
+        ],
+        "unitStatus": "under_maintenance",
+        "unitType": {
+            "name": "Apartment",
+            "tags": [
+                "Apartment",
+                "4BR",
+                "Gym Access"
+            ]
+        },
+        "createdAt": "2025-01-31T11:50:00.000Z",
+        "updatedAt": "2025-02-03T09:20:00.000Z"
+    },
+    {
+        "_id": "unit_018",
+        "number": "V203",
+        "description": "Lakefront villa with private dock",
+        "processingCost": 7200,
+        "location": {
+            "address": "777 Lakeside Drive",
+            "city": "Minneapolis",
+            "country": "USA"
+        },
+        "unitMedia": [
+            "https://images.pexels.com/photos/29599223/pexels-photo-29599223.jpeg",
+            "https://cdn.pixabay.com/photo/2016/11/29/09/32/villa-1867187_1280.jpg"
+        ],
+        "unitStatus": "available",
+        "unitType": {
+            "name": "Villa",
+            "tags": [
+                "Villa",
+                "Lakefront",
+                "Private Dock"
+            ]
+        },
+        "createdAt": "2025-02-01T13:25:00.000Z",
+        "updatedAt": "2025-02-01T13:25:00.000Z"
+    },
+    {
+        "_id": "unit_019",
+        "number": "O305",
+        "description": "Tech startup office with open floor plan",
+        "processingCost": 4800,
+        "location": {
+            "address": "999 Innovation Way",
+            "city": "San Jose",
+            "country": "USA"
+        },
+        "unitMedia": [
+            "https://images.pexels.com/photos/3184292/pexels-photo-3184292.jpeg",
+            "https://cdn.pixabay.com/photo/2016/11/18/16/16/studio-1836970_1280.jpg"
+        ],
+        "unitStatus": "reserved",
+        "unitType": {
+            "name": "Office",
+            "tags": [
+                "Office",
+                "Tech",
+                "Open Plan"
+            ]
+        },
+        "createdAt": "2025-02-02T15:40:00.000Z",
+        "updatedAt": "2025-02-05T11:10:00.000Z"
+    },
+    {
+        "_id": "unit_020",
+        "number": "C202",
+        "description": "Boutique retail space in historic district",
+        "processingCost": 3500,
+        "location": {
+            "address": "123 Heritage Street",
+            "city": "Charleston",
+            "country": "USA"
+        },
+        "unitMedia": [
+            "https://images.pexels.com/photos/262047/pexels-photo-262047.jpeg",
+            "https://cdn.pixabay.com/photo/2016/11/18/16/16/studio-1836970_1280.jpg"
+        ],
+        "unitStatus": "available",
+        "unitType": {
+            "name": "Commercial",
+            "tags": [
+                "Commercial",
+                "Boutique",
+                "Historic"
+            ]
+        },
+        "createdAt": "2025-02-03T10:05:00.000Z",
+        "updatedAt": "2025-02-03T10:05:00.000Z"
+    }
+]

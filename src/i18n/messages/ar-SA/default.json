@@ -1,3 +1,38 @@
 {
-  "test": "اختبار"
+  "dragToReorder": "اسحب لإعادة الترتيب",
+  "selectAll": "تحديد الكل",
+  "selectRow": "تحديد الصف",
+  "contractNumber": "رقم العقد",
+  "propertyType": "نوع العقار",
+  "status": {
+    "status": "الحالة",
+    "active": "نشط",
+    "completed": "مكتمل",
+    "pending": "قيد الانتظار"
+  },
+  "rentalAmount": "قيمة الإيجار",
+  "monthsLeft": "الأشهر المتبقية",
+  "rentalSource": "مصدر الإيجار",
+  "openMenu": "فتح القائمة",
+  "edit": "تعديل",
+  "viewDetails": "عرض التفاصيل",
+  "delete": "حذف",
+  "loadingRentalsData": "جاري تحميل بيانات الإيجارات...",
+  "errorLoadingRentalsData": "حدث خطأ أثناء تحميل بيانات الإيجارات: {{message}}",
+  "activeRentals": "الإيجارات النشطة",
+  "completed": "مكتمل",
+  "pending": "قيد الانتظار",
+  "all": "الكل",
+  "addRental": "إضافة إيجار",
+  "home": {
+    "login": "تسجيل الدخول",
+    "account": "الحساب",
+    "dashboard": "لوحة التحكم",
+    "description": "كي كلاود هو تطبيق حديث لإدارة الإيجارات مصمم لتبسيط إدارة العقارات وعمليات التأجير للجميع.",
+    "developedBy": "تم التطوير بواسطة",
+    "developerCompany": "icsappsegypt",
+    "developer1": "مارك ماهر عويدة (Marco5dev)",
+    "developer2": "أحمد يحيى الأسمر",
+    "copyright": "كي كلاود"
+  }
 }

@@ -1,0 +1,115 @@
+{
+    "title": "التقارير",
+    "description": "إنشاء تقارير شاملة لبيانات إدارة الممتلكات الخاصة بك",
+    "stats": {
+        "totalUnits": "إجمالي الوحدات",
+        "activeRentals": "الإيجارات النشطة", 
+        "totalRevenue": "إجمالي الإيرادات",
+        "totalExpenses": "إجمالي المصروفات",
+        "netIncome": "صافي الدخل",
+        "openRequests": "الطلبات المفتوحة"
+    },
+    "categories": {
+        "property": "الممتلكات",
+        "financial": "المالية", 
+        "operations": "العمليات",
+        "general": "عام"
+    },
+    "reportTypes": {
+        "units": {
+            "title": "تقرير الوحدات",
+            "description": "نظرة عامة على جميع وحداتك مع الحالة والتفاصيل"
+        },
+        "rentals": {
+            "title": "تقرير الإيجارات",
+            "description": "اتفاقيات الإيجار النشطة والمكتملة"
+        },
+        "financial": {
+            "title": "التقرير المالي", 
+            "description": "الدخل والمصروفات والحركات المالية"
+        },
+        "maintenance": {
+            "title": "تقرير الصيانة",
+            "description": "طلبات الصيانة وحالتها"
+        },
+        "contacts": {
+            "title": "تقرير جهات الاتصال",
+            "description": "جميع جهات الاتصال وبيانات التواصل الخاصة بك"
+        }
+    },
+    "configuration": {
+        "title": "إعداد التقرير",
+        "description": "قم بتكوين إعدادات التقرير الخاص بك",
+        "dateRange": "النطاق الزمني",
+        "pickDateRange": "اختر نطاقاً زمنياً",
+        "exportFormat": "تنسيق التصدير",
+        "pdfDocument": "مستند PDF",
+        "excelSpreadsheet": "جدول بيانات Excel",
+        "selectedReports": "التقارير المحددة",
+        "noReportsSelected": "لم يتم تحديد أي تقارير"
+    },
+    "actions": {
+        "generateReport": "إنشاء التقرير",
+        "generating": "جاري الإنشاء...",
+        "loadingData": "جاري تحميل البيانات...",
+        "selected": "محدد",
+        "retry": "إعادة المحاولة",
+        "retryLoading": "إعادة محاولة التحميل",
+        "continueAnyway": "المتابعة على أي حال"
+    },
+    "messages": {
+        "errorLoadingData": "خطأ في تحميل البيانات",
+        "connectionError": "فشل في تحميل بيانات التقرير. يرجى التحقق من اتصالك وإعادة المحاولة.",
+        "readyToGenerate": "جاهز لإنشاء التقارير لـ: {{reports}}",
+        "selectAtLeastOne": "يرجى تحديد نوع تقرير واحد على الأقل",
+        "missingDataTitle": "بيانات مفقودة",
+        "missingDataDescription": "أنواع البيانات التالية مطلوبة للتقارير المحددة ولكنها غير متوفرة:",
+        "missingDataSuffix": "بيانات",
+        "unknownError": "حدث خطأ غير معروف"
+    },
+    "errors": {
+        "unitsData": "فشل في تحميل بيانات الوحدات. يرجى إعادة المحاولة.",
+        "rentalsData": "فشل في تحميل بيانات الإيجارات. يرجى إعادة المحاولة.", 
+        "financialData": "فشل في تحميل البيانات المالية. يرجى إعادة المحاولة.",
+        "maintenanceData": "فشل في تحميل بيانات الصيانة. يرجى إعادة المحاولة.",
+        "reportGeneration": "فشل في إنشاء التقرير: {{error}}",
+        "pdfGeneration": "فشل في إنشاء تقرير PDF",
+        "excelGeneration": "فشل في إنشاء تقرير Excel"
+    },
+    "reportSections": {
+        "summaryStatistics": "إحصائيات موجزة",
+        "unitsReport": "تقرير الوحدات", 
+        "rentalsReport": "تقرير الإيجارات",
+        "financialMovements": "الحركات المالية",
+        "maintenanceRequests": "طلبات الصيانة"
+    },
+    "tableHeaders": {
+        "metric": "المقياس",
+        "value": "القيمة",
+        "unitNumber": "رقم الوحدة",
+        "description": "الوصف", 
+        "status": "الحالة",
+        "processingCost": "تكلفة المعالجة",
+        "contractNumber": "رقم العقد",
+        "unitId": "معرف الوحدة",
+        "startDate": "تاريخ البداية",
+        "endDate": "تاريخ النهاية", 
+        "rentalAmount": "مبلغ الإيجار",
+        "securityDeposit": "التأمين",
+        "date": "التاريخ",
+        "debit": "مدين",
+        "credit": "دائن",
+        "moveType": "نوع الحركة",
+        "title": "العنوان",
+        "priority": "الأولوية",
+        "createdDate": "تاريخ الإنشاء",
+        "resolvedDate": "تاريخ الحل",
+        "location": "الموقع",
+        "unitType": "نوع الوحدة"
+    },
+    "reportTitle": "تقرير إدارة الممتلكات - {{date}}",
+    "summarySheetTitle": "ملخص تقرير إدارة الممتلكات",
+    "generatedDate": "تاريخ الإنشاء",
+    "notAvailable": "غير متوفر",
+    "invalidDate": "تاريخ غير صحيح"
+}

@@ -1,0 +1,35 @@
+{
+  "cards": {
+    "totalUsers": "Total Users",
+    "active": "Active",
+    "disabled": "Disabled"
+  },
+  "table": {
+    "selectAll": "Select all",
+    "selectRow": "Select row",
+    "name": "Name",
+    "email": "Email",
+    "role": "Role",
+    "status": "Status",
+    "created": "Created",
+    "openMenu": "Open menu"
+  },
+  "roles": {
+    "user": "User",
+    "owner": "Owner",
+    "admin": "Admin",
+    "demo": "Demo",
+    "tenant": "Tenant"
+  },
+  "status": {
+    "active": "Active",
+    "disabled": "Disabled"
+  },
+  "actions": {
+    "edit": "Edit",
+    "disable": "Disable",
+    "enable": "Enable",
+    "delete": "Delete"
+  },
+  "searchPlaceholder": "Search users..."
+}

@@ -22,5 +22,8 @@
     "month": "Month",
     "week": "Week",
     "year": "Year"
+  },
+  "app-sidebar": {
+    "adminTag": "Admin"
   }
 }

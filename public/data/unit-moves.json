@@ -1,0 +1,358 @@
+[
+  {
+    "_id": "move_001",
+    "unitID": "unit_001",
+    "moveTypeID": "movetype_001",
+    "rentalID": "rental_001",
+    "userID": "user_001",
+    "moveDate": "2025-01-15T00:00:00.000Z",
+    "writeDate": "2025-01-15T10:30:00.000Z",
+    "debit": 0,
+    "credit": 2500,
+    "description": "Monthly rent payment - January 2025",
+    "createdAt": "2025-01-15T10:30:00.000Z",
+    "updatedAt": "2025-01-15T10:30:00.000Z",
+    "moveType": {
+      "name": "Rental Payment",
+      "description": "Monthly rental income"
+    }
+  },
+  {
+    "_id": "move_002",
+    "unitID": "unit_001",
+    "moveTypeID": "movetype_002",
+    "maintenanceID": "maint_001",
+    "userID": "user_001",
+    "moveDate": "2025-01-20T00:00:00.000Z",
+    "writeDate": "2025-01-20T14:15:00.000Z",
+    "debit": 350,
+    "credit": 0,
+    "description": "Plumbing repair - bathroom sink",
+    "createdAt": "2025-01-20T14:15:00.000Z",
+    "updatedAt": "2025-01-20T14:15:00.000Z",
+    "moveType": {
+      "name": "Maintenance Expense",
+      "description": "Property maintenance costs"
+    }
+  },
+  {
+    "_id": "move_003",
+    "unitID": "unit_001",
+    "moveTypeID": "movetype_001",
+    "rentalID": "rental_001",
+    "userID": "user_001",
+    "moveDate": "2025-02-15T00:00:00.000Z",
+    "writeDate": "2025-02-15T09:00:00.000Z",
+    "debit": 0,
+    "credit": 2500,
+    "description": "Monthly rent payment - February 2025",
+    "createdAt": "2025-02-15T09:00:00.000Z",
+    "updatedAt": "2025-02-15T09:00:00.000Z",
+    "moveType": {
+      "name": "Rental Payment",
+      "description": "Monthly rental income"
+    }
+  },
+  {
+    "_id": "move_004",
+    "unitID": "unit_001",
+    "moveTypeID": "movetype_003",
+    "userID": "user_001",
+    "moveDate": "2025-02-05T00:00:00.000Z",
+    "writeDate": "2025-02-05T16:45:00.000Z",
+    "debit": 150,
+    "credit": 0,
+    "description": "Utility bills - electricity and water",
+    "createdAt": "2025-02-05T16:45:00.000Z",
+    "updatedAt": "2025-02-05T16:45:00.000Z",
+    "moveType": {
+      "name": "Utility Expense",
+      "description": "Monthly utility costs"
+    }
+  },
+  {
+    "_id": "move_005",
+    "unitID": "unit_002",
+    "moveTypeID": "movetype_001",
+    "rentalID": "rental_001",
+    "userID": "user_001",
+    "moveDate": "2025-02-01T00:00:00.000Z",
+    "writeDate": "2025-02-01T09:00:00.000Z",
+    "debit": 0,
+    "credit": 4500,
+    "description": "Monthly rent payment - Villa V205",
+    "createdAt": "2025-02-01T09:00:00.000Z",
+    "updatedAt": "2025-02-01T09:00:00.000Z",
+    "moveType": {
+      "name": "Rental Payment",
+      "description": "Monthly rental income"
+    }
+  },
+  {
+    "_id": "move_006",
+    "unitID": "unit_002",
+    "moveTypeID": "movetype_002",
+    "maintenanceID": "maint_002",
+    "userID": "user_001",
+    "moveDate": "2025-01-25T00:00:00.000Z",
+    "writeDate": "2025-01-25T11:30:00.000Z",
+    "debit": 800,
+    "credit": 0,
+    "description": "Pool maintenance and cleaning",
+    "createdAt": "2025-01-25T11:30:00.000Z",
+    "updatedAt": "2025-01-25T11:30:00.000Z",
+    "moveType": {
+      "name": "Maintenance Expense",
+      "description": "Property maintenance costs"
+    }
+  },
+  {
+    "_id": "move_007",
+    "unitID": "unit_002",
+    "moveTypeID": "movetype_003",
+    "userID": "user_001",
+    "moveDate": "2025-02-10T00:00:00.000Z",
+    "writeDate": "2025-02-10T14:20:00.000Z",
+    "debit": 250,
+    "credit": 0,
+    "description": "Garden maintenance and landscaping",
+    "createdAt": "2025-02-10T14:20:00.000Z",
+    "updatedAt": "2025-02-10T14:20:00.000Z",
+    "moveType": {
+      "name": "Landscaping Expense",
+      "description": "Garden and outdoor maintenance"
+    }
+  },
+  {
+    "_id": "move_008",
+    "unitID": "unit_003",
+    "moveTypeID": "movetype_001",
+    "rentalID": "rental_002",
+    "userID": "user_001",
+    "moveDate": "2025-01-01T00:00:00.000Z",
+    "writeDate": "2025-01-01T10:00:00.000Z",
+    "debit": 0,
+    "credit": 1200,
+    "description": "Monthly rent payment - Studio S301",
+    "createdAt": "2025-01-01T10:00:00.000Z",
+    "updatedAt": "2025-01-01T10:00:00.000Z",
+    "moveType": {
+      "name": "Rental Payment",
+      "description": "Monthly rental income"
+    }
+  },
+  {
+    "_id": "move_009",
+    "unitID": "unit_003",
+    "moveTypeID": "movetype_002",
+    "maintenanceID": "maint_003",
+    "userID": "user_001",
+    "moveDate": "2025-01-15T00:00:00.000Z",
+    "writeDate": "2025-01-15T13:45:00.000Z",
+    "debit": 200,
+    "credit": 0,
+    "description": "HVAC system inspection and filter replacement",
+    "createdAt": "2025-01-15T13:45:00.000Z",
+    "updatedAt": "2025-01-15T13:45:00.000Z",
+    "moveType": {
+      "name": "Maintenance Expense",
+      "description": "Property maintenance costs"
+    }
+  },
+  {
+    "_id": "move_010",
+    "unitID": "unit_004",
+    "moveTypeID": "movetype_002",
+    "maintenanceID": "maint_004",
+    "userID": "user_001",
+    "moveDate": "2025-01-25T00:00:00.000Z",
+    "writeDate": "2025-01-25T16:30:00.000Z",
+    "debit": 2500,
+    "credit": 0,
+    "description": "Kitchen renovation - cabinets and countertops",
+    "createdAt": "2025-01-25T16:30:00.000Z",
+    "updatedAt": "2025-01-25T16:30:00.000Z",
+    "moveType": {
+      "name": "Renovation Expense",
+      "description": "Major property improvements"
+    }
+  },
+  {
+    "_id": "move_011",
+    "unitID": "unit_004",
+    "moveTypeID": "movetype_002",
+    "maintenanceID": "maint_005",
+    "userID": "user_001",
+    "moveDate": "2025-02-01T00:00:00.000Z",
+    "writeDate": "2025-02-01T09:15:00.000Z",
+    "debit": 450,
+    "credit": 0,
+    "description": "Bathroom tile repair and resealing",
+    "createdAt": "2025-02-01T09:15:00.000Z",
+    "updatedAt": "2025-02-01T09:15:00.000Z",
+    "moveType": {
+      "name": "Maintenance Expense",
+      "description": "Property maintenance costs"
+    }
+  },
+  {
+    "_id": "move_012",
+    "unitID": "unit_005",
+    "moveTypeID": "movetype_001",
+    "rentalID": "rental_005",
+    "userID": "user_001",
+    "moveDate": "2025-01-01T00:00:00.000Z",
+    "writeDate": "2025-01-01T08:00:00.000Z",
+    "debit": 0,
+    "credit": 5000,
+    "description": "Monthly office rent - Tech Innovations LLC",
+    "createdAt": "2025-01-01T08:00:00.000Z",
+    "updatedAt": "2025-01-01T08:00:00.000Z",
+    "moveType": {
+      "name": "Commercial Rental",
+      "description": "Commercial rental income"
+    }
+  },
+  {
+    "_id": "move_013",
+    "unitID": "unit_005",
+    "moveTypeID": "movetype_003",
+    "userID": "user_001",
+    "moveDate": "2025-01-10T00:00:00.000Z",
+    "writeDate": "2025-01-10T15:30:00.000Z",
+    "debit": 300,
+    "credit": 0,
+    "description": "Office cleaning and maintenance services",
+    "createdAt": "2025-01-10T15:30:00.000Z",
+    "updatedAt": "2025-01-10T15:30:00.000Z",
+    "moveType": {
+      "name": "Cleaning Expense",
+      "description": "Regular cleaning services"
+    }
+  },
+  {
+    "_id": "move_014",
+    "unitID": "unit_006",
+    "moveTypeID": "movetype_001",
+    "rentalID": "rental_003",
+    "userID": "user_001",
+    "moveDate": "2025-01-15T00:00:00.000Z",
+    "writeDate": "2025-01-15T11:00:00.000Z",
+    "debit": 0,
+    "credit": 1800,
+    "description": "Monthly rent payment - Apartment A203",
+    "createdAt": "2025-01-15T11:00:00.000Z",
+    "updatedAt": "2025-01-15T11:00:00.000Z",
+    "moveType": {
+      "name": "Rental Payment",
+      "description": "Monthly rental income"
+    }
+  },
+  {
+    "_id": "move_015",
+    "unitID": "unit_007",
+    "moveTypeID": "movetype_001",
+    "rentalID": "rental_002",
+    "userID": "user_001",
+    "moveDate": "2023-12-01T00:00:00.000Z",
+    "writeDate": "2023-12-01T10:00:00.000Z",
+    "debit": 0,
+    "credit": 6000,
+    "description": "Monthly rent payment - Beachfront Villa V101",
+    "createdAt": "2023-12-01T10:00:00.000Z",
+    "updatedAt": "2023-12-01T10:00:00.000Z",
+    "moveType": {
+      "name": "Rental Payment",
+      "description": "Monthly rental income"
+    }
+  },
+  {
+    "_id": "move_016",
+    "unitID": "unit_007",
+    "moveTypeID": "movetype_002",
+    "maintenanceID": "maint_006",
+    "userID": "user_001",
+    "moveDate": "2025-01-05T00:00:00.000Z",
+    "writeDate": "2025-01-05T14:20:00.000Z",
+    "debit": 1200,
+    "credit": 0,
+    "description": "Oceanfront deck repair and weatherproofing",
+    "createdAt": "2025-01-05T14:20:00.000Z",
+    "updatedAt": "2025-01-05T14:20:00.000Z",
+    "moveType": {
+      "name": "Maintenance Expense",
+      "description": "Property maintenance costs"
+    }
+  },
+  {
+    "_id": "move_017",
+    "unitID": "unit_008",
+    "moveTypeID": "movetype_001",
+    "rentalID": "rental_004",
+    "userID": "user_001",
+    "moveDate": "2025-02-01T00:00:00.000Z",
+    "writeDate": "2025-02-01T09:30:00.000Z",
+    "debit": 0,
+    "credit": 1400,
+    "description": "Monthly rent payment - Studio S102",
+    "createdAt": "2025-02-01T09:30:00.000Z",
+    "updatedAt": "2025-02-01T09:30:00.000Z",
+    "moveType": {
+      "name": "Rental Payment",
+      "description": "Monthly rental income"
+    }
+  },
+  {
+    "_id": "move_018",
+    "unitID": "unit_009",
+    "moveTypeID": "movetype_003",
+    "userID": "user_001",
+    "moveDate": "2025-01-20T00:00:00.000Z",
+    "writeDate": "2025-01-20T12:00:00.000Z",
+    "debit": 500,
+    "credit": 0,
+    "description": "Commercial space deep cleaning",
+    "createdAt": "2025-01-20T12:00:00.000Z",
+    "updatedAt": "2025-01-20T12:00:00.000Z",
+    "moveType": {
+      "name": "Cleaning Expense",
+      "description": "Deep cleaning services"
+    }
+  },
+  {
+    "_id": "move_019",
+    "unitID": "unit_010",
+    "moveTypeID": "movetype_001",
+    "rentalID": "rental_003",
+    "userID": "user_001",
+    "moveDate": "2025-01-15T00:00:00.000Z",
+    "writeDate": "2025-01-15T08:00:00.000Z",
+    "debit": 0,
+    "credit": 8000,
+    "description": "Monthly rent payment - Penthouse A305",
+    "createdAt": "2025-01-15T08:00:00.000Z",
+    "updatedAt": "2025-01-15T08:00:00.000Z",
+    "moveType": {
+      "name": "Rental Payment",
+      "description": "Monthly rental income"
+    }
+  },
+  {
+    "_id": "move_020",
+    "unitID": "unit_010",
+    "moveTypeID": "movetype_002",
+    "maintenanceID": "maint_007",
+    "userID": "user_001",
+    "moveDate": "2025-01-28T00:00:00.000Z",
+    "writeDate": "2025-01-28T15:45:00.000Z",
+    "debit": 650,
+    "credit": 0,
+    "description": "Elevator maintenance and inspection",
+    "createdAt": "2025-01-28T15:45:00.000Z",
+    "updatedAt": "2025-01-28T15:45:00.000Z",
+    "moveType": {
+      "name": "Maintenance Expense",
+      "description": "Property maintenance costs"
+    }
+  }
+]

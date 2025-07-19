@@ -1,0 +1,354 @@
+[
+  {
+    "_id": "rental_001",
+    "unitID": "unit_002",
+    "contractNumber": "CNT-2025-001",
+    "moveTypeID": "movetype_001",
+    "startDate": "2025-02-01T00:00:00.000Z",
+    "endDate": "2025-12-31T23:59:59.000Z",
+    "rentalSourceID": "source_001",
+    "startPrice": 4500,
+    "currentPrice": 4500,
+    "status": "active",
+    "securityDeposit": 4500,
+    "rentalAmount": 4500,
+    "isMonthly": true,
+    "monthsCount": 11,
+    "roommates": 0,
+    "notes": "Luxury villa with pool maintenance included",
+    "periodicIncrease": {
+      "increaseValue": 3,
+      "periodicDuration": 12,
+      "isPercentage": true
+    },
+    "participats": {
+      "owner": {
+        "userID": "user_001",
+        "role": "owner"
+      },
+      "tentant": {
+        "userID": "tenant_002",
+        "role": "tentant"
+      }
+    },
+    "createdAt": "2025-01-15T10:00:00.000Z",
+    "updatedAt": "2025-02-01T09:00:00.000Z",
+    "restMonthsLeft": 11,
+    "rentalSource": {
+      "name": "Premium Properties",
+      "description": "Luxury rental platform"
+    },
+    "moveType": {
+      "name": "Villa Rental",
+      "description": "Luxury villa rental agreement"
+    }
+  },
+  {
+    "_id": "rental_002",
+    "unitID": "unit_007",
+    "contractNumber": "CNT-2023-002",
+    "moveTypeID": "movetype_001",
+    "startDate": "2023-06-01T00:00:00.000Z",
+    "endDate": "2023-12-31T23:59:59.000Z",
+    "rentalSourceID": "source_002",
+    "startPrice": 6000,
+    "currentPrice": 6000,
+    "status": "completed",
+    "securityDeposit": 6000,
+    "rentalAmount": 6000,
+    "isMonthly": true,
+    "monthsCount": 7,
+    "roommates": 0,
+    "notes": "Beachfront villa with private dock access",
+    "periodicIncrease": {
+      "increaseValue": 5,
+      "periodicDuration": 12,
+      "isPercentage": true
+    },
+    "participats": {
+      "owner": {
+        "userID": "user_001",
+        "role": "owner"
+      },
+      "tentant": {
+        "userID": "tenant_007",
+        "role": "tentant"
+      }
+    },
+    "createdAt": "2023-05-15T14:00:00.000Z",
+    "updatedAt": "2025-01-01T00:00:00.000Z",
+    "restMonthsLeft": 0,
+    "rentalSource": {
+      "name": "Coastal Rentals",
+      "description": "Beachfront property specialists"
+    },
+    "moveType": {
+      "name": "Beachfront Villa Rental",
+      "description": "Premium beachfront rental"
+    }
+  },
+  {
+    "_id": "rental_003",
+    "unitID": "unit_010",
+    "contractNumber": "CNT-2025-003",
+    "moveTypeID": "movetype_001",
+    "startDate": "2025-01-15T00:00:00.000Z",
+    "endDate": "2025-07-15T23:59:59.000Z",
+    "rentalSourceID": "source_003",
+    "startPrice": 8000,
+    "currentPrice": 8000,
+    "status": "active",
+    "securityDeposit": 8000,
+    "rentalAmount": 8000,
+    "isMonthly": true,
+    "monthsCount": 6,
+    "roommates": 0,
+    "notes": "Penthouse with panoramic city views and elevator access",
+    "periodicIncrease": {
+      "increaseValue": 4,
+      "periodicDuration": 12,
+      "isPercentage": true
+    },
+    "participats": {
+      "owner": {
+        "userID": "user_001",
+        "role": "owner"
+      },
+      "tentant": {
+        "userID": "tenant_010",
+        "role": "tentant"
+      }
+    },
+    "createdAt": "2025-01-01T10:00:00.000Z",
+    "updatedAt": "2025-01-15T08:00:00.000Z",
+    "restMonthsLeft": 5,
+    "rentalSource": {
+      "name": "Executive Rentals",
+      "description": "Luxury executive housing"
+    },
+    "moveType": {
+      "name": "Penthouse Rental",
+      "description": "Premium penthouse rental agreement"
+    }
+  },
+  {
+    "_id": "rental_004",
+    "unitID": "unit_014",
+    "contractNumber": "CNT-2025-004",
+    "moveTypeID": "movetype_001",
+    "startDate": "2025-03-01T00:00:00.000Z",
+    "endDate": "2025-08-31T23:59:59.000Z",
+    "rentalSourceID": "source_004",
+    "startPrice": 2200,
+    "currentPrice": 2200,
+    "status": "active",
+    "securityDeposit": 2200,
+    "rentalAmount": 2200,
+    "isMonthly": true,
+    "monthsCount": 6,
+    "roommates": 2,
+    "notes": "Student housing near university campus, furnished",
+    "periodicIncrease": {
+      "increaseValue": 2,
+      "periodicDuration": 12,
+      "isPercentage": true
+    },
+    "participats": {
+      "owner": {
+        "userID": "user_001",
+        "role": "owner"
+      },
+      "tentant": {
+        "userID": "tenant_014",
+        "role": "tentant"
+      }
+    },
+    "createdAt": "2025-02-15T12:00:00.000Z",
+    "updatedAt": "2025-03-01T09:00:00.000Z",
+    "restMonthsLeft": 6,
+    "rentalSource": {
+      "name": "University Housing",
+      "description": "Student accommodation platform"
+    },
+    "moveType": {
+      "name": "Student Housing Rental",
+      "description": "University area student housing"
+    }
+  },
+  {
+    "_id": "rental_005",
+    "unitID": "unit_019",
+    "contractNumber": "CNT-2025-005",
+    "moveTypeID": "movetype_002",
+    "startDate": "2025-01-01T00:00:00.000Z",
+    "endDate": "2025-12-31T23:59:59.000Z",
+    "rentalSourceID": "source_005",
+    "startPrice": 4800,
+    "currentPrice": 4800,
+    "status": "active",
+    "securityDeposit": 4800,
+    "rentalAmount": 4800,
+    "isMonthly": true,
+    "monthsCount": 12,
+    "roommates": 0,
+    "notes": "Tech startup office space with open floor plan",
+    "periodicIncrease": {
+      "increaseValue": 5,
+      "periodicDuration": 12,
+      "isPercentage": true
+    },
+    "participats": {
+      "owner": {
+        "userID": "user_001",
+        "role": "owner"
+      },
+      "tentant": {
+        "userID": "tenant_019",
+        "role": "tentant"
+      }
+    },
+    "createdAt": "2023-12-15T15:00:00.000Z",
+    "updatedAt": "2025-01-01T08:00:00.000Z",
+    "restMonthsLeft": 11,
+    "rentalSource": {
+      "name": "Commercial Spaces",
+      "description": "Business and office rentals"
+    },
+    "moveType": {
+      "name": "Commercial Office Rental",
+      "description": "Tech office space rental"
+    }
+  },
+  {
+    "_id": "rental_006",
+    "unitID": "unit_001",
+    "contractNumber": "CNT-2025-006",
+    "moveTypeID": "movetype_001",
+    "startDate": "2025-01-15T00:00:00.000Z",
+    "endDate": "2025-06-15T23:59:59.000Z",
+    "rentalSourceID": "source_001",
+    "startPrice": 2500,
+    "currentPrice": 2500,
+    "status": "active",
+    "securityDeposit": 2500,
+    "rentalAmount": 2500,
+    "isMonthly": true,
+    "monthsCount": 12,
+    "roommates": 1,
+    "notes": "Spacious 2-bedroom apartment with city view",
+    "periodicIncrease": {
+      "increaseValue": 3,
+      "periodicDuration": 12,
+      "isPercentage": true
+    },
+    "participats": {
+      "owner": {
+        "userID": "user_001",
+        "role": "owner"
+      },
+      "tentant": {
+        "userID": "tenant_001",
+        "role": "tentant"
+      }
+    },
+    "createdAt": "2023-12-15T10:00:00.000Z",
+    "updatedAt": "2025-01-01T09:00:00.000Z",
+    "restMonthsLeft": 11,
+    "rentalSource": {
+      "name": "City Apartments",
+      "description": "Urban apartment rentals"
+    },
+    "moveType": {
+      "name": "Apartment Rental",
+      "description": "Standard apartment rental agreement"
+    }
+  },
+  {
+    "_id": "rental_007",
+    "unitID": "unit_006",
+    "contractNumber": "CNT-2025-007",
+    "moveTypeID": "movetype_001",
+    "startDate": "2025-01-15T00:00:00.000Z",
+    "endDate": "2025-07-15T23:59:59.000Z",
+    "rentalSourceID": "source_002",
+    "startPrice": 1800,
+    "currentPrice": 1800,
+    "status": "active",
+    "securityDeposit": 1800,
+    "rentalAmount": 1800,
+    "isMonthly": true,
+    "monthsCount": 6,
+    "roommates": 0,
+    "notes": "Elegant 1-bedroom with balcony overlooking sunset boulevard",
+    "periodicIncrease": {
+      "increaseValue": 2.5,
+      "periodicDuration": 12,
+      "isPercentage": true
+    },
+    "participats": {
+      "owner": {
+        "userID": "user_001",
+        "role": "owner"
+      },
+      "tentant": {
+        "userID": "tenant_006",
+        "role": "tentant"
+      }
+    },
+    "createdAt": "2025-01-01T11:00:00.000Z",
+    "updatedAt": "2025-01-15T11:00:00.000Z",
+    "restMonthsLeft": 5,
+    "rentalSource": {
+      "name": "Sunset Rentals",
+      "description": "Premium location rentals"
+    },
+    "moveType": {
+      "name": "Apartment Rental",
+      "description": "1-bedroom apartment rental"
+    }
+  },
+  {
+    "_id": "rental_008",
+    "unitID": "unit_008",
+    "contractNumber": "CNT-2025-008",
+    "moveTypeID": "movetype_001",
+    "startDate": "2025-02-01T00:00:00.000Z",
+    "endDate": "2025-08-01T23:59:59.000Z",
+    "rentalSourceID": "source_003",
+    "startPrice": 1400,
+    "currentPrice": 1400,
+    "status": "active",
+    "securityDeposit": 1400,
+    "rentalAmount": 1400,
+    "isMonthly": true,
+    "monthsCount": 6,
+    "roommates": 0,
+    "notes": "Minimalist studio in arts district, perfect for creatives",
+    "periodicIncrease": {
+      "increaseValue": 2,
+      "periodicDuration": 12,
+      "isPercentage": true
+    },
+    "participats": {
+      "owner": {
+        "userID": "user_001",
+        "role": "owner"
+      },
+      "tentant": {
+        "userID": "tenant_008",
+        "role": "tentant"
+      }
+    },
+    "createdAt": "2025-01-20T14:00:00.000Z",
+    "updatedAt": "2025-02-01T09:30:00.000Z",
+    "restMonthsLeft": 6,
+    "rentalSource": {
+      "name": "Arts District Rentals",
+      "description": "Creative space rentals"
+    },
+    "moveType": {
+      "name": "Studio Rental",
+      "description": "Creative studio space rental"
+    }
+  }
+]

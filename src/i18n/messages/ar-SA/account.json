@@ -1,0 +1,88 @@
+{
+    "title": "إعدادات الحساب",
+    "subtitle": "إدارة إعدادات حسابك وتفضيلاتك",
+    "actions": {
+        "edit": "تعديل الملف الشخصي",
+        "cancel": "إلغاء",
+        "save": "حفظ التغييرات",
+        "changePassword": "تغيير كلمة المرور",
+        "uploadPhoto": "رفع صورة"
+    },
+    "status": {
+        "active": "نشط",
+        "inactive": "غير نشط",
+        "verified": "مُتحقق منه",
+        "unverified": "غير مُتحقق منه"
+    },
+    "tabs": {
+        "personal": "المعلومات الشخصية",
+        "contact": "معلومات الاتصال",
+        "security": "الأمان"
+    },
+    "sections": {
+        "personalInfo": {
+            "title": "المعلومات الشخصية",
+            "description": "تحديث بياناتك الشخصية ومعلومات الملف الشخصي",
+            "addressTitle": "معلومات العنوان"
+        },
+        "contactInfo": {
+            "title": "معلومات الاتصال",
+            "description": "إدارة إعدادات البريد الإلكتروني ورقم الهاتف",
+            "emailTitle": "عنوان البريد الإلكتروني",
+            "phoneTitle": "رقم الهاتف"
+        },
+        "security": {
+            "title": "إعدادات الأمان",
+            "description": "إدارة أمان حسابك وتفضيلاتك",
+            "accountStatusTitle": "حالة الحساب",
+            "accountStatusDescription": "تفعيل أو إلغاء تفعيل حسابك",
+            "passwordTitle": "إدارة كلمة المرور",
+            "accountInfoTitle": "معلومات الحساب"
+        }
+    },
+    "fields": {
+        "firstName": "الاسم الأول",
+        "lastName": "اسم العائلة",
+        "displayName": "الاسم المعروض",
+        "displayNameDescription": "هذا هو الشكل الذي سيظهر به اسمك عبر المنصة",
+        "gender": "الجنس",
+        "nationality": "الجنسية",
+        "city": "المدينة",
+        "country": "البلد",
+        "email": "البريد الإلكتروني",
+        "countryCode": "رمز البلد",
+        "phoneNumber": "رقم الهاتف",
+        "notes": "ملاحظات",
+        "notesPlaceholder": "ملاحظات إضافية حول حسابك...",
+        "userID": "معرف المستخدم",
+        "role": "الدور"
+    },
+    "genderOptions": {
+        "male": "ذكر",
+        "female": "أنثى",
+        "other": "أخرى",
+        "placeholder": "اختر الجنس"
+    },
+    "validation": {
+        "firstNameMin": "يجب أن يكون الاسم الأول على الأقل حرفين",
+        "lastNameMin": "يجب أن يكون اسم العائلة على الأقل حرفين",
+        "displayNameMin": "يجب أن يكون الاسم المعروض على الأقل حرفين",
+        "genderRequired": "يرجى اختيار الجنس",
+        "nationalityRequired": "يرجى اختيار الجنسية",
+        "cityRequired": "المدينة مطلوبة",
+        "countryRequired": "البلد مطلوب",
+        "emailInvalid": "عنوان بريد إلكتروني غير صحيح",
+        "countryCodeRequired": "رمز البلد مطلوب",
+        "phoneNumberMin": "يجب أن يكون رقم الهاتف على الأقل 10 أرقام"
+    },
+    "loading": {
+        "title": "جارٍ تحميل معلومات الحساب...",
+        "saving": "جارٍ حفظ التغييرات..."
+    },
+    "errors": {
+        "loadFailed": "فشل في تحميل معلومات الحساب",
+        "saveFailed": "فشل في حفظ التغييرات",
+        "retry": "إعادة المحاولة",
+        "networkError": "خطأ في الشبكة. يرجى التحقق من اتصالك."
+    }
+}

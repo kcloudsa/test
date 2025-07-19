@@ -1,0 +1,35 @@
+{
+    "cards": {
+        "totalUsers": "إجمالي المستخدمين",
+        "active": "نشط",
+        "disabled": "معطل"
+    },
+    "table": {
+        "selectAll": "تحديد الكل",
+        "selectRow": "تحديد الصف",
+        "name": "الاسم",
+        "email": "البريد الإلكتروني",
+        "role": "الدور",
+        "status": "الحالة",
+        "created": "تاريخ الإنشاء",
+        "openMenu": "فتح القائمة"
+    },
+    "roles": {
+        "user": "مستخدم",
+        "owner": "مالك",
+        "admin": "مسؤول",
+        "demo": "تجريبي",
+        "tenant": "مستأجر"
+    },
+    "status": {
+        "active": "نشط",
+        "disabled": "معطل"
+    },
+    "actions": {
+        "edit": "تعديل",
+        "disable": "تعطيل",
+        "enable": "تفعيل",
+        "delete": "حذف"
+    },
+    "searchPlaceholder": "ابحث عن المستخدمين..."
+}

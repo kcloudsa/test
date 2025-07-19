@@ -1,0 +1,202 @@
+[
+  {
+    "_id": "1",
+    "name": "Documents",
+    "parentFolder": null,
+    "owner": "user1",
+    "path": "/Documents",
+    "isRoot": false,
+    "createdAt": "2024-01-15T00:00:00Z",
+    "updatedAt": "2024-01-15T00:00:00Z"
+  },
+  {
+    "_id": "2",
+    "name": "Images",
+    "parentFolder": null,
+    "owner": "user1",
+    "path": "/Images",
+    "isRoot": false,
+    "createdAt": "2024-01-14T00:00:00Z",
+    "updatedAt": "2024-01-14T00:00:00Z"
+  },
+  {
+    "_id": "3",
+    "name": "Videos",
+    "parentFolder": null,
+    "owner": "user1",
+    "path": "/Videos",
+    "isRoot": false,
+    "createdAt": "2024-01-13T00:00:00Z",
+    "updatedAt": "2024-01-13T00:00:00Z"
+  },
+  {
+    "_id": "4",
+    "name": "Audio",
+    "parentFolder": null,
+    "owner": "user1",
+    "path": "/Audio",
+    "isRoot": false,
+    "createdAt": "2024-01-12T00:00:00Z",
+    "updatedAt": "2024-01-12T00:00:00Z"
+  },
+  {
+    "_id": "5",
+    "name": "Projects",
+    "parentFolder": null,
+    "owner": "user1",
+    "path": "/Projects",
+    "isRoot": false,
+    "createdAt": "2024-01-11T00:00:00Z",
+    "updatedAt": "2024-01-11T00:00:00Z"
+  },
+  {
+    "_id": "6",
+    "name": "Finance",
+    "parentFolder": "1",
+    "owner": "user1",
+    "path": "/Documents/Finance",
+    "isRoot": false,
+    "createdAt": "2024-01-10T00:00:00Z",
+    "updatedAt": "2024-01-10T00:00:00Z"
+  },
+  {
+    "_id": "7",
+    "name": "Legal",
+    "parentFolder": "1",
+    "owner": "user1",
+    "path": "/Documents/Legal",
+    "isRoot": false,
+    "createdAt": "2024-01-09T00:00:00Z",
+    "updatedAt": "2024-01-09T00:00:00Z"
+  },
+  {
+    "_id": "8",
+    "name": "Personal",
+    "parentFolder": "2",
+    "owner": "user1",
+    "path": "/Images/Personal",
+    "isRoot": false,
+    "createdAt": "2024-01-08T00:00:00Z",
+    "updatedAt": "2024-01-08T00:00:00Z"
+  },
+  {
+    "_id": "9",
+    "name": "Work",
+    "parentFolder": "2",
+    "owner": "user1",
+    "path": "/Images/Work",
+    "isRoot": false,
+    "createdAt": "2024-01-07T00:00:00Z",
+    "updatedAt": "2024-01-07T00:00:00Z"
+  },
+  {
+    "_id": "10",
+    "name": "2024",
+    "parentFolder": "6",
+    "owner": "user1",
+    "path": "/Documents/Finance/2024",
+    "isRoot": false,
+    "createdAt": "2024-01-06T00:00:00Z",
+    "updatedAt": "2024-01-06T00:00:00Z"
+  },
+  {
+    "_id": "11",
+    "name": "2023",
+    "parentFolder": "6",
+    "owner": "user1",
+    "path": "/Documents/Finance/2023",
+    "isRoot": false,
+    "createdAt": "2024-01-05T00:00:00Z",
+    "updatedAt": "2024-01-05T00:00:00Z"
+  },
+  {
+    "_id": "12",
+    "name": "Contracts",
+    "parentFolder": "7",
+    "owner": "user1",
+    "path": "/Documents/Legal/Contracts",
+    "isRoot": false,
+    "createdAt": "2024-01-04T00:00:00Z",
+    "updatedAt": "2024-01-04T00:00:00Z"
+  },
+  {
+    "_id": "13",
+    "name": "Tutorials",
+    "parentFolder": "3",
+    "owner": "user1",
+    "path": "/Videos/Tutorials",
+    "isRoot": false,
+    "createdAt": "2024-01-03T00:00:00Z",
+    "updatedAt": "2024-01-03T00:00:00Z"
+  },
+  {
+    "_id": "14",
+    "name": "Meetings",
+    "parentFolder": "3",
+    "owner": "user1",
+    "path": "/Videos/Meetings",
+    "isRoot": false,
+    "createdAt": "2024-01-02T00:00:00Z",
+    "updatedAt": "2024-01-02T00:00:00Z"
+  },
+  {
+    "_id": "15",
+    "name": "Music",
+    "parentFolder": "4",
+    "owner": "user1",
+    "path": "/Audio/Music",
+    "isRoot": false,
+    "createdAt": "2024-01-01T00:00:00Z",
+    "updatedAt": "2024-01-01T00:00:00Z"
+  },
+  {
+    "_id": "16",
+    "name": "Podcasts",
+    "parentFolder": "4",
+    "owner": "user1",
+    "path": "/Audio/Podcasts",
+    "isRoot": false,
+    "createdAt": "2023-12-31T00:00:00Z",
+    "updatedAt": "2023-12-31T00:00:00Z"
+  },
+  {
+    "_id": "17",
+    "name": "Web Development",
+    "parentFolder": "5",
+    "owner": "user1",
+    "path": "/Projects/Web Development",
+    "isRoot": false,
+    "createdAt": "2023-12-30T00:00:00Z",
+    "updatedAt": "2023-12-30T00:00:00Z"
+  },
+  {
+    "_id": "18",
+    "name": "Mobile Apps",
+    "parentFolder": "5",
+    "owner": "user1",
+    "path": "/Projects/Mobile Apps",
+    "isRoot": false,
+    "createdAt": "2023-12-29T00:00:00Z",
+    "updatedAt": "2023-12-29T00:00:00Z"
+  },
+  {
+    "_id": "19",
+    "name": "Vacation 2024",
+    "parentFolder": "8",
+    "owner": "user1",
+    "path": "/Images/Personal/Vacation 2024",
+    "isRoot": false,
+    "createdAt": "2023-12-28T00:00:00Z",
+    "updatedAt": "2023-12-28T00:00:00Z"
+  },
+  {
+    "_id": "20",
+    "name": "Family",
+    "parentFolder": "8",
+    "owner": "user1",
+    "path": "/Images/Personal/Family",
+    "isRoot": false,
+    "createdAt": "2023-12-27T00:00:00Z",
+    "updatedAt": "2023-12-27T00:00:00Z"
+  }
+]

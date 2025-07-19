@@ -1,32 +1,222 @@
 [
     {
-        "id": "1",
-        "name": "John Doe",
-        "email": "john@example.com",
-        "avatar": "/avatars/john.jpg"
+        "userID": "01HZZZZZZZZZZZZZZZZZZZZZZZ",
+        "userName": {
+            "firstName": "John",
+            "lastName": "Doe",
+            "displayName": "John Doe",
+            "slug": "john-doe"
+        },
+        "active": true,
+        "notes": "",
+        "userInfo": {
+            "gender": "male",
+            "nationality": "Saudi",
+            "address": {
+                "city": "Riyadh",
+                "country": "Saudi Arabia"
+            },
+            "profilePicture": "/avatars/john.jpg"
+        },
+        "role": "user",
+        "historyID": null,
+        "contactInfo": {
+            "email": {
+                "email": "john@example.com",
+                "verified": true,
+                "verifiedAt": "2025-01-01T10:00:00Z",
+                "verificationCode": "123456"
+            },
+            "phone": {
+                "countryCode": "+966",
+                "phoneNumber": "500000001",
+                "verified": true,
+                "verifiedAt": "2025-01-01T10:00:00Z",
+                "verificationCode": "654321"
+            }
+        },
+        "subscriptionID": null,
+        "subUsersIDs": [],
+        "password": {
+            "hashed": "$2a$12$examplejohnpasswordhash",
+            "expirationDate": "2025-01-01T00:00:00Z"
+        },
+        "createdAt": "2025-01-01T09:00:00Z"
     },
     {
-        "id": "2",
-        "name": "Jane Smith",
-        "email": "jane@example.com",
-        "avatar": "/avatars/jane.jpg"
+        "userID": "01HZZZZZZZZZZZZZZZZZZZZZZY",
+        "userName": {
+            "firstName": "Jane",
+            "lastName": "Smith",
+            "displayName": "Jane Smith",
+            "slug": "jane-smith"
+        },
+        "active": true,
+        "notes": "",
+        "userInfo": {
+            "gender": "female",
+            "nationality": "Saudi",
+            "address": {
+                "city": "Jeddah",
+                "country": "Saudi Arabia"
+            },
+            "profilePicture": "/avatars/jane.jpg"
+        },
+        "role": "admin",
+        "historyID": null,
+        "contactInfo": {
+            "email": {
+                "email": "jane@example.com",
+                "verified": true,
+                "verifiedAt": "2025-01-02T10:00:00Z",
+                "verificationCode": "223344"
+            },
+            "phone": {
+                "countryCode": "+966",
+                "phoneNumber": "500000002",
+                "verified": true,
+                "verifiedAt": "2025-01-02T10:00:00Z",
+                "verificationCode": "443322"
+            }
+        },
+        "subscriptionID": null,
+        "subUsersIDs": [],
+        "password": {
+            "hashed": "$2a$12$examplejanepasswordhash",
+            "expirationDate": "2025-01-01T00:00:00Z"
+        },
+        "createdAt": "2025-01-02T09:00:00Z"
     },
     {
-        "id": "3",
-        "name": "Mike Johnson",
-        "email": "mike@example.com",
-        "avatar": "/avatars/mike.jpg"
+        "userID": "01HZZZZZZZZZZZZZZZZZZZZZZX",
+        "userName": {
+            "firstName": "Mike",
+            "lastName": "Johnson",
+            "displayName": "Mike Johnson",
+            "slug": "mike-johnson"
+        },
+        "active": true,
+        "notes": "",
+        "userInfo": {
+            "gender": "male",
+            "nationality": "Saudi",
+            "address": {
+                "city": "Dammam",
+                "country": "Saudi Arabia"
+            },
+            "profilePicture": "/avatars/mike.jpg"
+        },
+        "role": "owner",
+        "historyID": null,
+        "contactInfo": {
+            "email": {
+                "email": "mike@example.com",
+                "verified": false,
+                "verifiedAt": null,
+                "verificationCode": "334455"
+            },
+            "phone": {
+                "countryCode": "+966",
+                "phoneNumber": "500000003",
+                "verified": false,
+                "verifiedAt": null,
+                "verificationCode": "554433"
+            }
+        },
+        "subscriptionID": null,
+        "subUsersIDs": [],
+        "password": {
+            "hashed": "$2a$12$examplemikepasswordhash",
+            "expirationDate": "2025-01-01T00:00:00Z"
+        },
+        "createdAt": "2025-01-03T09:00:00Z"
     },
     {
-        "id": "4",
-        "name": "Sarah Wilson",
-        "email": "sarah@example.com",
-        "avatar": "/avatars/sarah.jpg"
+        "userID": "01HZZZZZZZZZZZZZZZZZZZZZZW",
+        "userName": {
+            "firstName": "Sarah",
+            "lastName": "Wilson",
+            "displayName": "Sarah Wilson",
+            "slug": "sarah-wilson"
+        },
+        "active": true,
+        "notes": "",
+        "userInfo": {
+            "gender": "female",
+            "nationality": "Saudi",
+            "address": {
+                "city": "Mecca",
+                "country": "Saudi Arabia"
+            },
+            "profilePicture": "/avatars/sarah.jpg"
+        },
+        "role": "user",
+        "historyID": null,
+        "contactInfo": {
+            "email": {
+                "email": "sarah@example.com",
+                "verified": false,
+                "verifiedAt": null,
+                "verificationCode": "445566"
+            },
+            "phone": {
+                "countryCode": "+966",
+                "phoneNumber": "500000004",
+                "verified": false,
+                "verifiedAt": null,
+                "verificationCode": "665544"
+            }
+        },
+        "subscriptionID": null,
+        "subUsersIDs": [],
+        "password": {
+            "hashed": "$2a$12$examplesarahpasswordhash",
+            "expirationDate": "2025-01-01T00:00:00Z"
+        },
+        "createdAt": "2025-01-04T09:00:00Z"
     },
     {
-        "id": "5",
-        "name": "David Brown",
-        "email": "david@example.com",
-        "avatar": "/avatars/david.jpg"
+        "userID": "01HZZZZZZZZZZZZZZZZZZZZZZV",
+        "userName": {
+            "firstName": "David",
+            "lastName": "Brown",
+            "displayName": "David Brown",
+            "slug": "david-brown"
+        },
+        "active": true,
+        "notes": "",
+        "userInfo": {
+            "gender": "male",
+            "nationality": "Saudi",
+            "address": {
+                "city": "Medina",
+                "country": "Saudi Arabia"
+            },
+            "profilePicture": "/avatars/david.jpg"
+        },
+        "role": "tenant",
+        "historyID": null,
+        "contactInfo": {
+            "email": {
+                "email": "david@example.com",
+                "verified": true,
+                "verifiedAt": "2025-01-03T10:00:00Z",
+                "verificationCode": "556677"
+            },
+            "phone": {
+                "countryCode": "+966",
+                "phoneNumber": "500000005",
+                "verified": true,
+                "verifiedAt": "2025-01-03T10:00:00Z",
+                "verificationCode": "776655"
+            }
+        },
+        "subscriptionID": null,
+        "subUsersIDs": [],
+        "password": {
+            "hashed": "$2a$12$exampledavidpasswordhash",
+            "expirationDate": "2025-01-01T00:00:00Z"
+        },
+        "createdAt": "2025-01-05T09:00:00Z"
     }
 ]

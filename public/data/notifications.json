@@ -1,0 +1,182 @@
+[
+  {
+    "_id": "1",
+    "userId": "user1",
+    "type": "message",
+    "title": "New Rental Request",
+    "message": "You have received a new rental request for Property A from John Doe.",
+    "read": false,
+    "createdAt": "2024-01-15T10:30:00Z"
+  },
+  {
+    "_id": "2",
+    "userId": "user1",
+    "type": "alert",
+    "title": "Payment Reminder",
+    "message": "Rent payment for Property B is due in 3 days.",
+    "read": true,
+    "createdAt": "2024-01-14T09:15:00Z"
+  },
+  {
+    "_id": "3",
+    "userId": "user1",
+    "type": "danger",
+    "title": "Maintenance Emergency",
+    "message": "Urgent: Water leak reported in Property C. Immediate attention required.",
+    "read": false,
+    "createdAt": "2024-01-13T16:45:00Z"
+  },
+  {
+    "_id": "4",
+    "userId": "user1",
+    "type": "message",
+    "title": "Tenant Check-out",
+    "message": "Tenant has successfully checked out from Property D.",
+    "read": true,
+    "createdAt": "2024-01-12T14:20:00Z"
+  },
+  {
+    "_id": "5",
+    "userId": "user1",
+    "type": "alert",
+    "title": "Contract Expiring",
+    "message": "Rental contract for Property E expires in 30 days.",
+    "read": false,
+    "createdAt": "2024-01-11T11:00:00Z"
+  },
+  {
+    "_id": "6",
+    "userId": "user1",
+    "type": "message",
+    "title": "New Tenant Application",
+    "message": "Sarah Wilson has submitted an application for Apartment 3B. Review required.",
+    "read": false,
+    "createdAt": "2024-01-10T15:30:00Z"
+  },
+  {
+    "_id": "7",
+    "userId": "user1",
+    "type": "danger",
+    "title": "Security Alert",
+    "message": "Multiple failed access attempts detected at Property F. Security review recommended.",
+    "read": false,
+    "createdAt": "2024-01-09T22:15:00Z"
+  },
+  {
+    "_id": "8",
+    "userId": "user1",
+    "type": "alert",
+    "title": "Inspection Scheduled",
+    "message": "Annual property inspection scheduled for Property G on January 20th, 2024.",
+    "read": true,
+    "createdAt": "2024-01-08T08:45:00Z"
+  },
+  {
+    "_id": "9",
+    "userId": "user1",
+    "type": "message",
+    "title": "Maintenance Request",
+    "message": "Tenant reported broken dishwasher in Unit 4A. Service ticket #MT-2024-001 created.",
+    "read": false,
+    "createdAt": "2024-01-07T13:20:00Z"
+  },
+  {
+    "_id": "10",
+    "userId": "user1",
+    "type": "alert",
+    "title": "Rent Increase Notice",
+    "message": "Annual rent increase notices need to be sent for 5 properties by February 1st.",
+    "read": true,
+    "createdAt": "2024-01-06T10:00:00Z"
+  },
+  {
+    "_id": "11",
+    "userId": "user1",
+    "type": "danger",
+    "title": "Late Payment Alert",
+    "message": "Tenant in Property H is 10 days overdue on rent payment. Action required.",
+    "read": false,
+    "createdAt": "2024-01-05T16:30:00Z"
+  },
+  {
+    "_id": "12",
+    "userId": "user1",
+    "type": "message",
+    "title": "Property Inquiry",
+    "message": "New inquiry received for 2-bedroom apartment from Michael Chen. Contact: (555) 123-4567",
+    "read": true,
+    "createdAt": "2024-01-04T11:45:00Z"
+  },
+  {
+    "_id": "13",
+    "userId": "user1",
+    "type": "alert",
+    "title": "Insurance Renewal",
+    "message": "Property insurance for Building Complex J expires in 45 days. Renewal required.",
+    "read": false,
+    "createdAt": "2024-01-03T09:30:00Z"
+  },
+  {
+    "_id": "14",
+    "userId": "user1",
+    "type": "message",
+    "title": "Lease Renewal Accepted",
+    "message": "Tenant in Unit 2C has accepted lease renewal for another 12 months.",
+    "read": true,
+    "createdAt": "2024-01-02T14:15:00Z"
+  },
+  {
+    "_id": "15",
+    "userId": "user1",
+    "type": "danger",
+    "title": "HVAC System Failure",
+    "message": "Complete HVAC system failure reported in Building K. Emergency repair needed.",
+    "read": false,
+    "createdAt": "2024-01-01T18:00:00Z"
+  },
+  {
+    "_id": "16",
+    "userId": "user1",
+    "type": "alert",
+    "title": "Utility Bill Review",
+    "message": "Unusually high electricity bill for Property L. Investigation recommended.",
+    "read": true,
+    "createdAt": "2023-12-31T12:30:00Z"
+  },
+  {
+    "_id": "17",
+    "userId": "user1",
+    "type": "message",
+    "title": "Virtual Tour Request",
+    "message": "Emma Rodriguez has requested a virtual tour for Studio Apartment M.",
+    "read": false,
+    "createdAt": "2023-12-30T16:45:00Z"
+  },
+  {
+    "_id": "18",
+    "userId": "user1",
+    "type": "alert",
+    "title": "Parking Violation",
+    "message": "Multiple parking violations reported in Property N parking lot. Enforcement needed.",
+    "read": true,
+    "createdAt": "2023-12-29T08:20:00Z"
+  },
+  {
+    "_id": "19",
+    "userId": "user1",
+    "type": "message",
+    "title": "Move-in Scheduled",
+    "message": "New tenant David Kim scheduled to move into Unit 5B on January 25th, 2024.",
+    "read": false,
+    "createdAt": "2023-12-28T10:10:00Z"
+  },
+  {
+    "_id": "20",
+    "userId": "user1",
+    "type": "danger",
+    "title": "Elevator Malfunction",
+    "message": "Elevator in Building O is out of service. Repair technician dispatched.",
+    "read": false,
+    "createdAt": "2023-12-27T19:30:00Z"
+  }
+]

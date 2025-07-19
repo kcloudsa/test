@@ -380,97 +380,189 @@
     },
     "History": {
         "title": "سجل النشاط",
-        "description": "عرض وإدارة سجل نشاط حسابك.",
+        "description": "عرض وإدارة سجل نشاط النظام والتغييرات الأخيرة على بياناتك.",
+        "items": "{{count}} عنصر • حد {{limit}} يوم",
+        "plan": "خطة {{plan}}",
+        "undo": "تراجع",
+        "view": "عرض التفاصيل",
+        "reason": "السبب:",
+        "changes": "التغييرات:",
+        "noHistory": "لا يوجد سجل نشاط متاح",
+        "noHistoryDescription": "عند بدء استخدام النظام، سيظهر سجل نشاطك هنا.",
+        "totalItems": "إجمالي العناصر: {{total}} | بعد التصفية: {{filtered}} | الحد: {{limit}} أيام",
+        "limitedHistory": "السجل محدود بـ {{limit}} يوم لخطة {{plan}} الخاصة بك.",
+        "performedBy": "نفذه",
+        "timestamp": "التاريخ والوقت",
+        "table": "الوحدة",
+        "action": "الإجراء",
+        "documentId": "معرف السجل",
+        "loadingHistory": "جاري تحميل سجل النشاط...",
+        "statistics": {
+            "title": "نظرة عامة على النشاط",
+            "todayActivities": "أنشطة اليوم",
+            "weekActivities": "هذا الأسبوع",
+            "monthActivities": "هذا الشهر",
+            "totalActivities": "إجمالي الأنشطة",
+            "activeUsers": "المستخدمون النشطون",
+            "mostActiveUser": "أكثر المستخدمين نشاطاً",
+            "popularModule": "الوحدة الأكثر استخداماً",
+            "recentActivity": "آخر نشاط",
+            "averageDaily": "المتوسط اليومي",
+            "peakHour": "ساعة الذروة",
+            "weekdayActivity": "نشاط أيام الأسبوع",
+            "actionsBreakdown": "تفصيل الإجراءات",
+            "moduleUsage": "استخدام الوحدات",
+            "userActivity": "نشاط المستخدمين",
+            "timeDistribution": "توزيع الوقت",
+            "trendsTitle": "اتجاهات النشاط",
+            "comparedToLastWeek": "مقارنة بالأسبوع الماضي",
+            "comparedToLastMonth": "مقارنة بالشهر الماضي",
+            "increase": "زيادة +{{percent}}%",
+            "decrease": "انخفاض -{{percent}}%",
+            "noChange": "لا يوجد تغيير"
+        },
         "filters": {
-            "timeRange": {
-                "label": "النطاق الزمني",
-                "all": "كل الوقت",
-                "today": "اليوم",
-                "week": "هذا الأسبوع",
-                "month": "هذا الشهر",
-                "quarter": "هذا الربع",
-                "year": "هذا العام",
-                "custom": "نطاق مخصص"
-            },
-            "activityType": {
-                "label": "نوع النشاط",
-                "all": "كل الأنشطة",
-                "login": "أحداث تسجيل الدخول",
-                "settings": "تغييرات الإعدادات",
-                "data": "عمليات البيانات",
-                "members": "إدارة الأعضاء",
-                "properties": "تغييرات العقارات",
-                "contacts": "تغييرات جهات الاتصال",
-                "rentals": "أنشطة الإيجار",
-                "payments": "أنشطة الدفع"
-            },
-            "member": {
-                "label": "العضو",
-                "all": "كل الأعضاء",
-                "you": "أنت"
-            }
+            "title": "المرشحات",
+            "search": "البحث في الأنشطة...",
+            "searchPlaceholder": "البحث بالمستخدم، الإجراء، الوحدة، أو السبب...",
+            "dateRange": "نطاق التاريخ",
+            "today": "اليوم",
+            "yesterday": "الأمس",
+            "thisWeek": "هذا الأسبوع",
+            "lastWeek": "الأسبوع الماضي",
+            "thisMonth": "هذا الشهر",
+            "lastMonth": "الشهر الماضي",
+            "custom": "نطاق مخصص",
+            "selectDateRange": "اختر نطاق التاريخ",
+            "actionType": "نوع الإجراء",
+            "allActions": "كل الإجراءات",
+            "moduleType": "الوحدة",
+            "allModules": "كل الوحدات",
+            "userFilter": "المستخدم",
+            "allUsers": "كل المستخدمين",
+            "currentUser": "المستخدم الحالي",
+            "showUndoable": "عرض القابل للتراجع فقط",
+            "showWithReason": "عرض مع السبب فقط",
+            "clear": "مسح المرشحات",
+            "apply": "تطبيق المرشحات",
+            "results": "تم العثور على {{count}} نتيجة"
+        },
+        "export": {
+            "title": "تصدير السجل",
+            "description": "تحميل بيانات سجل النشاط",
+            "csv": "تصدير كـ CSV",
+            "excel": "تصدير كـ Excel",
+            "pdf": "تصدير كتقرير PDF",
+            "json": "تصدير كـ JSON",
+            "filtered": "تصدير البيانات المفلترة",
+            "all": "تصدير كل البيانات",
+            "success": "تم تصدير السجل بنجاح",
+            "error": "فشل في تصدير السجل",
+            "preparing": "جاري إعداد التصدير...",
+            "includeDetails": "تضمين تفاصيل التغييرات",
+            "includeReasons": "تضمين الأسباب",
+            "summaryOnly": "ملخص فقط"
+        },
+        "charts": {
+            "activityOverTime": "النشاط عبر الوقت",
+            "actionDistribution": "توزيع الإجراءات",
+            "moduleActivity": "نشاط الوحدات",
+            "hourlyDistribution": "التوزيع الساعي",
+            "userContributions": "مساهمات المستخدمين",
+            "weeklyTrends": "اتجاهات أسبوعية",
+            "monthlyTrends": "اتجاهات شهرية",
+            "noDataAvailable": "لا توجد بيانات متاحة للرسم البياني"
+        },
+        "insights": {
+            "title": "الرؤى والتحليلات",
+            "mostActiveDay": "أكثر الأيام نشاطاً",
+            "quietestHour": "أهدأ ساعة",
+            "topModule": "الوحدة الأولى",
+            "frequentAction": "الإجراء الأكثر تكراراً",
+            "averageSessionDuration": "متوسط مدة الجلسة",
+            "peakActivityTime": "وقت ذروة النشاط",
+            "dataQuality": "نقاط جودة البيانات",
+            "systemHealth": "صحة النظام",
+            "userEngagement": "تفاعل المستخدمين",
+            "moduleAdoption": "معدل اعتماد الوحدات"
+        },
+        "notifications": {
+            "title": "إشعارات النشاط",
+            "newActivity": "تم اكتشاف نشاط جديد",
+            "massUpdate": "تم اكتشاف عملية تحديث جماعي",
+            "suspiciousActivity": "تم اكتشاف نشاط مشبوه",
+            "highVolume": "تم اكتشاف حجم كبير من الأنشطة",
+            "systemAlert": "تنبيه النظام",
+            "viewDetails": "عرض التفاصيل",
+            "markAsRead": "وضع علامة كمقروء",
+            "settings": "إعدادات الإشعارات"
+        },
+        "quickActions": {
+            "title": "إجراءات سريعة",
+            "refresh": "تحديث",
+            "autoRefresh": "تحديث تلقائي",
+            "realTime": "تحديثات فورية",
+            "fullscreen": "عرض ملء الشاشة",
+            "share": "مشاركة العرض",
+            "bookmark": "إشارة مرجعية للمرشح",
+            "alert": "تعيين تنبيه",
+            "download": "تحميل التقرير"
         },
         "actions": {
-            "refresh": "تحديث",
-            "export": "تصدير السجل",
-            "clear": "مسح السجل",
-            "search": "ابحث في الأنشطة..."
+            "create": "تم الإنشاء",
+            "update": "تم التحديث",
+            "delete": "تم الحذف",
+            "restore": "تم الاستعادة",
+            "login": "تسجيل دخول",
+            "logout": "تسجيل خروج",
+            "export": "تم التصدير",
+            "import": "تم الاستيراد",
+            "approve": "تم الموافقة",
+            "reject": "تم الرفض",
+            "archive": "تم الأرشفة",
+            "publish": "تم النشر",
+            "unpublish": "تم إلغاء النشر"
         },
-        "entries": {
-            "noResults": "لا يوجد نشاط",
-            "noResultsDesc": "حاول تعديل الفلاتر أو النطاق الزمني.",
-            "loadMore": "تحميل المزيد",
-            "timestamp": "منذ {{time}}",
-            "by": "بواسطة {{member}}",
-            "categories": {
-                "login": "تسجيل الدخول",
-                "logout": "تسجيل الخروج",
-                "settings": "الإعدادات",
-                "create": "إنشاء",
-                "update": "تحديث",
-                "delete": "حذف",
-                "export": "تصدير",
-                "import": "استيراد"
-            }
+        "tables": {
+            "rentals": "الإيجارات",
+            "tenants": "المستأجرون",
+            "properties": "العقارات",
+            "payments": "المدفوعات",
+            "maintenance": "الصيانة",
+            "users": "المستخدمون",
+            "documents": "المستندات",
+            "reports": "التقارير",
+            "settings": "الإعدادات",
+            "notifications": "الإشعارات",
+            "contacts": "جهات الاتصال",
+            "invoices": "الفواتير",
+            "contracts": "العقود"
         },
-        "stats": {
-            "totalActivities": "إجمالي الأنشطة",
-            "todayActivities": "أنشطة اليوم",
-            "activeMembers": "الأعضاء النشطون",
-            "lastActivity": "آخر نشاط"
+        "roles": {
+            "super": "مدير فائق",
+            "subadmin": "مدير فرعي",
+            "admin": "مدير",
+            "manager": "مدير",
+            "property_manager": "مدير عقارات",
+            "accountant": "محاسب",
+            "maintenance": "صيانة",
+            "tenant": "مستأجر",
+            "owner": "مالك عقار",
+            "agent": "وكيل"
         },
-        "retention": {
-            "title": "الاحتفاظ بالسجل",
-            "description": "تكوين مدة الاحتفاظ بسجل النشاط.",
-            "current": "الاحتفاظ الحالي: {{days}} يوم",
-            "options": {
-                "30days": "30 يوم",
-                "90days": "90 يوم",
-                "180days": "180 يوم",
-                "1year": "سنة واحدة",
-                "forever": "دائماً"
-            },
-            "warning": "تغيير إعدادات الاحتفاظ سيؤثر فقط على السجلات المستقبلية."
+        "subscription": {
+            "basic": "أساسي",
+            "premium": "مميز",
+            "pro": "محترف",
+            "enterprise": "مؤسسي"
         },
-        "privacy": {
-            "title": "إعدادات الخصوصية",
-            "description": "التحكم في الأنشطة التي يتم تسجيلها.",
-            "logLogins": {
-                "label": "تسجيل أنشطة الدخول",
-                "description": "تتبع أحداث الدخول والخروج"
-            },
-            "logDataChanges": {
-                "label": "تسجيل تغييرات البيانات",
-                "description": "تتبع عمليات الإنشاء والتحديث والحذف"
-            },
-            "logSettingsChanges": {
-                "label": "تسجيل تغييرات الإعدادات",
-                "description": "تتبع تغييرات إعدادات التطبيق"
-            },
-            "logExports": {
-                "label": "تسجيل أنشطة التصدير",
-                "description": "تتبع عمليات تصدير البيانات"
-            }
+        "accessibility": {
+            "statisticsCard": "بطاقة إحصائيات تظهر {{metric}}",
+            "activityItem": "عنصر نشاط من {{user}} على {{module}}",
+            "chartDescription": "رسم بياني يظهر {{title}} مع {{dataPoints}} نقطة بيانات",
+            "filterButton": "تصفية الأنشطة",
+            "exportButton": "تصدير بيانات النشاط",
+            "refreshButton": "تحديث بيانات النشاط"
         }
     },
     "Data": {

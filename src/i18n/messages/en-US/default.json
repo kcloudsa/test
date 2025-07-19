@@ -1,3 +1,38 @@
 {
-  "test": "Test"
+  "dragToReorder": "Drag to reorder",
+  "selectAll": "Select all",
+  "selectRow": "Select row",
+  "contractNumber": "Contract Number",
+  "propertyType": "Property Type",
+  "status": {
+    "status": "Status",
+    "active": "Active",
+    "completed": "Completed",
+    "pending": "Pending"
+  },
+  "rentalAmount": "Rental Amount",
+  "monthsLeft": "Months Left",
+  "rentalSource": "Rental Source",
+  "openMenu": "Open menu",
+  "edit": "Edit",
+  "viewDetails": "View Details",
+  "delete": "Delete",
+  "loadingRentalsData": "Loading rentals data...",
+  "errorLoadingRentalsData": "Error loading rentals data: {{message}}",
+  "activeRentals": "Active Rentals",
+  "completed": "Completed",
+  "pending": "Pending",
+  "all": "All",
+  "addRental": "Add Rental",
+  "home": {
+    "login": "Login",
+    "account": "Account",
+    "dashboard": "Dashboard",
+    "description": "Key Cloud is a modern rental system application designed to simplify property management and rental processes for everyone.",
+    "developedBy": "Developed by",
+    "developerCompany": "icsappsegypt",
+    "developer1": "Mark Maher Ewida (Marco5dev)",
+    "developer2": "Ahmed Yahia Elasmer",
+    "copyright": "Key Cloud"
+  }
 }

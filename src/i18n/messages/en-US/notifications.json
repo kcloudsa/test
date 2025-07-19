@@ -1,0 +1,47 @@
+{
+  "header": {
+    "loadingNotifications": "Loading notifications...",
+    "totalNotifications": "{{count}} total notifications",
+    "unread": "{{count}} unread",
+    "markAsRead": "Mark as Read",
+    "markAllAsRead": "Mark All as Read",
+    "deleteSelected": "Delete Selected",
+    "retry": "Retry"
+  },
+  "filters": {
+    "title": "Filters",
+    "searchPlaceholder": "Search notifications...",
+    "allTypes": "All Types",
+    "allStatus": "All Status",
+    "read": "Read",
+    "unread": "Unread"
+  },
+  "types": {
+    "message": "Message",
+    "alert": "Alert",
+    "danger": "Danger"
+  },
+  "bulkActions": {
+    "selected": "{{count}} selected",
+    "selectAll": "Select all"
+  },
+  "dropdown": {
+    "markAsRead": "Mark as Read",
+    "markAsUnread": "Mark as Unread",
+    "delete": "Delete"
+  },
+  "emptyState": {
+    "noNotifications": "No notifications found",
+    "tryAdjusting": "Try adjusting your filters",
+    "noNotificationsAtMoment": "You have no notifications at the moment"
+  },
+  "errors": {
+    "failedToLoad": "Failed to load notifications. Please try again."
+  },
+  "time": {
+    "justNow": "Just now",
+    "minutesAgo": "{{count}}m ago",
+    "hoursAgo": "{{count}}h ago",
+    "daysAgo": "{{count}}d ago"
+  }
+}

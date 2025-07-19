@@ -1,0 +1,111 @@
+{
+  "search": {
+    "placeholder": "البحث في جهات الاتصال..."
+  },
+  "filters": {
+    "tags": "العلامات",
+    "type": "النوع",
+    "methods": "الطرق",
+    "clear": "مسح"
+  },
+  "results": {
+    "count": "{{count}} من {{total}} جهة اتصال"
+  },
+  "actions": {
+    "addContact": "إضافة جهة اتصال",
+    "add": "إضافة",
+    "call": "اتصال",
+    "whatsapp": "واتساب",
+    "email": "بريد إلكتروني",
+    "viewDetails": "عرض التفاصيل",
+    "edit": "تعديل",
+    "delete": "حذف",
+    "contact": "اتصال",
+    "editContact": "تعديل جهة الاتصال",
+    "deleteContact": "حذف جهة الاتصال"
+  },
+  "contactTypes": {
+    "contact": "جهة اتصال",
+    "subUser": "مستخدم فرعي",
+    "email": "بريد إلكتروني",
+    "phone": "هاتف",
+    "whatsapp": "واتساب"
+  },
+  "status": {
+    "active": "نشط",
+    "pending": "معلق",
+    "inactive": "غير نشط"
+  },
+  "view": {
+    "grid": "شبكة",
+    "list": "قائمة"
+  },
+  "emptyState": {
+    "noMatches": {
+      "title": "لا توجد جهات اتصال تطابق المرشحات",
+      "description": "حاول تعديل معايير البحث أو مسح المرشحات.",
+      "action": "مسح المرشحات"
+    },
+    "noContacts": {
+      "title": "لا توجد جهات اتصال بعد",
+      "description": "ابدأ في بناء شبكة جهات الاتصال عن طريق إضافة أول جهة اتصال.",
+      "action": "إضافة أول جهة اتصال"
+    }
+  },
+  "errors": {
+    "loading": "خطأ في تحميل جهات الاتصال: {{message}}"
+  },
+  "whatsappMessage": "مرحباً! أتواصل معك بخصوص العقار.",
+  "emailSubject": "التواصل بخصوص العقار - {{name}}",
+  "emailBody": "مرحباً {{name}},\n\nأتمنى أن تكون بخير.\n\nمع أطيب التحيات",
+  "detail": {
+    "title": "تفاصيل جهة الاتصال",
+    "contactMethods": "طرق الاتصال",
+    "description": "الوصف",
+    "permissions": "الصلاحيات",
+    "additionalInformation": "معلومات إضافية",
+    "created": "تاريخ الإنشاء:",
+    "updated": "تاريخ التحديث:",
+    "superAdmin": "المدير الرئيسي:"
+  },
+  "roles": {
+    "admin": "مدير",
+    "user": "مستخدم",
+    "manager": "مدير",
+    "owner": "مالك",
+    "tenant": "مستأجر",
+    "agent": "وكيل",
+    "maintenance": "صيانة",
+    "accountant": "محاسب"
+  },
+  "tags": {
+    "important": "مهم",
+    "vip": "في آي بي",
+    "priority": "أولوية",
+    "new": "جديد",
+    "verified": "محقق",
+    "pending": "قيد المراجعة",
+    "reliable": "موثوق",
+    "frequent": "اتصال متكرر",
+    "tenant": "مستأجر",
+    "contractor": "مقاول",
+    "landlord": "مالك العقار",
+    "agent": "وكيل",
+    "maintenance": "صيانة",
+    "supplier": "مورد",
+    "vendor": "بائع",
+    "client": "عميل",
+    "prospect": "عميل محتمل",
+    "partner": "شريك",
+    "emergency": "جهة اتصال طوارئ",
+    "professional": "مهني",
+    "personal": "شخصي",
+    "business": "تجاري",
+    "family": "عائلة",
+    "friend": "صديق",
+    "vip_tenant": "مستأجر مميز",
+    "inspector": "مفتش",
+    "staff": "موظف",
+    "commercial": "تجاري"
+  }
+}

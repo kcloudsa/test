@@ -1,0 +1,111 @@
+{
+  "search": {
+    "placeholder": "Search contacts..."
+  },
+  "filters": {
+    "tags": "Tags",
+    "type": "Type",
+    "methods": "Methods",
+    "clear": "Clear"
+  },
+  "results": {
+    "count": "{{count}} of {{total}} contacts"
+  },
+  "actions": {
+    "addContact": "Add Contact",
+    "add": "Add",
+    "call": "Call",
+    "whatsapp": "WhatsApp",
+    "email": "Email",
+    "viewDetails": "View Details",
+    "edit": "Edit",
+    "delete": "Delete",
+    "contact": "Contact",
+    "editContact": "Edit Contact",
+    "deleteContact": "Delete Contact"
+  },
+  "contactTypes": {
+    "contact": "Contact",
+    "subUser": "Sub User",
+    "email": "email",
+    "phone": "phone",
+    "whatsapp": "whatsapp"
+  },
+  "status": {
+    "active": "active",
+    "pending": "pending",
+    "inactive": "inactive"
+  },
+  "view": {
+    "grid": "Grid",
+    "list": "List"
+  },
+  "emptyState": {
+    "noMatches": {
+      "title": "No contacts match your filters",
+      "description": "Try adjusting your search criteria or clearing the filters.",
+      "action": "Clear Filters"
+    },
+    "noContacts": {
+      "title": "No contacts yet",
+      "description": "Start building your contact network by adding your first contact.",
+      "action": "Add Your First Contact"
+    }
+  },
+  "errors": {
+    "loading": "Error loading contacts: {{message}}"
+  },
+  "whatsappMessage": "Hello! I'm contacting you regarding your property.",
+  "emailSubject": "Property Contact - {{name}}",
+  "emailBody": "Hello {{name}},\n\nI hope this email finds you well.\n\nBest regards",
+  "detail": {
+    "title": "Contact Details",
+    "contactMethods": "Contact Methods",
+    "description": "Description",
+    "permissions": "Permissions",
+    "additionalInformation": "Additional Information",
+    "created": "Created:",
+    "updated": "Updated:",
+    "superAdmin": "Super Admin:"
+  },
+  "roles": {
+    "admin": "Admin",
+    "user": "User",
+    "manager": "Manager",
+    "owner": "Owner",
+    "tenant": "Tenant",
+    "agent": "Agent",
+    "maintenance": "Maintenance",
+    "accountant": "Accountant"
+  },
+  "tags": {
+    "important": "Important",
+    "vip": "VIP",
+    "priority": "Priority",
+    "new": "New",
+    "verified": "Verified",
+    "pending": "Pending Review",
+    "reliable": "Reliable",
+    "frequent": "Frequent Contact",
+    "tenant": "Tenant",
+    "contractor": "Contractor",
+    "landlord": "Landlord",
+    "agent": "Agent",
+    "maintenance": "Maintenance",
+    "supplier": "Supplier",
+    "vendor": "Vendor",
+    "client": "Client",
+    "prospect": "Prospect",
+    "partner": "Partner",
+    "emergency": "Emergency Contact",
+    "professional": "Professional",
+    "personal": "Personal",
+    "business": "Business",
+    "family": "Family",
+    "friend": "Friend",
+    "vip_tenant": "VIP Tenant",
+    "inspector": "Inspector",
+    "staff": "Staff",
+    "commercial": "Commercial"
+  }
+}

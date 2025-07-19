@@ -1,0 +1,309 @@
+[
+  {
+    "_id": "maint_001",
+    "unitID": "unit_001",
+    "reportedBy": "tenant_001",
+    "title": "Leaky bathroom sink",
+    "description": "The bathroom sink faucet is dripping constantly and needs repair. Water is pooling around the base.",
+    "status": "closed",
+    "priority": "medium",
+    "resolvedAt": "2025-01-22T15:30:00.000Z",
+    "createdAt": "2025-01-18T09:15:00.000Z",
+    "updatedAt": "2025-01-22T15:30:00.000Z",
+    "reportedByUser": {
+      "name": "John Smith",
+      "email": "john.smith@email.com"
+    }
+  },
+  {
+    "_id": "maint_002",
+    "unitID": "unit_002",
+    "reportedBy": "tenant_002",
+    "title": "Pool pump not working",
+    "description": "The pool pump has stopped working completely. Pool water is getting cloudy.",
+    "status": "closed",
+    "priority": "high",
+    "resolvedAt": "2025-01-26T14:00:00.000Z",
+    "createdAt": "2025-01-24T10:30:00.000Z",
+    "updatedAt": "2025-01-26T14:00:00.000Z",
+    "reportedByUser": {
+      "name": "Sarah Johnson",
+      "email": "sarah.johnson@email.com"
+    }
+  },
+  {
+    "_id": "maint_003",
+    "unitID": "unit_003",
+    "reportedBy": "tenant_003",
+    "title": "Air conditioning not cooling",
+    "description": "AC unit is running but not cooling properly. Temperature remains high.",
+    "status": "closed",
+    "priority": "high",
+    "resolvedAt": "2025-01-16T16:20:00.000Z",
+    "createdAt": "2025-01-14T14:20:00.000Z",
+    "updatedAt": "2025-01-16T16:20:00.000Z",
+    "reportedByUser": {
+      "name": "Mike Wilson",
+      "email": "mike.wilson@email.com"
+    }
+  },
+  {
+    "_id": "maint_004",
+    "unitID": "unit_004",
+    "reportedBy": "property_manager",
+    "title": "Kitchen renovation required",
+    "description": "Complete kitchen renovation needed - outdated cabinets and appliances.",
+    "status": "closed",
+    "priority": "low",
+    "resolvedAt": "2025-01-30T17:00:00.000Z",
+    "createdAt": "2025-01-20T08:00:00.000Z",
+    "updatedAt": "2025-01-30T17:00:00.000Z",
+    "reportedByUser": {
+      "name": "Property Manager",
+      "email": "manager@property.com"
+    }
+  },
+  {
+    "_id": "maint_005",
+    "unitID": "unit_004",
+    "reportedBy": "property_manager",
+    "title": "Bathroom tile repair",
+    "description": "Several bathroom tiles are loose and need to be re-secured.",
+    "status": "closed",
+    "priority": "medium",
+    "resolvedAt": "2025-02-03T12:30:00.000Z",
+    "createdAt": "2025-01-30T11:00:00.000Z",
+    "updatedAt": "2025-02-03T12:30:00.000Z",
+    "reportedByUser": {
+      "name": "Property Manager",
+      "email": "manager@property.com"
+    }
+  },
+  {
+    "_id": "maint_006",
+    "unitID": "unit_007",
+    "reportedBy": "tenant_007",
+    "title": "Deck weatherproofing needed",
+    "description": "Ocean-facing deck needs weatherproofing treatment due to salt water exposure.",
+    "status": "closed",
+    "priority": "medium",
+    "resolvedAt": "2025-01-08T15:00:00.000Z",
+    "createdAt": "2025-01-02T09:00:00.000Z",
+    "updatedAt": "2025-01-08T15:00:00.000Z",
+    "reportedByUser": {
+      "name": "Emma Davis",
+      "email": "emma.davis@email.com"
+    }
+  },
+  {
+    "_id": "maint_007",
+    "unitID": "unit_010",
+    "reportedBy": "tenant_010",
+    "title": "Elevator inspection required",
+    "description": "Annual elevator inspection and maintenance required for penthouse access.",
+    "status": "closed",
+    "priority": "high",
+    "resolvedAt": "2025-01-30T10:00:00.000Z",
+    "createdAt": "2025-01-25T08:00:00.000Z",
+    "updatedAt": "2025-01-30T10:00:00.000Z",
+    "reportedByUser": {
+      "name": "Robert Chen",
+      "email": "robert.chen@email.com"
+    }
+  },
+  {
+    "_id": "maint_008",
+    "unitID": "unit_001",
+    "reportedBy": "tenant_001",
+    "title": "Smoke detector battery replacement",
+    "description": "Smoke detector in hallway is beeping intermittently, needs battery replacement.",
+    "status": "open",
+    "priority": "medium",
+    "createdAt": "2025-02-15T08:30:00.000Z",
+    "updatedAt": "2025-02-15T08:30:00.000Z",
+    "reportedByUser": {
+      "name": "John Smith",
+      "email": "john.smith@email.com"
+    }
+  },
+  {
+    "_id": "maint_009",
+    "unitID": "unit_002",
+    "reportedBy": "tenant_002",
+    "title": "Garden sprinkler system malfunction",
+    "description": "Automatic sprinkler system is not watering the garden areas properly.",
+    "status": "in-progress",
+    "priority": "low",
+    "createdAt": "2025-02-10T16:45:00.000Z",
+    "updatedAt": "2025-02-12T14:20:00.000Z",
+    "reportedByUser": {
+      "name": "Sarah Johnson",
+      "email": "sarah.johnson@email.com"
+    }
+  },
+  {
+    "_id": "maint_010",
+    "unitID": "unit_005",
+    "reportedBy": "tenant_005",
+    "title": "Conference room projector not working",
+    "description": "The conference room projector won't turn on, affecting business meetings.",
+    "status": "open",
+    "priority": "high",
+    "createdAt": "2025-02-18T09:00:00.000Z",
+    "updatedAt": "2025-02-18T09:00:00.000Z",
+    "reportedByUser": {
+      "name": "Tech Innovations LLC",
+      "email": "admin@techinnovations.com"
+    }
+  },
+  {
+    "_id": "maint_011",
+    "unitID": "unit_006",
+    "reportedBy": "tenant_006",
+    "title": "Balcony door lock stuck",
+    "description": "The balcony sliding door lock is stuck and won't open properly.",
+    "status": "open",
+    "priority": "medium",
+    "createdAt": "2025-02-16T14:30:00.000Z",
+    "updatedAt": "2025-02-16T14:30:00.000Z",
+    "reportedByUser": {
+      "name": "Lisa Martinez",
+      "email": "lisa.martinez@email.com"
+    }
+  },
+  {
+    "_id": "maint_012",
+    "unitID": "unit_008",
+    "reportedBy": "tenant_008",
+    "title": "Studio lighting fixtures need replacement",
+    "description": "Several light fixtures in the studio space are flickering and need replacement.",
+    "status": "in-progress",
+    "priority": "medium",
+    "createdAt": "2025-02-12T11:15:00.000Z",
+    "updatedAt": "2025-02-14T16:30:00.000Z",
+    "reportedByUser": {
+      "name": "Alex Rodriguez",
+      "email": "alex.rodriguez@email.com"
+    }
+  },
+  {
+    "_id": "maint_013",
+    "unitID": "unit_011",
+    "reportedBy": "property_manager",
+    "title": "Industrial loft HVAC system overhaul",
+    "description": "Complete HVAC system needs overhaul due to industrial requirements.",
+    "status": "in-progress",
+    "priority": "high",
+    "createdAt": "2025-01-25T10:00:00.000Z",
+    "updatedAt": "2025-02-10T13:45:00.000Z",
+    "reportedByUser": {
+      "name": "Property Manager",
+      "email": "manager@property.com"
+    }
+  },
+  {
+    "_id": "maint_014",
+    "unitID": "unit_012",
+    "reportedBy": "tenant_012",
+    "title": "Fireplace chimney cleaning required",
+    "description": "Annual chimney cleaning and inspection needed for the mountain villa fireplace.",
+    "status": "open",
+    "priority": "low",
+    "createdAt": "2025-02-08T12:00:00.000Z",
+    "updatedAt": "2025-02-08T12:00:00.000Z",
+    "reportedByUser": {
+      "name": "David Thompson",
+      "email": "david.thompson@email.com"
+    }
+  },
+  {
+    "_id": "maint_015",
+    "unitID": "unit_014",
+    "reportedBy": "tenant_014",
+    "title": "University apartment heating issues",
+    "description": "Heating system not maintaining proper temperature in bedroom areas.",
+    "status": "open",
+    "priority": "high",
+    "createdAt": "2025-02-20T07:30:00.000Z",
+    "updatedAt": "2025-02-20T07:30:00.000Z",
+    "reportedByUser": {
+      "name": "Student Housing Office",
+      "email": "housing@university.edu"
+    }
+  },
+  {
+    "_id": "maint_016",
+    "unitID": "unit_017",
+    "reportedBy": "property_manager",
+    "title": "Gym equipment maintenance",
+    "description": "Gym access equipment needs routine maintenance and safety inspection.",
+    "status": "in-progress",
+    "priority": "medium",
+    "createdAt": "2025-02-01T15:00:00.000Z",
+    "updatedAt": "2025-02-15T11:20:00.000Z",
+    "reportedByUser": {
+      "name": "Property Manager",
+      "email": "manager@property.com"
+    }
+  },
+  {
+    "_id": "maint_017",
+    "unitID": "unit_018",
+    "reportedBy": "tenant_018",
+    "title": "Private dock maintenance",
+    "description": "Lakefront dock needs seasonal maintenance and wood treatment.",
+    "status": "open",
+    "priority": "low",
+    "createdAt": "2025-02-14T10:45:00.000Z",
+    "updatedAt": "2025-02-14T10:45:00.000Z",
+    "reportedByUser": {
+      "name": "Michael O'Connor",
+      "email": "michael.oconnor@email.com"
+    }
+  },
+  {
+    "_id": "maint_018",
+    "unitID": "unit_019",
+    "reportedBy": "tenant_019",
+    "title": "Office network infrastructure upgrade",
+    "description": "Tech office needs network infrastructure upgrade for better connectivity.",
+    "status": "open",
+    "priority": "high",
+    "createdAt": "2025-02-19T13:20:00.000Z",
+    "updatedAt": "2025-02-19T13:20:00.000Z",
+    "reportedByUser": {
+      "name": "StartupTech Inc",
+      "email": "it@startuptech.com"
+    }
+  },
+  {
+    "_id": "maint_019",
+    "unitID": "unit_015",
+    "reportedBy": "tenant_015",
+    "title": "Restaurant kitchen ventilation system",
+    "description": "Kitchen ventilation system needs deep cleaning and filter replacement.",
+    "status": "in-progress",
+    "priority": "high",
+    "createdAt": "2025-02-05T08:00:00.000Z",
+    "updatedAt": "2025-02-12T14:30:00.000Z",
+    "reportedByUser": {
+      "name": "Gourmet Bistro LLC",
+      "email": "manager@gourmetbistro.com"
+    }
+  },
+  {
+    "_id": "maint_020",
+    "unitID": "unit_020",
+    "reportedBy": "tenant_020",
+    "title": "Historic building facade restoration",
+    "description": "Boutique storefront needs historic facade maintenance to comply with district regulations.",
+    "status": "open",
+    "priority": "medium",
+    "createdAt": "2025-02-17T11:00:00.000Z",
+    "updatedAt": "2025-02-17T11:00:00.000Z",
+    "reportedByUser": {
+      "name": "Heritage Boutique",
+      "email": "owner@heritageboutique.com"
+    }
+  }
+]

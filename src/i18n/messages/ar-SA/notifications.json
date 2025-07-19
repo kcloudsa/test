@@ -1,0 +1,47 @@
+{
+  "header": {
+    "loadingNotifications": "جاري تحميل الإشعارات...",
+    "totalNotifications": "{{count}} إشعار إجمالي",
+    "unread": "{{count}} غير مقروء",
+    "markAsRead": "وضع علامة كمقروء",
+    "markAllAsRead": "وضع علامة على الكل كمقروء",
+    "deleteSelected": "حذف المحدد",
+    "retry": "إعادة المحاولة"
+  },
+  "filters": {
+    "title": "المرشحات",
+    "searchPlaceholder": "البحث في الإشعارات...",
+    "allTypes": "جميع الأنواع",
+    "allStatus": "جميع الحالات",
+    "read": "مقروء",
+    "unread": "غير مقروء"
+  },
+  "types": {
+    "message": "رسالة",
+    "alert": "تنبيه",
+    "danger": "خطر"
+  },
+  "bulkActions": {
+    "selected": "{{count}} محدد",
+    "selectAll": "تحديد الكل"
+  },
+  "dropdown": {
+    "markAsRead": "وضع علامة كمقروء",
+    "markAsUnread": "وضع علامة كغير مقروء",
+    "delete": "حذف"
+  },
+  "emptyState": {
+    "noNotifications": "لم يتم العثور على إشعارات",
+    "tryAdjusting": "جرب تعديل المرشحات",
+    "noNotificationsAtMoment": "ليس لديك إشعارات في الوقت الحالي"
+  },
+  "errors": {
+    "failedToLoad": "فشل في تحميل الإشعارات. الرجاء المحاولة مرة أخرى."
+  },
+  "time": {
+    "justNow": "الآن",
+    "minutesAgo": "منذ {{count}} دقيقة",
+    "hoursAgo": "منذ {{count}} ساعة",
+    "daysAgo": "منذ {{count}} يوم"
+  }
+}

@@ -1,0 +1,317 @@
+{
+  "imageCarousel": {
+    "altText": "Unit {{unitNumber}} - Image {{imageNumber}}",
+    "previousImage": "Previous image",
+    "nextImage": "Next image",
+    "goToImage": "Go to image {{imageNumber}}",
+    "counter": "{{current}} / {{total}}",
+    "thumbnailAlt": "Thumbnail {{number}}"
+  },
+  "pagination": {
+    "previous": "Previous",
+    "next": "Next"
+  },
+  "stats": {
+    "totalUnits": "Total Units",
+    "available": "Available",
+    "activeRentals": "Active Rentals",
+    "monthlyRevenue": "Monthly Revenue"
+  },
+  "filters": {
+    "title": "Search & Filters",
+    "searchPlaceholder": "Search units by number or description...",
+    "allStatuses": "All Statuses",
+    "statuses": {
+      "available": "Available",
+      "reserved": "Reserved",
+      "under_maintenance": "Under Maintenance"
+    },
+    "minPrice": "Min price ($)",
+    "maxPrice": "Max price ($)",
+    "propertyTypes": "Property Types",
+    "tags": {
+      "apartment": "Apartment",
+      "villa": "Villa",
+      "studio": "Studio",
+      "office": "Office",
+      "commercial": "Commercial"
+    },
+    "applyFilters": "Apply Filters",
+    "clearAll": "Clear All",
+    "activeFilters": "Active filters",
+    "activeSearch": "Search: \"{{search}}\"",
+    "activeStatus": "Status: {{status}}",
+    "activeMinPrice": "Min: ${{price}}",
+    "activeMaxPrice": "Max: ${{price}}"
+  },
+  "units": {
+    "button": "you can create new units from the button in the sidebar",
+    "title": "Property Units",
+    "count": "{{filtered}} of {{total}} units",
+    "pageInfo": "Page {{current}} of {{total}}",
+    "noUnitsFound": "No units found",
+    "adjustFilters": "Try adjusting your search or filter criteria.",
+    "unknownStatus": "Unknown",
+    "unitNumber": "Unit {{number}}",
+    "noDescription": "No description available",
+    "unknown": "Unknown",
+    "viewDetails": "View Details"
+  },
+  "unit": {
+    "back": "Back",
+    "export": "Export",
+    "edit": "Edit",
+    "title": "Unit {{number}}",
+    "unknown": "Unknown",
+    "noDescription": "No description available",
+    "viewFullscreen": "View fullscreen",
+    "stats": {
+      "totalRentals": "Total Rentals",
+      "activeCount": "{{count}} active",
+      "totalRevenue": "Total Revenue",
+      "avgRent": "Avg: {{amount}}",
+      "occupancyRate": "Occupancy Rate",
+      "currentPeriod": "Current period",
+      "maintenance": "Maintenance",
+      "openRequests": "Open requests"
+    },
+    "tabs": {
+      "overview": "Overview",
+      "rentals": "Rentals",
+      "calendar": "Calendar",
+      "financials": "Financials",
+      "maintenance": "Maintenance",
+      "documents": "Documents"
+    },
+    "editDialog": {
+      "title": "Edit Unit",
+      "unitNumber": "Unit Number",
+      "unitNumberPlaceholder": "Enter unit number",
+      "description": "Description",
+      "descriptionPlaceholder": "Enter unit description",
+      "processingCost": "Processing Cost",
+      "processingCostPlaceholder": "Enter processing cost",
+      "baseUnit": "Base Unit",
+      "baseUnitPlaceholder": "Enter base unit",
+      "address": "Address",
+      "addressPlaceholder": "Enter address",
+      "city": "City",
+      "cityPlaceholder": "Enter city",
+      "country": "Country",
+      "countryPlaceholder": "Enter country",
+      "cancel": "Cancel",
+      "save": "Save Changes"
+    },
+    "errorLoadingUnitData": "Error Loading Unit Data",
+    "failedToLoadUnitData": "Failed to load unit data. Please try again.",
+    "unitNotFound": "Unit not found or does not exist.",
+    "backToUnits": "Back to Units",
+    "editCustomPrice": "Edit Custom Price",
+    "setCustomPriceForReservedDate": "Set Custom Price for Reserved Date",
+    "setCustomPrice": "Set Custom Price",
+    "customPriceInfo": "This date is reserved, but you can still set a custom price that will apply when the rental ends or for future bookings.",
+    "date": "Date",
+    "pricePerNight": "Price per night",
+    "enterPricePerNight": "Enter price per night",
+    "applyToSameWeekday": "Apply to same weekday for next {{count}} weeks (recurring)",
+    "cannotChangeForExistingPrices": "Cannot change for existing prices",
+    "weeklyPriceInfo": "This will set the price for every {{date}} for the next 4 weeks.",
+    "editingExistingPriceOverride": "You are editing an existing price override.",
+    "deletePrice": "Delete Price",
+    "cancel": "Cancel",
+    "updatePrice": "Update Price",
+    "setPrice": "Set Price"
+  },
+  "calendar": {
+    "title": "Unit Availability & Pricing",
+    "today": "Today",
+    "views": {
+      "week": "Week",
+      "month": "Month",
+      "year": "Year"
+    },
+    "legend": {
+      "reserved": "Reserved",
+      "customPrice": "Custom Price",
+      "maintenance": "Maintenance",
+      "financial": "Financial Activity"
+    },
+    "instructions": "Click on any day to set pricing • Click on yellow price tags to edit",
+    "stats": "{{activeRentals}} active rentals • {{customPrices}} custom prices",
+    "available": "Available",
+    "reserved": "RESERVED",
+    "clickToEdit": "Click to edit",
+    "maintenance": "Maintenance",
+    "transaction": "Transaction",
+    "more": "more",
+    "clickToSetPrice": "Click to set price",
+    "yearView": {
+      "reservedDays": "{{count}} reserved days",
+      "customPrices": "{{count}} custom prices",
+      "maintenanceDays": "{{count}} maintenance days",
+      "transactionDays": "{{count}} transaction days",
+      "occupied": "{{rate}}% occupied",
+      "withCustomPrice": "with custom price",
+      "revenue": "${{{amount}}} revenue"
+    },
+    "event": "Event",
+    "task": "Task",
+    "at": "at",
+    "priority": "Priority",
+    "normal": "Normal",
+    "completed": "Completed",
+    "items": "items",
+    "day": "Day",
+    "showMore": "Show more"
+  },
+  "documents": {
+    "title": "Documents",
+    "uploadDocument": "Upload Document",
+    "noDocuments": "No documents uploaded"
+  },
+  "financials": {
+    "title": "Financial History",
+    "addTransaction": "Add Transaction",
+    "selectAll": "Select all",
+    "selectRow": "Select row",
+    "defaultTransaction": "Transaction",
+    "income": "Income",
+    "expense": "Expense",
+    "openMenu": "Open menu",
+    "stats": {
+      "totalIncome": "Total Income",
+      "totalExpenses": "Total Expenses",
+      "netIncome": "Net Income"
+    },
+    "columns": {
+      "description": "Description",
+      "date": "Date",
+      "type": "Type",
+      "amount": "Amount",
+      "debit": "Debit",
+      "credit": "Credit"
+    },
+    "actions": {
+      "view": "View",
+      "edit": "Edit",
+      "delete": "Delete"
+    },
+    "tabs": {
+      "all": "All Transactions",
+      "income": "Income",
+      "expenses": "Expenses"
+    },
+    "searchPlaceholder": "Search transactions...",
+    "emptyMessage": "No financial transactions found"
+  },
+  "maintenance": {
+    "title": "Maintenance Requests",
+    "newRequest": "New Request",
+    "selectAll": "Select all",
+    "selectRow": "Select row",
+    "unknown": "Unknown",
+    "openMenu": "Open menu",
+    "statuses": {
+      "open": "Open",
+      "in_progress": "In Progress",
+      "closed": "Closed"
+    },
+    "priorities": {
+      "low": "Low",
+      "medium": "Medium",
+      "high": "High"
+    },
+    "columns": {
+      "title": "Title",
+      "status": "Status",
+      "priority": "Priority",
+      "createdDate": "Created Date",
+      "reportedBy": "Reported By"
+    },
+    "actions": {
+      "view": "View",
+      "edit": "Edit",
+      "delete": "Delete"
+    },
+    "tabs": {
+      "all": "All Requests",
+      "open": "Open",
+      "inProgress": "In Progress",
+      "closed": "Closed"
+    },
+    "searchPlaceholder": "Search maintenance requests...",
+    "emptyMessage": "No maintenance requests found"
+  },
+  "overview": {
+    "propertyImages": "Property Images",
+    "unitInformation": "Unit Information",
+    "unitNumber": "Unit Number",
+    "processingCost": "Processing Cost",
+    "baseUnit": "Base Unit",
+    "status": "Status",
+    "description": "Description",
+    "notes": "Notes",
+    "recentActivity": "Recent Activity",
+    "location": "Location",
+    "currentRental": "Current Rental",
+    "maintenanceAlert": "Maintenance Alert",
+    "unknown": "Unknown",
+    "notAvailable": "N/A",
+    "financialTransaction": "Financial Transaction",
+    "noRecentActivity": "No recent activity",
+    "coordinates": {
+      "lat": "Lat",
+      "lng": "Lng"
+    },
+    "viewOnMap": "View on Map",
+    "contract": "Contract",
+    "amount": "Amount",
+    "monthsLeft": "Months Left",
+    "viewContract": "View Contract",
+    "maintenanceMessage": "You have {{count}} open maintenance requests.",
+    "viewRequests": "View Requests"
+  },
+  "rentals": {
+    "title": "Rental History",
+    "newRental": "New Rental",
+    "selectAll": "Select all",
+    "selectRow": "Select row",
+    "openMenu": "Open menu",
+    "errorLoading": "Error loading rental data",
+    "statuses": {
+      "active": "Active",
+      "completed": "Completed",
+      "pending": "Pending"
+    },
+    "stats": {
+      "totalIncome": "Total Rental Income",
+      "activeRentals": "Active Rentals",
+      "averageRent": "Average Rent"
+    },
+    "columns": {
+      "contractNumber": "Contract Number",
+      "status": "Status",
+      "propertyType": "Property Type",
+      "rentalAmount": "Rental Amount",
+      "startDate": "Start Date",
+      "endDate": "End Date",
+      "monthsLeft": "Months Left",
+      "roommates": "Roommates",
+      "source": "Source"
+    },
+    "actions": {
+      "view": "View",
+      "edit": "Edit",
+      "delete": "Delete"
+    },
+    "tabs": {
+      "all": "All Rentals",
+      "active": "Active",
+      "completed": "Completed",
+      "pending": "Pending"
+    },
+    "searchPlaceholder": "Search rentals...",
+    "emptyMessage": "No rental history found",
+    "button": "to create a new rental use the sidebar button"
+  }
+}

@@ -2,63 +2,57 @@ import { Separator } from "@/components/ui/separator";
 import { SidebarTrigger } from "@/components/ui/sidebar";
 import { useEffect, useState, useMemo } from "react";
 import { useTranslation } from "react-i18next";
-import { useLocation } from "react-router";
+import { useLocation } from 'react-router'
 
 export function SiteHeader() {
   const { t } = useTranslation("app-sidebar");
   const [title, setTitle] = useState("");
   const currentPath = useLocation();
 
-  const navMain = useMemo(
-    () => [
-      {
-        title: t("dashboard"),
-        url: "/dash",
-      },
-      {
-        title: t("realEstates"),
-        url: "/dash/real-states",
-      },
-      // {
-      //   title: t("tasks"),
-      //   url: "/dash/tasks",
-      // },
-      {
-        title: t("calendar"),
-        url: "/dash/calender",
-      },
-      // {
-      //   title: t("contacts"),
-      //   url: "/dash/contacts",
-      // },
-      {
-        title: t("documents"),
-        url: "/dash/documents",
-      },
-      {
-        title: t("reports"),
-        url: "/dash/reports",
-      },
-      {
-        title: t("rentals"),
-        url: "/dash/rentals",
-      },
-      {
-        title: t("settings"),
-        url: "/dash/settings",
-      },
-    ],
-    [t],
-  );
+  const navMain = useMemo(() => [
+    {
+      title: t("dashboard"),
+      url: "/dash",
+    },
+    {
+      title: t("realEstates"),
+      url: "/dash/real-estates",
+    },
+    {
+      title: t("tasks"),
+      url: "/dash/tasks",
+    },
+    {
+      title: t("calendar"),
+      url: "/dash/calender",
+    },
+    {
+      title: t("contacts"),
+      url: "/dash/contacts",
+    },
+    {
+      title: t("documents"),
+      url: "/dash/documents",
+    },
+    {
+      title: t("reports"),
+      url: "/dash/reports",
+    },
+    {
+      title: t("rentals"),
+      url: "/dash/rentals",
+    },
+    {
+      title: t("settings"),
+      url: "/dash/settings",
+    }
+  ], [t]);
 
   useEffect(() => {
     // Remove the language prefix (e.g., /en-US) from the path
-    const pathWithoutLang = currentPath.pathname.replace(
-      /^\/[a-z]{2}-[A-Z]{2}/,
-      "",
-    );
-
-    const matchedNav = navMain.find((nav) => nav.url === pathWithoutLang);
+    const pathWithoutLang = currentPath.pathname.replace(/^\/[a-z]{2}-[A-Z]{2}/, "");
+    
+    const matchedNav = navMain.find(nav => nav.url === pathWithoutLang);
     setTitle(matchedNav ? matchedNav.title : "");
   }, [currentPath.pathname, navMain]);
 

@@ -5,22 +5,30 @@
     "bySigningIn": "By signing in, you agree to our",
     "confirmPassword": "Confirm Password",
     "continueWithGoogle": "Continue with Google",
+    "createAccount": "Create Account",
     "createAccountButton": "Create Account",
     "createAccountTermsNotice": "By creating an account, you automatically agree to our",
     "createAccountTitle": "Create your account",
+    "creatingAccount": "Creating account...",
     "dontHaveAccount": "Don't have an account?",
     "email": "Email",
     "fullName": "Full Name",
     "fullNamePlaceholder": "Ahmed Bin Ali",
+    "invalidEmailFormat": "Please enter a valid email address",
+    "invalidPhoneNumber": "Please enter a valid phone number",
     "loginAsSubAdmin": "Login as Sub-admin",
     "noCountryFound": "No country found.",
     "password": "Password",
+    "passwordValidationFailed": "Password does not meet requirements",
     "phoneNumber": "Phone Number",
     "privacyPolicy": "Privacy Policy",
+    "redirectingToGoogle": "Redirecting to Google...",
     "searchCountry": "Search country...",
     "selectCountry": "Select country",
     "signIn": "Sign in",
     "signInAsSubAdmin": "Sign In as Sub-admin",
+    "signingIn": "Signing in...",
+    "signingInAsSubAdmin": "Signing in as sub-admin...",
     "signUp": "Sign up",
     "subAdminDescription": "Sub-admins are accounts created by main users to assist with property management, tenant communications, and other dashboard functions. They can login with their assigned email and password as usual.",
     "subAdminLogin": "Sub-admin Login",
@@ -56,6 +64,6 @@
   "common": {
     "and": "and",
     "loading": "Loading...",
-    "or": "Or"
+    "or": "or"
   }
 }
